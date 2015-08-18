@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+             
+   
+          
+       
+
+
+
+; [1549] - Ausführen des Audiorecorders unterbinden
+[HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\SoundRecorder]
+"Soundrec"=dword:1
+
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\SoundRecorder]
+"Soundrec"=dword:1
+
+

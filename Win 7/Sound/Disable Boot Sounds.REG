@@ -1,0 +1,14 @@
+Windows Registry Editor Version 5.00
+
+             
+   
+           
+       
+
+
+
+; [1653] - Sound beim Starten von Windows ausschalten
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\LogonUI\BootAnimation]
+"DisableStartupSound"=dword:1
+
+

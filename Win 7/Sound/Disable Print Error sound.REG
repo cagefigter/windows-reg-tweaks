@@ -1,0 +1,14 @@
+Windows Registry Editor Version 5.00
+
+             
+   
+           
+       
+
+
+
+; [292] - Tonausgabe beim Druckerfehler deaktivieren
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Print]
+"BeepEnabled"=dword:0
+
+
