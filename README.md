@@ -3,6 +3,12 @@
 Windows Registry Tweaks (Win 7 - Win 10) Collection 
 
 
+Current Status: Over 600 + different tweaks
+
+
+
+Project History
+- [x] 18.08.2015 initial upload and first release 
 
 
 ToDo:
