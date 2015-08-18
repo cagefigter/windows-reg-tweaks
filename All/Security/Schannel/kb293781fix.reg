@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00 
+ 
+; Configure Schannel to no longer send the list of trusted root certificate authorities during the TLS/SSL handshake process on Windows
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL] 
+"EventLogging"=dword:00000001 
+"SendTrustedIssuerList"=dword:00000000 
