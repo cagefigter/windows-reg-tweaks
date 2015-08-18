@@ -1,0 +1,14 @@
+Windows Registry Editor Version 5.00
+
+             
+   
+           
+       
+
+
+
+; [1113] - Keinen automatischen Neustart nach dem Update durchführen
+[HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\WindowsUpdate\AU]
+"NoAutoRebootWithLoggedOnUsers"=dword:1
+
+

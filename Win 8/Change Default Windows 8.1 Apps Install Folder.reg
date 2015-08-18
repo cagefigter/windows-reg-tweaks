@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Change Default Windows 8.1 Apps Install Folder 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Appx] 
+"PackageRoot"=C:\WindowsApps

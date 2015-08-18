@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
+"UserProfileMinTransferRate"=dword:0
+
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\System]
+"UserProfileMinTransferRate"=dword:0
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
+"SlowLinkTimeOut"=dword:0
+
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\System]
+"SlowLinkTimeOut"=dword:0

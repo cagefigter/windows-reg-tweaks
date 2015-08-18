@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Disable HIBERNATION
+[HKEY_LOCAL_MACHINE\WIM_System\ControlSet001\Control\Power]
+"HibernateEnabled"=dword:00000000

@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; Disable Superfetch
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\SysMain]
+"DisplayName"="Superfetch"
+"Start"=dword:00000004

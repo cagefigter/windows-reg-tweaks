@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Tips]
+"Show"=hex:30,00,00,00
+"ShowIE4"=dword:0

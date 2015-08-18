@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+; Enable GodMode
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\GodMode]
+@="GodMode"
+"icon"="control.exe"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\GodMode\command]
+@="explorer shell:::{ED7BA470-8E54-465E-825C-99712043E01C}"

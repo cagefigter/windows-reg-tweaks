@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; Disable System Restore
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\SystemRestore]
+"DisableConfig"=dword:00000001
+"DisableSR"=dword:00000001

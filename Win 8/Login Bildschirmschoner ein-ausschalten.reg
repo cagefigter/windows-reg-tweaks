@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_USERS\.Default\Control Panel\Desktop]
+"ScreenSaveActive"="1"
+"SCRNSAVE.EXE"=""
+"ScreenSaveTimeOut"="1"

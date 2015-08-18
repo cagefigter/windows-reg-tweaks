@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_USERS\.DEFAULT\Control Panel\Desktop]
+"PowerOffActive"="1"
+
+[HKEY_USERS\.DEFAULT\Control Panel\PowerCfg]
+"CurrentPowerPolicy"=dword:1

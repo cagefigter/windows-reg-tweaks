@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+; Notepad shell
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\notepad]
+@="Notepad"
+"icon"="notepad.exe"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\notepad\command]
+@="notepad.exe"

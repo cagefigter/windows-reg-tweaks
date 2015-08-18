@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; OEM Properties
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\OEM Properties]
+"Icon"="%windir%\\system32\\imageres.dll,1"
+"Position"="Top"

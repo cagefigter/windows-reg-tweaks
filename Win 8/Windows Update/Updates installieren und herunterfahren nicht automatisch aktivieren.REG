@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+             
+   
+           
+       
+
+
+
+; [1111] - "Updates installieren und herunterfahren" nicht automatisch aktivieren
+[HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\WindowsUpdate\AU]
+"NoAUAsDefaultShutdownOption"=dword:1
+
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\WindowsUpdate\AU]
+"NoAUAsDefaultShutdownOption"=dword:1
+
+

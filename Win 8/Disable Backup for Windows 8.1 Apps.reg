@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Disable Backup for Windows 8.1 Apps 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\SettingSync] 
+"EnableBackupForWin8Apps"=dword:00000000

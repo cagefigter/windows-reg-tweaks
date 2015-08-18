@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Don't Replace Command Prompt with Windows PowerShell On the WinX Menu 
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced] 
+"DontUsePowerShellOnWinX"=dword:00000001

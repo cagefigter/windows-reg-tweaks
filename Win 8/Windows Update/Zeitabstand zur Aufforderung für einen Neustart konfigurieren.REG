@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+             
+   
+           
+       
+
+
+
+; [1112] - Zeitabstand zur Aufforderung für einen Neustart konfigurieren
+[HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\WindowsUpdate\AU]
+"RebootRelaunchTimeoutEnabled"=dword:1
+"RebootRelaunchTimeout"=dword:1
+
+

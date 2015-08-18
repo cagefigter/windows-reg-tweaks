@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; Apply Thin Windows Borders 
+[HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics] 
+"BorderWidth"="2" 
+"PaddedBorderWidth"="2"

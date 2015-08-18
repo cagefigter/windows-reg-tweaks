@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+;Disable Automatic Updates (not the ability to update;just disables the
+;automatic background updates and balloon tips)
+;But I recommend to use the 'Windows Hotfix Downloader'
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\Auto Update]
+"AUOptions"=dword:00000001
+"IncludeRecommendedUpdates"=dword:00000000
+"SetupWizardLaunchTime"=-
+"BalloonTime"=-
+"BalloonType"=-ControlSet\Control\CrashControl]
+"AutoReboot"=dword:00000000

@@ -1,0 +1,31 @@
+Windows Registry Editor Version 5.00
+
+;SPEED UP DESKTOP & SHELL
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"DesktopLivePreviewHoverTime"=dword:00000001
+[HKEY_CURRENT_USER\Control Panel\Mouse]
+"MouseHoverTime"="1"
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"MenuShowDelay"="1"
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"ActiveWndTrackTimeout"=dword:0000000a
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"Start_ShowRun"=dword:00000001
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoLowDiskSpaceChecks"=dword:00000001
+"LinkResolveIgnoreLinkInfo"=dword:00000001
+"NoResolveSearch"=dword:00000001
+"NoResolveTrack"=dword:00000001
+"NoInternetOpenWith"=dword:00000001
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"AutoEndTasks"="1"
+"HungAppTimeout"="2000"
+"MenuShowDelay"="0"
+"WaitToKillAppTimeout"="3000"
+"LowLevelHooksTimeout"="2000"
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet002\Control]
+"WaitToKillServiceTimeout"="2000"
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control]
+"WaitToKillServiceTimeout"="2000"
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control]
+"WaitToKillServiceTimeout"="2000"

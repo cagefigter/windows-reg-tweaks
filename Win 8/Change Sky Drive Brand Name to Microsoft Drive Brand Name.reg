@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Change Sky Drive Brand Name to Microsoft Drive Brand Name 
+[HKCU\Software\Microsoft\Windows\CurrentVersion\SkyDriveOptIn] 
+"Brand"=dword:00000001

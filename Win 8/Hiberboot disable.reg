@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Disable HIBERBOOT
+[HKEY_LOCAL_MACHINE\WIM_System\ControlSet001\Control\Session Manager\Power]
+"HiberbootEnabled"=dword:00000000

@@ -1,0 +1,4 @@
+Windows Registry Editor Version 5.00
+
+; Remove Downloads Link from My Computer 
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{374DE290-123F-4565-9164-39C4925E467B}]

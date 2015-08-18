@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Show the Apps View Automatically when I go to Start 
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage] 
+"MakeAllAppsDefault"=dword:00000001   

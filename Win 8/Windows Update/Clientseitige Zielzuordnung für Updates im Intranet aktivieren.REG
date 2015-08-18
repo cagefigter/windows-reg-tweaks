@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+ 
+[HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\WindowsUpdate]
+"TargetGroupEnabled"=dword:1
+"TargetGroup"=""

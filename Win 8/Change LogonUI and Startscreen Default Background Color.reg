@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; Change LogonUI and Startscreen Default Background Color (rbg)
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Accent]
+"StartColor"=dword:fff09c00
+"AccentColor"=dword:ffb76900
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Accent]
+"DefaultStartColor"=dword:fff09c00

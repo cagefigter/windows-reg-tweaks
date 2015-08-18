@@ -1,0 +1,14 @@
+Windows Registry Editor Version 5.00
+
+             
+   
+           
+       
+
+
+
+; [1247] - Windows Update deaktivieren
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\WindowsUpdate]
+"DisableWindowsUpdateAccess"=dword:1
+
+

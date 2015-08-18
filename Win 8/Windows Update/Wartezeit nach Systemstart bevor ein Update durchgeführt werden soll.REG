@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+             
+   
+           
+       
+
+
+
+; [1117] - Wartezeit nach Systemstart bevor ein Update durchgeführt werden soll
+[HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\WindowsUpdate\AU]
+"RescheduleWaitTime"=dword:1
+"RescheduleWaitTimeEnabled"=dword:1
+
+

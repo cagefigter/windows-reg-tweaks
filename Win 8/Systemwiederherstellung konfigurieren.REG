@@ -1,0 +1,14 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SystemRestore]
+"DisableSR"=dword:1
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SR]
+"Start"=dword:4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SystemRestore]
+"DiskPercent"=dword:0
+"RPGlobalInterval"=dword:0
+"RPLifeInterval"=dword:0
+"RPSessionInterval"=dword:0
+"DisableConfig"=dword:1

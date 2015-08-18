@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Disable New App Toast Notification 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer] 
+"NoNewAppAlert"=dword:00000001

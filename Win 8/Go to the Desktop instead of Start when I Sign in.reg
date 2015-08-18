@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Go to the Desktop instead of Start when I Sign in 
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage] 
+"OpenAtLogon"=dword:00000000

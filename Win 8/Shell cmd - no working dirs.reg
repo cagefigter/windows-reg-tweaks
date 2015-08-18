@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+;Shell cmd - no working dirs
+#[HKEY_CLASSES_ROOT\Directory\shell\cmd]
+#@=""
+#"NoWorkingDirectory"=""
+#"SubCommands"=""
+#"MUIVerb"="Command Prompt"
+#"Icon"="cmd.exe"
+
+#[HKEY_CLASSES_ROOT\Directory\shell\cmd\command]
+#@="cmd.exe /s /k pushd \"%V\""
+
+#[HKEY_CLASSES_ROOT\Directory\shell\cmd\shell\runas]
+#"MUIVerb"="Open Elevated CMD Here"
+#"Icon"="cmd.exe"
+#"HasLUAShield"=""
