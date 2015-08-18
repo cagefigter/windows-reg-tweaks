@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.dll]
+"Content Type"="application/x-msdownload"
+@="dllfile"
+[HKEY_CLASSES_ROOT\dllfile]
+@="Application Extension"
+[HKEY_CLASSES_ROOT\dllfile\Shell\Register\command]
+@="regsvr32.exe \"%1\""
+[HKEY_CLASSES_ROOT\dllfile\Shell\UnRegister\command]
+@="regsvr32.exe /u \"%1\""

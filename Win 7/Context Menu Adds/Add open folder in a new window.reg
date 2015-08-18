@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+;This adds an option in the right-click menu to open any folder on your computer in a new window
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\openNew]
+@="Open In New &Window"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\openNew\Command]
+@="explorer %1"

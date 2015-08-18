@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\empty]
+"CommandStateHandler"="{c9298eef-69dd-4cdd-b153-bdbc38486781}"
+"Description"="@shell32.dll,-31332"
+"Icon"="shell32.dll,-254"
+"MUIVerb"="@shell32.dll,-10564"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\empty\command]
+"DelegateExecute"="{48527bb3-e8de-450b-8910-8c4099cb8624}"

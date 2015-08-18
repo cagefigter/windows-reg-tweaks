@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Start DWM]
+@="Start DWM"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Start DWM\command]
+@="net start uxsms"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Stop DWM]
+@="Stop DWM"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Stop DWM\command]
+@="net stop uxsms"

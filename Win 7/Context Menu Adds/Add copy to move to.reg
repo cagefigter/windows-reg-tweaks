@@ -1,0 +1,39 @@
+Windows Registry Editor Version 5.00
+
+;copy to move to
+[HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex\ContextMenuHandlers\Copy To]
+@="{C2FBB630-2971-11D1-A18C-00C04FD75D13}"
+ 
+[HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex\ContextMenuHandlers\Move To]
+@="{C2FBB631-2971-11D1-A18C-00C04FD75D13}"
+
+;Desktop Context Menu add control panel device manager add remove programs
+[HKEY_CLASSES_ROOT\Directory\Background\shell]
+@="none"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Control Panel]
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Control Panel\command]
+@=hex(2):72,00,75,00,6e,00,64,00,6c,00,6c,00,33,00,32,00,2e,00,65,00,78,00,65,\
+  00,20,00,73,00,68,00,65,00,6c,00,6c,00,33,00,32,00,2e,00,64,00,6c,00,6c,00,\
+  2c,00,43,00,6f,00,6e,00,74,00,72,00,6f,00,6c,00,5f,00,52,00,75,00,6e,00,44,\
+  00,4c,00,4c,00,00,00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Device Manager]
+@=hex(2):40,00,25,00,77,00,69,00,6e,00,64,00,69,00,72,00,25,00,5c,00,73,00,79,\
+  00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,64,00,65,00,76,00,6d,00,67,00,\
+  72,00,2e,00,64,00,6c,00,6c,00,2c,00,2d,00,34,00,00,00
+"SuppressionPolicy"=dword:4000003c
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Device Manager\command]
+@=hex(2):25,00,77,00,69,00,6e,00,64,00,69,00,72,00,25,00,5c,00,73,00,79,00,73,\
+  00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,00,6d,00,63,00,2e,00,65,00,78,00,\
+  65,00,20,00,2f,00,73,00,20,00,25,00,77,00,69,00,6e,00,64,00,69,00,72,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,64,00,65,00,\
+  76,00,6d,00,67,00,6d,00,74,00,2e,00,6d,00,73,00,63,00,00,00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Add-Remove Programs]
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Add-Remove Programs\command]
+@=hex(2):63,00,6f,00,6e,00,74,00,72,00,6f,00,6c,00,20,00,61,00,70,00,70,00,77,\
+  00,69,00,7a,00,2e,00,63,00,70,00,6c,00,00,00

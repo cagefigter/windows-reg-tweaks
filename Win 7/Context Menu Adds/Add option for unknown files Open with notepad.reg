@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell]
+@="\"notepad.exe %1\""
+[HKEY_CLASSES_ROOT\*\shell\open]
+@="Open &With Notepad"
+[HKEY_CLASSES_ROOT\*\shell\open\command]
+@="notepad.exe %1"

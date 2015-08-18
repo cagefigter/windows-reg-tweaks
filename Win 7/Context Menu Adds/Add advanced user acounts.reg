@@ -1,0 +1,19 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\CLSID\{98641F47-8C25-4936-BEE4-C2CE1298969D}]
+@="Advanced User Accounts"
+"InfoTip"="Starts the \"Control Userpasswords2\" Admin Screen"
+"System.ControlPanel.Category"="9"
+
+[HKEY_CLASSES_ROOT\CLSID\{98641F47-8C25-4936-BEE4-C2CE1298969D}\DefaultIcon]
+@="%SystemRoot%\\System32\\netplwiz.exe"
+
+[HKEY_CLASSES_ROOT\CLSID\{98641F47-8C25-4936-BEE4-C2CE1298969D}\Shell]
+
+[HKEY_CLASSES_ROOT\CLSID\{98641F47-8C25-4936-BEE4-C2CE1298969D}\Shell\Open]
+
+[HKEY_CLASSES_ROOT\CLSID\{98641F47-8C25-4936-BEE4-C2CE1298969D}\Shell\Open\command]
+@="Control Userpasswords2"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ControlPanel\NameSpace\{98641F47-8C25-4936-BEE4-C2CE1298969D}]
+@="Add Advanced User Accounts to Control Panel"

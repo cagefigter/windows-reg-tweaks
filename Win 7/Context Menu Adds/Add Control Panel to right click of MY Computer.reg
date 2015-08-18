@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+;Adds Control Panel to right click of MY Computer
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\Control Panel\command]
+@="rundll32.exe shell32.dll,Control_RunDLL"

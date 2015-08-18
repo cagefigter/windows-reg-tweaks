@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+;Add 'Task Manager' Option
+[HKEY_CLASSES_ROOT\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell]
+@="none"
+
+[HKEY_CLASSES_ROOT\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\Task Manager]
+"Icon"=hex(2):74,00,61,00,73,00,6b,00,6d,00,67,00,72,00,2e,00,65,00,78,00,65,\
+  00,00,00
+
+[HKEY_CLASSES_ROOT\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\shell\Task Manager\command]
+@="taskmgr.exe"
+

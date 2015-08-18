@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.ocx]
+@="ocxfile"
+[HKEY_CLASSES_ROOT\ocxfile]
+@="OCX"
+[HKEY_CLASSES_ROOT\ocxfile\Shell\Register\command]
+@="regsvr32.exe \"%1\""
+[HKEY_CLASSES_ROOT\ocxfile\Shell\UnRegister\command]
+@="regsvr32.exe /u \"%1\""
