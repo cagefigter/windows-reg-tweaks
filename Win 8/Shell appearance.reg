@@ -1,0 +1,34 @@
+Windows Registry Editor Version 5.00
+
+; Disable grouping of system tray icons
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"TaskbarGlomming"=dword:00000000
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer]
+"EnableAutoTray"=dword:00000000
+; Show detailed Device settings in device manager
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment]
+"DEVMGR_SHOW_DETAILS"="1"
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel]
+"{20D04FE0-3AEA-1069-A2D8-08002B30309D}"=dword:00000000
+; Show all hidden devices in device manager
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment]
+"DEVMGR_SHOW_NONPRESENT_DEVICES"=1
+; Remove " - Shortcut" Suffix from shortcuts
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer]
+"link"=hex:00,00,00,00
+; Set Control Panel on Classic View and small icons
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\ControlPanel]
+"AllItemsIconView"=dword:00000001
+"StartupPage"=dword:00000001
+; Cache more Icons (4096 is max)
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
+"Max Cached Icons"="4096"
+; Customize shortcut arrow to make it less prominent and change Explorer open folder color to make more prominent (requires logoff to activate)
+ [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons]
+; Must copy included archive icon to C:\\Windows\\System32
+ "29"="C:\\Windows\\System32\\Arrow.ico,0"
+ "4"="C:\\Windows\\System32\\imageres.dll,179"
+ [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\Shell Icons]
+ "29"="C:\\Windows\\System32\\Arrow.ico,0"
+ "4"="C:\\Windows\\System32\\imageres.dll,179"
+ 

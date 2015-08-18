@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+; Add app paths (to programs you want to execute automatically from the run box)
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\RAR.exe]
+@="X:\\PATHTO\\7z\\7z.exe"
+"Path"="X:\\PATHTO\\7z"
+; Path Deletions: WRITE | WORDPAD | WMP | WINDOWS MAIL
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\WRITE.EXE]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\WORDPAD.EXE]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\wmplayer.exe]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\mplayer2.exe]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\wab.exe]

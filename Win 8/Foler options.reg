@@ -1,0 +1,77 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+;-----FIND PARTIAL SEARCH MATCHES
+"Start_SearchFiles"=dword:00000002
+;-----Suppresses inclusion of the links from "UserAssist" (detailed explanation here) in the StartMenu and Taskbar 
+"ServerAdminUI"=dword:00000000
+;-----Show hidden files and folders (Don't show dword:00000002)
+"Hidden"=dword:00000001
+;-----Show encrypted or compressed NTFS files in color
+"ShowCompColor"=dword:00000001
+; Don't Hide file extensions
+"HideFileExt"=dword:00000000
+; Don't change the upper/lower case of filenames
+"DontPrettyPath"=dword:00000000
+;-----Enable Pop-up Descriptions for folder or desktop items
+"ShowInfoTip"=dword:00000001
+;-----Show Desktop icons (dword:00000001 to  hide)
+"HideIcons"=dword:00000000
+;-----Show the Map Nework Drive button (dword:00000000 to  hide)
+"MapNetDrvBtn"=dword:00000001
+;-----Legacy key to enable folder templates
+"WebView"=dword:00000001
+;-----Unknown
+"Filter"=dword:00000000
+;-----Show protected operating system files (dword:00000000 to hide)
+"ShowSuperHidden"=dword:00000001
+;-----Launch folder windows in a separate process
+"SeparateProcess"=dword:00000001
+;-----Don't Use check boxes to select file items
+"AutoCheckSelect"=dword:00000000
+;-----Show thumbnails instead of icons (To show icons dword:00000001)
+"IconsOnly"=dword:00000000
+;-----Display file icon on Thumbnails
+"ShowTypeOverlay"=dword:00000001
+;-----Show Status Bar for Files and Folder using Folder (dword:00000000 to hide)
+"ShowStatusBar"=dword:00000001
+;-----Enables colored selection rectangle in folder windows. (Use dword:00000000 for transparent rectangle)
+"ListviewAlphaSelect"=dword:00000001
+;-----Use drop shadows for icon labels on the desktop
+"ListviewShadow"=dword:00000001
+;-----Enable taskbar preview animation (Use dword:00000000 for no animation)
+"TaskbarAnimations"=dword:00000001  
+;-----Disable Start Menu Popping Up on First Boot
+"StartMenuInit"=dword:00000005
+"ReindexedProfile"=dword:00000001
+;-----Unlock the taskbar (dword:00000000 to lock)
+"TaskbarSizeMove"=dword:00000001
+;-----Show all folders in Explorer navigation pane 
+"NavPaneShowAllFolders"=dword:00000001
+;-----Show menus above the Explorer toolbar (To turn off dword:00000000)
+"AlwaysShowMenus"=dword:00000001
+;-----Show "Merge Conflicts" dialog during copying (To hide dword:00000001)
+"HideMergeConflicts"=dword:00000000
+; ---------------describe
+"NavPaneShowFavorites"=dword:00000000 
+;-----------------describe
+"MapNetDrvBtn"=dword:00000001 
+"MapNetDrvBtn"=dword:00000000 
+; Display drive letters
+; 0 = windows default
+; 1 = only network drive's letters shown.
+; 2 = no drive letters shown
+; 4 = all drive letters shown
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
+"ShowDriveLettersFirst"=dword:00000004
+; Disable Tracking of Broken Shortcut Links
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoResolveTrack"=dword:00000001
+; Windows will tell you exactly what it is doing when it is shutting down or is booting
+;[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\policies\system]
+;"verbosestatus"=dword:00000001
+; Disable Default Hidden Shares - This keeps Windows from creating the Admin$, C$, etc. shares (security holes) on start-up.
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\parameters]
+"AutoShareWks"=dword:00000000
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters]
+"AutoShareServer"=dword:00000000
