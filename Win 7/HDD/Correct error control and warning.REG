@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows NT\DiskQuota]
+"Limit"=dword:0
+"LimitUnits"=dword:6
+"Threshold"=dword:1000
+"ThresholdUnits"=dword:6
+
+
