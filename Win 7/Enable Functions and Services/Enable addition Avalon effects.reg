@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+;Enable addition Avalon effects
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\explorer]
+"MILDesktop"=dword:00000001
+"MILExplorer"=dword:00000001
+
+
+
+

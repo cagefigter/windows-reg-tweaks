@@ -1,0 +1,21 @@
+Windows Registry Editor Version 5.00
+
+;Enable Glass Effect (DWM) without a supported card
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DWM]
+"perUser"=dword:00000000
+"DebugDumpTree"=dword:00000000
+"DebugMessages"=dword:00000000
+"DebugMouse"=dword:00000000
+"DebugZOrder"=dword:00000000
+"EnableMachineCheck"=dword:00000000
+"ForceSoftwareD3D"=dword:00000000
+"Glass"=dword:00000001
+"UseAlternateButtons"=dword:00000001
+"Animations"=dword:00000001
+"AnimationsShiftKey"=dword:00000001
+"Blur"=dword:00000001
+"Composition"=dword:00000001
+"UseDPIScaling"=dword:00000001
+"RenderClientArea"=dword:00000001
+"MagnificationPercent"=dword:00000064
