@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Print]
+"SchedulerThreadPriority"=dword:0
+"SpoolerPriority"=dword:0
+"PortThreadPriority"=dword:1
