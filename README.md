@@ -7,6 +7,12 @@ Current Status: Over 600 + different tweaks
 
 
 
+Win 10 Home Users Notice
+--------------------
+* Home edition users can install GPEDIT.MSC to perform the same task, [here's the link how](http://drudger.deviantart.com/art/Add-GPEDIT-msc-215792914).
+
+
+
 Project History
 - [x] 18.08.2015 initial upload and first release 
 
