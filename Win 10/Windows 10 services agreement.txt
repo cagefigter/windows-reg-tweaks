@@ -1,0 +1,5 @@
+"We may automatically check your version of the software and download software updates or configuration changes, including those that prevent you from accessing the Services, playing counterfeit games, or using unauthorised hardware peripheral devices."
+
+
+Source:
+http://www.microsoft.com/en-us/servicesagreement/
