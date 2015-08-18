@@ -3,7 +3,7 @@
 Windows Registry Tweaks (Win 7 - Win 10) Collection 
 
 
-Current Status: Over 600 + different tweaks
+**Current Status: Over 600 + different tweaks**
 
 
 
