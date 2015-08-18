@@ -1,0 +1,4 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\ACE]
+@="{5E2121EE-0300-11D4-8D3B-444553540000}"
