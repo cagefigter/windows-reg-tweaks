@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Underline letters on right click (EG "R" for Properties, "D" for Delete)
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"UserPreferencesMask"=hex:b0,12,01,80

@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Cache more Icons
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
+"Max Cached Icons"="4096"

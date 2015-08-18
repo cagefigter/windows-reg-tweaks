@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Show hidden files and folders (but not hidden system files and folders)
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"Hidden"=dword:00000001

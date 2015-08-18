@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Show the real CD-recording speed in Nero  (example:  21.6x writing speed)
+[HKEY_CURRENT_USER\Software\Ahead\Nero - Burning Rom\Recorder]
+"ShowSingleRecorderSpeed"=dword:00000001

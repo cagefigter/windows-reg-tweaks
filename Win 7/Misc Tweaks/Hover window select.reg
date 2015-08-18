@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"ActiveWndTrackTimeout"=dword:00000096
+"UserPreferencesMask"=hex:9f,3e,07,80,12,00,00,00

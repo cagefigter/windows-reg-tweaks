@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Force keep positive entries in DNS Cache for only 4 hours instead of the default 24 hours
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters]
+"MaxCacheTtl "=dword:00003840

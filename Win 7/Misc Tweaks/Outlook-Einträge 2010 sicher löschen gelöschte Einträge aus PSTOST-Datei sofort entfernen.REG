@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Outlook\PST]
+"PSTNullFreeOnClose"=dword:1
+
+

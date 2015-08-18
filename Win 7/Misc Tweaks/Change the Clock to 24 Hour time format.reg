@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; Change the Clock to 24 Hour time format
+[HKEY_CURRENT_USER\Control Panel\International]
+"iTime"="1"
+"iTLZero"="0"
+"sTime"=":"
+"sTimeFormat"="H:mm:ss"
+"iTimePrefix"="0"

@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; Set Control Panel on Classic View and small icons
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\ControlPanel]
+"AllItemsIconView"=dword:00000001
+"StartupPage"=dword:00000001

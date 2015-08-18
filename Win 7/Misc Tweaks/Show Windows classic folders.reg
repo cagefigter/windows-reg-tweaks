@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Show Windows classic folders (File | Edit | View | Tools | Help)
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"AlwaysShowMenus"=dword:00000001

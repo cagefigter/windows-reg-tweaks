@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Windows will tell you exactly what it is doing when it is shutting down or is booting
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\policies\system]
+"verbosestatus"=dword:00000001

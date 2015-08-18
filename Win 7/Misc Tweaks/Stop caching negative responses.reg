@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Stop caching negative responses
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters]
+"MaxNegativeCacheTtl "=dword:00000000

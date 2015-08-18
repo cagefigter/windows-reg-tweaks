@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+;OEM PAGE: Subsitute the last 5 digits of your product ID, for the 12345 that appears below, for easy identification
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion]
+"ProductId"="****-12345"
+;Computer Description
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters]
+"srvcomment"="My Motherboard Model"
+;OEM Information
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation]
+"Model"="Motherboard Model"
+"Manufacturer"="Custom Built"
+;1. TO ENTER A SUPPORT URL, USE THE STYLE BELOW
+"SupportURL"="www.wincert.org"
+;2. TO LAUNCH A FILE LIKE OEM CONFIGURATOR.EXE ENTER YOUR PATH BELOW. Note foward slash
+;file:///C:/%APP_PATH/OEM Configurator.exe
+#"Logo"="C:\\Windows\\system32\\OEMLogo.bmp"

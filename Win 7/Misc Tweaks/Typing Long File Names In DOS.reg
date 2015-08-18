@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Typing Long File Names In DOS
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor]
+"CompletionChar"=dword:00000009

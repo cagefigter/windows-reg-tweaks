@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Notepad saves window position
+[HKEY_CURRENT_USER\Software\Microsoft\Notepad]
+"fSaveWindowPositions"=dword:00000001
