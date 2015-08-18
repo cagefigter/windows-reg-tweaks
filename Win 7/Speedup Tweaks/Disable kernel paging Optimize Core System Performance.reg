@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; Disable kernel paging
+; Optimize Core System Performance
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+"DisablePagingExecutive"=dword:00000001

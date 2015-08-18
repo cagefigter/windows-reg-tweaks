@@ -1,0 +1,21 @@
+Windows Registry Editor Version 5.00
+
+; Speed-up Access to AVI Media Files
+[-HKEY_CLASSES_ROOT\CLSID\{87D62D94-71B3-4b9a-9489-5FE6850DC73E}]
+
+[-HKEY_CLASSES_ROOT\SystemFileAssociations\.avi\shellex\PropertyHandler]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Wallpapers\KnownFolders\0\Windows Wallpapers\MergeFolders]
+"%windir%\\Globalization\\MCT\\MCT-AU\\Wallpaper"=""
+"%windir%\\Globalization\\MCT\\MCT-CA\\Wallpaper"=""
+"%windir%\\Globalization\\MCT\\MCT-GB\\Wallpaper"=""
+"%windir%\\Globalization\\MCT\\MCT-US\\Wallpaper"=""
+"%windir%\\Globalization\\MCT\\MCT-ZA\\Wallpaper"=""
+
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Themes\InstalledThemes\MCT]
+"%windir%\\Globalization\\MCT\\MCT-AU\\Theme\\AU.theme"=""
+"%windir%\\Globalization\\MCT\\MCT-CA\\Theme\\CA.theme"=""
+"%windir%\\Globalization\\MCT\\MCT-GB\\Theme\\GB.theme"=""
+"%windir%\\Globalization\\MCT\\MCT-US\\Theme\\US.theme"=""
+"%windir%\\Globalization\\MCT\\MCT-ZA\\Theme\\ZA.theme"=""
