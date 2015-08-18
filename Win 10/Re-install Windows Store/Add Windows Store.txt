@@ -1,0 +1,3 @@
+Open Powershell with administrative rights end enter:
+
+Add-AppxPackage -Path "C:\Program Files\WindowsApps\Microsoft.WindowsStore_2015.7.22.0_x64__8wekyb3d8bbwe\AppxManifest.xml" -Register –DisableDevelopmentMode
