@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; Disable file association web-service - Bypassing "Browse web for program" to open unknown extension.
+; "Open With..." becomes default
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"NoInternetOpenWith"=dword:00000001

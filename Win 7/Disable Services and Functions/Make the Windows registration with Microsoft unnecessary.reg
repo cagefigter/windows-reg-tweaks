@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+
+; Make the Windows registration with Microsoft unnecessary
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion]
+"RegDone"="1"

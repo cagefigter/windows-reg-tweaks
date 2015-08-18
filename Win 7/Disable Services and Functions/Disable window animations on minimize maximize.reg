@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; Disable window animations on minimize/maximize
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DWM] 
+"Animations"=dword:00000000

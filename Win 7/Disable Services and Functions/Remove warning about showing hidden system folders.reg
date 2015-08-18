@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; Remove warning about showing hidden system folders
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced\Folder\SuperHidden]
+"WarningIfNotDefault"=-
+

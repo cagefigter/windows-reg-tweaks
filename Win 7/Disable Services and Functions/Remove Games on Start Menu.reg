@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; Do not show 'Games' on Start Menu
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"Start_ShowMyGames"=dword:00000000

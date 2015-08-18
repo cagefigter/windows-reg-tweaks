@@ -1,0 +1,117 @@
+Windows Registry Editor Version 5.00
+
+;Disable Action Center
+    [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Action Center\Checks\{01979c6a-42fa-414c-b8aa-eee2c8202018}.check.100]
+"CheckSetting"=hex:01,00,00,00,d0,8c,9d,df,01,15,d1,11,8c,7a,00,c0,4f,c2,97,eb,\
+  01,00,00,00,eb,38,5d,78,66,c9,aa,4c,b9,61,4a,d9,61,00,05,7c,00,00,00,00,02,\
+  00,00,00,00,00,10,66,00,00,00,01,00,00,20,00,00,00,41,1f,6d,45,12,28,30,16,\
+  52,f4,b1,3c,f0,55,0a,5d,67,64,0d,17,4a,01,26,80,67,c2,42,c5,43,15,ed,f1,00,\
+  00,00,00,0e,80,00,00,00,02,00,00,20,00,00,00,f5,36,23,a6,ad,2f,be,d4,03,ea,\
+  15,b3,b6,4c,99,9e,4a,24,e2,21,01,2d,1a,c0,b8,b7,be,d0,82,3d,66,c4,30,00,00,\
+  00,f6,99,c3,f5,db,d0,93,d3,94,56,f1,66,d4,b1,d6,a0,55,5a,d6,58,66,ed,88,cf,\
+  8c,b0,fc,e3,0c,2e,8e,45,78,78,3c,46,19,a0,30,45,5b,58,6c,f5,dd,05,3e,1d,40,\
+  00,00,00,4a,ba,98,a9,14,c4,5a,09,32,9d,c9,87,2a,44,13,46,fc,c6,7b,f2,2c,95,\
+  11,fa,60,cb,2b,66,97,57,26,98,40,cf,f0,7d,e0,6f,a1,cb,e1,75,99,e8,05,ba,59,\
+  a2,d2,db,0c,15,12,c9,a1,ea,d4,d9,f5,21,09,e3,54,bb
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Action Center\Checks\{945a8954-c147-4acd-923f-40c45405a658}.check.42]
+"CheckSetting"=hex:01,00,00,00,d0,8c,9d,df,01,15,d1,11,8c,7a,00,c0,4f,c2,97,eb,\
+  01,00,00,00,eb,38,5d,78,66,c9,aa,4c,b9,61,4a,d9,61,00,05,7c,00,00,00,00,02,\
+  00,00,00,00,00,10,66,00,00,00,01,00,00,20,00,00,00,37,06,7e,63,eb,78,69,0b,\
+  3f,b3,25,2b,35,06,6b,6d,35,ed,00,91,0b,85,dd,9e,14,b5,0c,e8,4e,21,3a,0a,00,\
+  00,00,00,0e,80,00,00,00,02,00,00,20,00,00,00,aa,2d,77,bd,04,95,51,76,70,c6,\
+  8a,d0,1c,cd,5e,db,af,f6,e6,2d,48,4d,fe,e2,63,dd,96,ad,82,fd,d9,fa,30,00,00,\
+  00,6c,26,94,20,5e,a5,68,d8,f5,45,7f,eb,41,4d,a7,08,ce,2b,37,2e,aa,89,f2,27,\
+  6e,bc,b7,a4,1a,4b,27,f3,32,1b,5a,be,bc,07,19,77,49,da,1e,43,f9,5b,3d,7d,40,\
+  00,00,00,06,b0,df,33,9b,13,40,73,f5,70,03,2f,1f,cb,d8,7d,96,c3,0d,57,36,b7,\
+  8e,41,20,13,e3,0f,57,fb,d1,d5,42,9b,c6,73,3b,34,7e,9b,a5,fc,c1,df,2b,6f,f6,\
+  dd,ac,96,10,cf,75,1e,0f,dd,17,45,34,56,cb,df,a0,96
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Action Center\Checks\{A5268B8E-7DB5-465b-BAB7-BDCDA39A394A}.check.100]
+"CheckSetting"=hex:01,00,00,00,d0,8c,9d,df,01,15,d1,11,8c,7a,00,c0,4f,c2,97,eb,\
+  01,00,00,00,eb,38,5d,78,66,c9,aa,4c,b9,61,4a,d9,61,00,05,7c,00,00,00,00,02,\
+  00,00,00,00,00,10,66,00,00,00,01,00,00,20,00,00,00,50,01,fe,2a,bc,2f,0e,e2,\
+  4c,6d,f1,db,5d,e2,e7,70,61,ca,3b,6d,9c,7f,14,c4,62,76,71,db,5a,3d,c7,84,00,\
+  00,00,00,0e,80,00,00,00,02,00,00,20,00,00,00,5b,86,ac,09,6b,16,1b,c1,73,5f,\
+  4f,51,bc,9a,f0,2f,dc,6f,ee,f3,da,f6,db,e0,50,44,7e,52,86,d6,87,bd,30,00,00,\
+  00,ff,d0,5e,e5,d6,4e,ed,86,f4,cf,ae,59,ca,d2,00,4c,32,bd,a2,38,78,19,96,81,\
+  bb,c9,0f,d5,b6,2f,d9,80,46,b2,26,36,bc,be,2b,cc,ff,5a,33,8c,1d,25,56,59,40,\
+  00,00,00,23,d0,29,3f,50,2e,ef,37,3d,2c,9b,4e,04,0f,fd,07,80,a9,76,f8,9e,c7,\
+  e7,d2,1e,78,3f,1f,5e,6e,05,22,fa,9f,48,b9,3e,66,3f,10,fd,db,bf,94,79,4e,9a,\
+  cb,ba,76,47,ef,49,82,2c,46,92,bd,c5,29,f0,23,13,35
+
+[HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\7\52C64B7E]
+"@ActionCenterCPL.dll,-1"="Action Center"
+"@ActionCenterCPL.dll,-8"="Change Action Center settings"
+
+[HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU]
+"NodeSlots"=hex:02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,02,\
+  02,02,02
+"MRUListEx"=hex:02,00,00,00,00,00,00,00,01,00,00,00,ff,ff,ff,ff
+
+[HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0]
+"MRUListEx"=hex:01,00,00,00,00,00,00,00,ff,ff,ff,ff
+"1"=hex:1e,00,71,80,00,00,00,00,00,00,00,00,00,00,a7,f8,64,bb,e7,be,1a,4e,ab,\
+  8d,7d,82,73,f7,fd,b6,00,00
+
+[HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0\1]
+"NodeSlot"=dword:00000017
+"MRUListEx"=hex:00,00,00,00,ff,ff,ff,ff
+"0"=hex:1f,01,00,00,19,01,00,ee,eb,be,0b,01,04,00,00,00,00,00,69,00,00,00,31,\
+  53,50,53,30,f1,25,b7,ef,47,1a,10,a5,f1,02,60,8c,9e,eb,ac,4d,00,00,00,0a,00,\
+  00,00,00,1f,00,00,00,1e,00,00,00,43,00,68,00,61,00,6e,00,67,00,65,00,20,00,\
+  41,00,63,00,74,00,69,00,6f,00,6e,00,20,00,43,00,65,00,6e,00,74,00,65,00,72,\
+  00,20,00,73,00,65,00,74,00,74,00,69,00,6e,00,67,00,73,00,00,00,00,00,00,00,\
+  41,00,00,00,31,53,50,53,53,7d,ef,0c,64,fa,d1,11,a2,03,00,00,f8,1f,ed,ee,25,\
+  00,00,00,05,00,00,00,00,1f,00,00,00,09,00,00,00,53,00,65,00,74,00,74,00,69,\
+  00,6e,00,67,00,73,00,00,00,00,00,00,00,00,00,5d,00,00,00,31,53,50,53,87,27,\
+  bf,5c,cf,48,08,42,b9,0e,ee,5e,5d,42,02,94,41,00,00,00,19,00,00,00,00,1f,00,\
+  00,00,17,00,00,00,41,00,63,00,74,00,69,00,6f,00,6e,00,43,00,65,00,6e,00,74,\
+  00,65,00,72,00,43,00,50,00,4c,00,2e,00,64,00,6c,00,6c,00,2c,00,2d,00,31,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+
+[HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\BagMRU\2\0\1\0]
+"NodeSlot"=dword:00000018
+"MRUListEx"=hex:ff,ff,ff,ff
+
+[HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\23]
+
+[HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\23\Shell]
+
+[HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\23\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}]
+"Rev"=dword:00000000
+"FFlags"=dword:01200011
+"Vid"="{65F125E5-7BE1-4810-BA9D-D271C8432CE3}"
+"Mode"=dword:00000006
+"LogicalViewMode"=dword:00000002
+"IconSize"=dword:00000030
+"ColInfo"=hex:00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,fd,df,df,fd,10,\
+  00,00,00,00,00,00,00,00,00,00,00,01,00,00,00,18,00,00,00,30,f1,25,b7,ef,47,\
+  1a,10,a5,f1,02,60,8c,9e,eb,ac,0a,00,00,00,a0,00,00,00
+"Sort"=hex:00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,01,00,00,00,30,f1,\
+  25,b7,ef,47,1a,10,a5,f1,02,60,8c,9e,eb,ac,0a,00,00,00,01,00,00,00
+"GroupView"=dword:00000000
+"GroupByKey:FMTID"="{00000000-0000-0000-0000-000000000000}"
+"GroupByKey:PID"=dword:00000000
+"GroupByDirection"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\24]
+
+[HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\24\Shell]
+
+[HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Shell\Bags\24\Shell\{5C4F28B5-F869-4E84-8E60-F11DB97C5CC7}]
+"Rev"=dword:00000000
+"FFlags"=dword:01200001
+"Vid"="{65F125E5-7BE1-4810-BA9D-D271C8432CE3}"
+"Mode"=dword:00000006
+"LogicalViewMode"=dword:00000002
+"IconSize"=dword:00000030
+"ColInfo"=hex:00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,fd,df,df,fd,10,\
+  00,00,00,00,00,00,00,00,00,00,00,01,00,00,00,18,00,00,00,30,f1,25,b7,ef,47,\
+  1a,10,a5,f1,02,60,8c,9e,eb,ac,0a,00,00,00,a0,00,00,00
+"Sort"=hex:00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,01,00,00,00,30,f1,\
+  25,b7,ef,47,1a,10,a5,f1,02,60,8c,9e,eb,ac,0a,00,00,00,01,00,00,00
+"GroupView"=dword:00000000
+"GroupByKey:FMTID"="{00000000-0000-0000-0000-000000000000}"
+"GroupByKey:PID"=dword:00000000
+"GroupByDirection"=dword:00000001

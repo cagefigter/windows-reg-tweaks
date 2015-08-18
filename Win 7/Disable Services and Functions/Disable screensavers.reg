@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+; Disable screensavers
+
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"ScreenSaveActive"="0"
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"SCRNSAVE.EXE"=""
+[HKEY_USERS\.DEFAULT\Control Panel\Desktop]
+"ScreenSaveActive"="0"
+[HKEY_USERS\.DEFAULT\Control Panel\Desktop]
+"SCRNSAVE.EXE"=""

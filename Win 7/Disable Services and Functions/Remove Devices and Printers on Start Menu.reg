@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; Do not show "Devices and Printers" on Start Menu
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"Start_AdminToolsTemp"=dword:00000000
+"Start_ShowPrinters"=dword:00000000

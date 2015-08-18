@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; Remove " - Shortcut" Suffix from shortcuts
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer]
+"link"=hex:00,00,00,00

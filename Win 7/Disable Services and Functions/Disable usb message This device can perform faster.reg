@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+;disable usb message This device can perform faster
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Usb]
+"LegacyCheckingEnabled"=dword:00000000
+"ErrorCheckingEnabled"=dword:00000001

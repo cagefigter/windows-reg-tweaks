@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; Do not save encrypted pages to disk
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings]
+"DisableCachingOfSSLPages"=dword:00000001
+

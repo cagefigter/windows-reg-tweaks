@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; Disable 'Windows Defender' startup
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run]
+"Windows Defender"=-

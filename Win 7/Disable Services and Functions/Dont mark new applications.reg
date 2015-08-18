@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; Dont mark new applications
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"Start_ShowRecentDocs"=dword:00000000
+"Start_TrackDocs"=dword:00000000

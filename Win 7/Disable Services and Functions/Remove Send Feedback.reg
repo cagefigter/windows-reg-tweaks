@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"FeedbackToolEnabled"=dword:00000000
+; original value:
+;"FeedbackToolEnabled"=dword:00000003

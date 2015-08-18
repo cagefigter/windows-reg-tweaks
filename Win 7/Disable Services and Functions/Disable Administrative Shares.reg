@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+;Disable Administrative Shares.
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters]
+"AutoShareServer"=dword:00000000
+"AutoShareWks"=dword:00000000

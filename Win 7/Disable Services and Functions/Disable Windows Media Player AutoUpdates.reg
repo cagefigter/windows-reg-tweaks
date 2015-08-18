@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Disable Windows Media Player AutoUpdates
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsMediaPlayer]
+"DisableAutoUpdate"=dword:00000001

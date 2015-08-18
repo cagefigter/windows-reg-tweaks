@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; Do not show 'Default Programs' on Start Menu
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"Start_ShowSetProgramAccessAndDefaults"=dword:00000000

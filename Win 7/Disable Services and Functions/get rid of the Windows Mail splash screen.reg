@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+;get rid of the Windows Mail splash screen
+[HKEY_CURRENT_USER\Software\Microsoft\Windows Mail]
+"NoSplash"=dword:00000001
