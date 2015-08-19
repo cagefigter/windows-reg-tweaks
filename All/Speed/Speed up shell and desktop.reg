@@ -1,6 +1,6 @@
 Windows Registry Editor Version 5.00
 
-;SPEED UP DESKTOP & SHELL
+; SPEED UP DESKTOP & SHELL
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
 "DesktopLivePreviewHoverTime"=dword:00000001
 [HKEY_CURRENT_USER\Control Panel\Mouse]
