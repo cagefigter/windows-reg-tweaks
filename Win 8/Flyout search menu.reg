@@ -1,0 +1,98 @@
+Windows Registry Editor Version 5.00
+
+;###############################################################################
+;                                # Flyout SEARCH MENU #					   #
+;###############################################################################
+;Fly-out Search Menu
+;Get the Software here: http://www.sowsoft.com
+;-> or imply use Hddb software ! 
+#[HKEY_CLASSES_ROOT\DesktopBackground\Shell\SearchFO]
+#"MUIVerb"="Search"
+#"SubCommands"="Find All;Find Docs;Find New"
+#"icon"="D:\\PATHTOEFS\\efs\\Search All.ico"
+#"Position"="Top"
+
+;Find All
+#[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Find All]
+#@="Find All"
+#"Icon"="D:\\2\\Icons\\Search All.ico"
+#[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Find All\Command]
+#@="\"D:\\PATHTOEFS\\EFS\\search.exe\" \"D:\\PATHTOEFS\\EFS\\ALL_DRVS.efsp\""
+
+;Find Docs
+#[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Find Docs]
+#@="Find Docs"
+#"Icon"="D:\\2\\Icons\\Document Binder.ico"
+#[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Find Docs\Command]
+#@="\"D:\\PATHTOEFS\\EFS\\search.exe\" \"D:\\PATHTOEFS\\EFS\\DOCS.efsp\""
+
+;Find New
+#[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Find New]
+#@="Find New"
+#"Icon"="D:\\2\\Icons\\FileSeek.ico"
+#[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Find New\Command]
+#@="\"D:\\PATHTOEFS\\EFS\\search.exe\" \"D:\\PATHTOEFS\\EFS\\NEWEST.efsp\""
+
+;Add Custom Icon & Register Program to Work on Folders and Drives
+#[HKEY_CLASSES_ROOT\Folder\shell]
+#[HKEY_CLASSES_ROOT\Folder\shell\Effective Search]
+#"Icon"="D:\\PATHTOEFS\\efs\\Search All.ico,0"
+#[HKEY_CLASSES_ROOT\Folder\shell\Effective Search\command]
+#@="\"D:\\PATHTOEFS\\EFS\\search.exe\" \"%1\""
+
+;Register Application Path
+#[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\search.exe]
+#@="D:\\PATHTOEFS\\EFS\\search.exe"
+
+;Store Registration
+#[HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Compatibility Assistant\Store]
+#"D:\\PATHTOEFS\\efs\\search.exe"=hex:53,41,43,50,01,00,00,00,00,00,00,00,\
+#  07,00,00,00,28,00,00,00,d8,90,0c,00,00,00,00,00,01,00,00,00,00,00,00,00,00,\
+#  00,01,06,61,20,00,00,97,5f,d8,91,c9,9e,ce,01,00,00,00,00,00,00,00,00,02,00,\
+#  00,00,28,00,00,00,00,00,00,00,00,00,00,40,00,00,00,00,00,00,00,00,00,00,00,\
+#  00,00,00,00,00,5a,75,01,00,00,00,00,00,02,00,00,00,02,00,00,00
+
+;Register .efs Filetype
+#[HKEY_CLASSES_ROOT\efsFile]
+#@="EFS File"
+#[HKEY_CLASSES_ROOT\efsFile\AlwaysShowExt]
+#@=""
+#[HKEY_CLASSES_ROOT\efsFile\DefaultIcon]
+#@="D:\\PATHTOEFS\\efs\\Search All.ico,0"
+#[HKEY_CLASSES_ROOT\efsFile\shell]
+#[HKEY_CLASSES_ROOT\efsFile\shell\open]
+#[HKEY_CLASSES_ROOT\efsFile\shell\open\command]
+#@="\"D:\\PATHTOEFS\\EFS\\search.exe\" \"%1\""
+
+;Register .efsp Filetype
+#[HKEY_CLASSES_ROOT\efspFile]
+#@="EFS Parameters"
+#[HKEY_CLASSES_ROOT\efspFile\AlwaysShowExt]
+#@=""
+#[HKEY_CLASSES_ROOT\efspFile\DefaultIcon]
+#@="D:\\PATHTOEFS\\efs\\Search All.ico"
+#[HKEY_CLASSES_ROOT\efspFile\shell]
+#[HKEY_CLASSES_ROOT\efspFile\shell\open]
+#[HKEY_CLASSES_ROOT\efspFile\shell\open\command]
+#@="\"D:\\PATHTOEFS\\EFS\\search.exe\" \"%1\""
+
+;Register .efss Filetype
+#[HKEY_CLASSES_ROOT\efssFile]
+#@="EFS Script"
+#[HKEY_CLASSES_ROOT\efssFile\AlwaysShowExt]
+#@=""
+#[HKEY_CLASSES_ROOT\efssFile\DefaultIcon]
+#@="D:\\PATHTOEFS\\efs\\Search All.ico,0"
+#[HKEY_CLASSES_ROOT\efssFile\shell]
+#[HKEY_CLASSES_ROOT\efssFile\shell\open]
+#[HKEY_CLASSES_ROOT\efssFile\shell\open\command]
+#@="\"D:\\PATHTOEFS\\EFS\\search.exe\" \"%1\""
+
+;Uninstall Info
+#[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Effective File Search]
+#"NSIS:StartMenuDir"="Effective File Search"
+#"DisplayName"="Effective File Search 6.8.1"
+#"UninstallString"="\"D:\\PATHTOEFS\\EFS\\UnRun.exe\" \"D:\\PATHTOEFS\\EFS\\Uninst.exe\""
+#"DisplayIcon"="D:\\PATHTOEFS\\efs\\Search All.ico,0"
+#"DisplayVersion"="6.8.1"
+#"Publisher"="SOW"

@@ -1,7 +1,6 @@
 Windows Registry Editor Version 5.00
 
-;Enable Glass Effect (DWM) without a supported card
-
+; Enable Glass Effect (DWM) without a supported card
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\DWM]
 "perUser"=dword:00000000
 "DebugDumpTree"=dword:00000000

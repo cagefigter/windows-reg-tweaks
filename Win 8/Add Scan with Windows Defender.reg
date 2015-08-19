@@ -1,0 +1,14 @@
+Windows Registry Editor Version 5.00
+
+; Scan with Windows Defender
+[HKEY_CLASSES_ROOT\*\shell\WindowsDefender]
+"MUIVerb"="Scan with Windows Defender"
+"icon"=""C:\\Program Files\\Windows Defender\\MSASCui.exe,0"
+[HKEY_CLASSES_ROOT\*\shell\WindowsDefender\Command]
+@="cmd.exe /s /c \"\"C:\\Program Files\\Windows Defender\\MpCmdRun.exe\" -scan -scantype 3 -SignatureUpdate -file \"%1 \"\" & pause"
+; Windows Defender Folder Scan
+[HKEY_CLASSES_ROOT\Folder\shell\WindowsDefender]
+"MUIVerb"="Scan with Windows Defender"
+"icon"="C:\\Program Files\\Windows Defender\\MSASCui.exe,0"
+[HKEY_CLASSES_ROOT\Folder\shell\WindowsDefender\Command]
+@="cmd.exe /s /c

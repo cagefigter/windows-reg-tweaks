@@ -1,0 +1,122 @@
+Windows Registry Editor Version 5.00
+
+;###############################################################################
+;                       NEW FILE TYPE FLYOUT									
+;###############################################################################
+;Remove Ms Briefcase, Rich-Text-Document, .wave, .bmp, MS PowerPoint, MS Access, Outlook Journal & .mdb files from right click)
+[-HKEY_CLASSES_ROOT\Briefcase]
+[-HKEY_CLASSES_ROOT\.rtf\ShellNew]
+[-HKEY_CLASSES_ROOT\.bmp\ShellNew]
+[-HKEY_CLASSES_ROOT\.wav\ShellNew]
+[-HKEY_CLASSES_ROOT\.vsd\ShellNew]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.ppt\PowerPoint.Show.8\ShellNew]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.mdb\Access.Application.11\ShellNew]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.jnt\jntfile\ShellNew]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.contact\ShellNew]
+[-HKEY_CLASSES_ROOT\.lbl]
+[-HKEY_CLASSES_ROOT\.lbp]
+[-HKEY_CLASSES_ROOT\.lbx]
+[-HKEY_CLASSES_ROOT\.contact]
+[-HKEY_CLASSES_ROOT\jntfile]
+[-HKEY_CLASSES_ROOT\.bmp]
+;add new file cmd
+[HKEY_CLASSES_ROOT\cmdfile]
+@="Command Script"
+;Change Text filetype icon
+[HKEY_CLASSES_ROOT\txtfile\DefaultIcon]
+@="%SystemRoot%\\notepad.exe,0"
+;Set custom CMD scrip template (C:\Windows\ShellNew\Template.cmd) & icon
+[HKEY_CLASSES_ROOT\cmdfile\DefaultIcon]
+@="@%SystemRoot%\\System32\\imageres.dll,249"
+[HKEY_CLASSES_ROOT\.cmd\ShellNew]
+"FileName"="%SystemRoot%\\ShellNew\\Template.CMD"
+;change name from 'Windows Script Command' to 'Command Script'
+[HKEY_CURRENT_USER\Software\Classes\Local Settings\MuiCache\183\52C64B7E]
+"@%SystemRoot%\\System32\\acppage.dll,-6003"="Command Script"
+;Shorten new document names and change icons to reduce clutter and increase visiblity
+;rename Adobe LiveCycle Designer Document to LiveCycle Document
+[HKEY_CLASSES_ROOT\LiveCycleDesigner.Document]
+@="LiveCycle Document"
+;rename Microsoft Visio Drawing to Visio Drawing
+[HKEY_CLASSES_ROOT\Visio.Drawing.11]
+@="Visio Drawing"
+;rename Microsoft Excel Worksheet;excel worksheet
+[HKEY_CLASSES_ROOT\Excel.Sheet.8]
+@="Excel Worksheet"
+;rename Microsoft Word Document to Word Document
+[HKEY_CLASSES_ROOT\Oice.Word.Document]
+@="Word Document"
+[HKEY_CLASSES_ROOT\Word.Document]
+@="Word Document"
+[HKEY_CLASSES_ROOT\Word.Document.8]
+@="Word Document"
+;rename Microsoft Publisher Document to Publisher Doc
+[HKEY_CLASSES_ROOT\Publisher.Document.11]
+@="Publisher Doc"
+;rename PowerPoint Document to PowerPoint Doc
+[HKEY_CLASSES_ROOT\Oice.PowerPoint.Show]
+@="PowerPoint Doc"
+;rename AutoIt v3 Script to AutoIt Script
+[HKEY_CLASSES_ROOT\AutoIt3Script]
+@="AutoIt Script"
+;change autoit  script icon
+[HKEY_CLASSES_ROOT\AutoIt3Script\DefaultIcon]
+@="X:\\CUSTOMICONS\\AutoIt4.ico,0"
+;change ini file icon
+[HKEY_CLASSES_ROOT\inifile\DefaultIcon]
+@="X:\\CUSTOMICONS\\1SYS.icl,11"
+;change Photoshop icon and rename .PSD filetype
+[HKEY_CLASSES_ROOT\Photoshop.Image.13]
+@="Photoshop Image"
+"DefaultIcon"="X:\\CUSTOMICONS\\Photohop_Fancy.ico"
+[HKEY_CLASSES_ROOT\Photoshop.Image.13\DefaultIcon]
+@="X:\\CUSTOMICONS\\Photohop_Fancy.ico"
+;Add icon and program handler for editing HTM & HTML files
+[HKEY_CLASSES_ROOT\.htm]
+@="htmlfile"
+"PerceivedType"="texta"
+"Content Type"="text/html"
+[HKEY_CLASSES_ROOT\.htm\ShellNew]
+"FileName"="%SystemRoot%\\ShellNew\\Template.htm"
+"IconPath"=hex(2):44,00,3a,00,5c,00,32,00,5c,00,49,00,63,00,6f,00,6e,00,73,00,\
+  5c,00,46,00,69,00,6c,00,65,00,54,00,79,00,70,00,65,00,73,00,2e,00,69,00,63,\
+  00,6c,00,2c,00,32,00,36,00,00,00
+@="HTML Document"
+;Add new REG, INI & htm file to right click > New
+[HKEY_CLASSES_ROOT\.reg\ShellNew]
+"FileName"="%SystemRoot%\\ShellNew\\Template.reg"
+[HKEY_CLASSES_ROOT\.ini\ShellNew]
+"FileName"="%SystemRoot%\\ShellNew\\Template.ini"
+[HKEY_CLASSES_ROOT\inifile\DefaultIcon]
+@="X:\\CUSTOMICONS\\FileTypes.icl,28"
+;Add ZIP Filetype to right click > New
+[HKEY_CLASSES_ROOT\7-Zip.zip]
+@="Zip Archive"
+[HKEY_CLASSES_ROOT\7-Zip.zip\DefaultIcon]
+@="X:\\CUSTOMICONS\\ZipIcons.icl,1"
+[HKEY_CLASSES_ROOT\7-Zip.zip\shell\open\command]
+@="\"E:\\UTILITY\\ZIP\\7z\\7zFM.exe\" \"%1\""
+;Add XML filetype to right click > New
+[HKEY_CLASSES_ROOT\xmlfile]
+@="XML Document"
+[HKEY_CLASSES_ROOT\xmlfile\BrowseInPlace]
+[HKEY_CLASSES_ROOT\xmlfile\DefaultIcon]
+@="X:\\CUSTOMICONS\\FileTypes.icl,18"
+[HKEY_CLASSES_ROOT\xmlfile\shell]
+@=""
+[HKEY_CLASSES_ROOT\xmlfile\shell\edit]
+[HKEY_CLASSES_ROOT\xmlfile\shell\edit\command]
+@="\"%SystemRoot%\\notepad.exe\" \"%1\""
+[HKEY_CLASSES_ROOT\xmlfile\shell\EditWithFP]
+@="&Edit with Notepad"
+[HKEY_CLASSES_ROOT\xmlfile\shell\EditWithFP\command]
+@="\"%SystemRoot%\\notepad.exe\" \"%1\""
+[HKEY_CLASSES_ROOT\xmlfile\shell\EditWithFP\ddeexec]
+@="[Open(\"%1\")]"
+[HKEY_CLASSES_ROOT\xmlfile\shell\EditWithFP\ddeexec\application]
+@=""
+[HKEY_CLASSES_ROOT\xmlfile\shell\EditWithFP\ddeexec\topic]
+@="system"
+[HKEY_CLASSES_ROOT\xmlfile\shell\open]
+[HKEY_CLASSES_ROOT\xmlfile\shell\open\command]
+@="\"%SystemRoot%\\notepad.exe\" \"%1\""

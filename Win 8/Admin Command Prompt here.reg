@@ -1,0 +1,30 @@
+Windows Registry Editor Version 5.00
+
+;Admin Command  Prompt here
+[-HKEY_CLASSES_ROOT\Directory\shell\runas]
+[HKEY_CLASSES_ROOT\Directory\shell\runas]
+@="Admin Cmd Prompt Here"
+"icon"="X;\\CUSTOMICONS\\Cmd.ico"
+[HKEY_CLASSES_ROOT\Directory\shell\runas\command]
+@="cmd.exe /s /k pushd \"%V\""
+[-HKEY_CLASSES_ROOT\Directory\Background\shell\runas]
+[HKEY_CLASSES_ROOT\Directory\Background\shell\runas]
+@="Admin Cmd Prompt Here"
+"icon"="X;\\CUSTOMICONS\\Cmd.ico"
+[HKEY_CLASSES_ROOT\Directory\Background\shell\runas\command]
+@="cmd.exe /s /k pushd \"%V\""
+[-HKEY_CLASSES_ROOT\Drive\shell\runas]
+[HKEY_CLASSES_ROOT\Drive\shell\runas]
+@="Admin Cmd Prompt Here"
+"icon"="X;\\CUSTOMICONS\\Cmd.ico"
+[HKEY_CLASSES_ROOT\Drive\shell\runas\command]
+@="cmd.exe /s /k pushd \"%V\""
+;Configure the Prompt appearance and properties
+;Show the full path in minimized explorer windows
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\CabinetState]
+"FullPath"=dword:00000001
+;Set text color in command windows
+;Color |0 Black | 1 Blue | 2 Green | 3 Aqua | 4 Red | 5 Purple | 6 Yellow | 7 White | 8 Gray | 9 Light Blue | A Light Green | B Light Aqua | C Light Red | D Light Purple | E Light Yellow | F Bright White
+;e.g. to show Light Yellow test: "DefaultColor"=dword:0000000E;to show Green "DefaultColor"=dword:00000002
+[HKEY_CURRENT_USER\Software\Microsoft\Command Processor] 
+"DefaultColor"=dword:0000000B

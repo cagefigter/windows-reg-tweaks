@@ -1,6 +1,5 @@
 Windows Registry Editor Version 5.00
 
 ; Enable Status Bar in all windows
-
 [HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main]
 "StatusBarOther"=dword:00000001

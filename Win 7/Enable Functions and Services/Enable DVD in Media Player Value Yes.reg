@@ -1,6 +1,5 @@
 Windows Registry Editor Version 5.00
 
-;Enable DVD in Media Player Value: Yes or No
-
+; Enable DVD in Media Player Value: Yes or No
 [HKEY_CURRENT_USER\Software\Microsoft\MediaPlayer\Player\Settings]
 "EnableDVDUI"="Yes"

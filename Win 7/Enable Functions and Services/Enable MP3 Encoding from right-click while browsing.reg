@@ -1,6 +1,5 @@
 Windows Registry Editor Version 5.00
 
-;Enable MP3 Encoding from right-click while browsing
-
+; Enable MP3 Encoding from right-click while browsing
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MediaPlayer\Settings\MP3Encoding]
 "HighRate"=dword:0004e200

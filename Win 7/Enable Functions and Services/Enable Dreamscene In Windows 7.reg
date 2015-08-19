@@ -1,9 +1,6 @@
 Windows Registry Editor Version 5.00
 
 
-;DREAMSCENE
-
-
 [HKEY_CLASSES_ROOT\CLSID\{E31004D1-A431-41B8-826F-E902F9D95C81}]
 @="Windows DreamScene"
 
