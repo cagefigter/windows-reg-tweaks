@@ -1,0 +1,14 @@
+Windows Registry Editor Version 5.00
+
+;
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"NavPaneShowAllFolders"=dword:00000001
+
+;
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"HideDrivesWithNoMedia"=dword:00000000
+
+;
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\CabinetState]
+"FullPath"=dword:00000001
+"Settings"=hex:0C,00,02,00,0B,01,00,00,60,00,00,00
