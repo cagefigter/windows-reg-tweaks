@@ -1,33 +1,30 @@
-# regtweaks by CHEF-KOCH
-
-Windows Registry Tweaks (Win 7 - Win 10) Collection 
+Regtweaks (Win 7 - Win 10) Collection files original created under the GNUv2 license 2015 by [CHEF-KOCH](https://github.com/CHEF-KOCH). Some tweaks are taken from the www, some are found by myself.
 
 
-**Current Status: Over 600 + different tweaks**
+**Current Status: Over 600+ tweaks**
 
 
-Goal
+Project Goal
 ------------
 
-* One of a goal is to that all of the tweaks could be integrated into image creations tools to simplify things.
-* Show hidden things that aren't visible on GUI
-
+* All of the tweaks could be integrated into image creations tools (vLite, WinToolKit,..) to simplify things, especially if ou like to re-install Windows from the ground.
+* Show hidden things that aren't visible on GUI on Windows. Sometimes it it's easiert to do this via .reg instead of search for the toggles.
+* See ToDo.
 
 
 
 Any problems, questions or something wrong?
 ------------
 
-* Feel free to open an issue ticket and I will look at it asap. - Pull Requests or ideas are always welcome!
+* Feel free to open an [issue ticket](https://github.com/CHEF-KOCH/regtweaks/issues) and I will look at it asap. - Pull requests or ideas are always welcome!
 
 
 
 
-Win 10 Home Users Notice
+Win 7-10 Home Users Notice
 ------------
 
-* Home edition users can install GPEDIT.MSC to perform the same task, [here's the link how](http://drudger.deviantart.com/art/Add-GPEDIT-msc-215792914) or [this](http://www.askvg.com/how-to-enable-group-policy-editor-gpedit-msc-in-windows-7-home-premium-home-basic-and-starter-editions/)
-
+The Home Edition doesn't support the GPEDIT.MSC stuff, so here is how to add them back [here's the link how](http://drudger.deviantart.com/art/Add-GPEDIT-msc-215792914) or [this](http://www.askvg.com/how-to-enable-group-policy-editor-gpedit-msc-in-windows-7-home-premium-home-basic-and-starter-editions/).
 
 
 
@@ -36,14 +33,13 @@ Project History
 
 
 ToDo:
-- [ ] Sort
-- [ ] Add new tweaks
-- [ ] Delete dubs.
-- [ ] Remove not working ones
-- [ ] Rename to english (some are in ger./ru.)
-- [ ] Fix reported problems 
-- [ ] .....
-
+- [ ] Add new tweaks (high-prio)
+- [ ] Sort all tweaks maybe via .html or .js parsser to easier access them with e.g. a search function (like RSW?) (low-prio)
+- [ ] Delete dubs. (high-prio)
+- [ ] Remove not working ones of course this needs some testers (high-prio)
+- [ ] Rename them to english (some are in ger./ru.) (high-prio)
+- [ ] Fix [reported problems](https://github.com/CHEF-KOCH/regtweaks/issues) (high-prio)
+- [ ] Add on/off toggles (registry/batch files) to revert all changes in case something goes wrong - s$it happens! 
 
 
 Tools
