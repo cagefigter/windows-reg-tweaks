@@ -7,8 +7,8 @@ Regtweaks (Win 7 - Win 10) Collection files original created under the GNUv2 lic
 Project Goal
 ------------
 
-* All of the tweaks could be integrated into image creations tools (vLite, WinToolKit,..) to simplify things, especially if ou like to re-install Windows from the ground.
-* Show hidden things that aren't visible on GUI on Windows. Sometimes it it's easiert to do this via .reg instead of search for the toggles.
+* All of the tweaks could be integrated into image creations tools (vLite, WinToolKit,..) to simplify things, especially if you like to re-install Windows from the ground without need to apply each tweak one by one.
+* Show hidden things that aren't visible via GUI under Windows. Sometimes it's easier/faster to do this via .reg instead of search for the toggles.
 * See ToDo.
 
 
@@ -29,10 +29,15 @@ The Home Edition doesn't support the GPEDIT.MSC stuff, so here is how to add the
 
 
 Project History
-- [x] 18.08.2015 initial upload and first release 
+------------
+
+- [x] 18.08.2015 initial upload and first release
+
 
 
 ToDo:
+------------
+
 - [ ] Add new tweaks (high-prio)
 - [ ] Sort all tweaks maybe via .html or .js parsser to easier access them with e.g. a search function (like RSW?) (low-prio)
 - [ ] Delete dubs. (high-prio)
@@ -40,6 +45,7 @@ ToDo:
 - [ ] Rename them to english (some are in ger./ru.) (high-prio)
 - [ ] Fix [reported problems](https://github.com/CHEF-KOCH/regtweaks/issues) (high-prio)
 - [ ] Add on/off toggles (registry/batch files) to revert all changes in case something goes wrong - s$it happens! 
+
 
 
 Tools

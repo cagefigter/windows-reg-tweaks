@@ -1,5 +1,10 @@
 Windows Registry Editor Version 5.00 
 
+; Change the default PaddedBorderWidth in Spartan Browser 
+;
+;
+;
+
 [HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics] 
 "BorderWidth"="-15" "PaddedBorderWidth"="-60"
 
