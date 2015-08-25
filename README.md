@@ -9,7 +9,7 @@ Project Goal
 
 * All of the tweaks could be integrated into image creations tools (vLite, WinToolKit,..) to simplify things, especially if you like to re-install Windows from the ground without need to apply each tweak one by one.
 * Show hidden things that aren't visible via GUI under Windows. Sometimes it's easier/faster to do this via .reg instead of search for the toggles.
-* See ToDo.
+* Fix everything under ToDo.
 
 
 
@@ -31,11 +31,12 @@ The Home Edition doesn't support the GPEDIT.MSC stuff, so here is how to add the
 Project History
 ------------
 
-- [x] 18.08.2015 initial upload and first release
+- [x] 25.08.2015	Added some image creation tools which are able handle the registry tweaks
+- [x] 18.08.2015	Initial upload and first release
 
 
 
-ToDo:
+ToDo
 ------------
 
 - [ ] Add new tweaks (high-prio)
@@ -52,3 +53,5 @@ Tools
 ------------
 
 * [RSAT for Windows 10](https://www.microsoft.com/en-us/download/details.aspx?id=45520)
+* [NTLite](https://www.ntlite.com) / [vLite](http://www.vlite.net/)
+* [WinToolkit](https://www.Wincert.net) 
