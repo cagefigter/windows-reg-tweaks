@@ -10,9 +10,6 @@ subinacl /subkeyreg HKEY_CLASSES_ROOT /grant=system=f
 subinacl /subdirectories %SystemDrive% /grant=system=f
  
 @Echo =========================
-@Echo Finished.
+@Echo Finished ٩๏̯͡๏۶ !
 @Echo =========================
 @pause
-
-
-٩๏̯͡๏۶
