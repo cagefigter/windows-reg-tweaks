@@ -1,11 +1,15 @@
 @echo off
+::===============================================================================================================
+title Windows 7 - 10 spyware KB remover
+::===============================================================================================================
 :: GET ADMIN RIGHTS
 ::(NET FILE||(powershell -command Start-Process '%0' -Verb runAs -ArgumentList '%* '&EXIT /B))>NUL 2>&1
-
-:: SYNTAX
+::===============================================================================================================
+:: General SYNTAX
 ::wmic qfe get "HotFixID" /format:table
 ::wmic qfe list brief /format:texttablewsys >"%Path_of_the_text_file%"
 ::wusa.exe /kb:%HotfixId% /uninstall /quiet /norestart
+::===============================================================================================================
 
 ::Delete KB2976978 (telemetry for Win8/8.1)
 
@@ -71,9 +75,8 @@ start /w wusa.exe /uninstall /kb:971033 /quiet /norestart
 
 start /w wusa.exe /uninstall /kb:2902907 /quiet /norestart
 
-
-
-
+::===============================================================================================================
+:: Do this as bath process
 for %%a in (
 KB2976978
 KB3075249
