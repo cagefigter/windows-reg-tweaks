@@ -1,5 +1,6 @@
 Windows Registry Editor Version 5.00
 
+; Boost the CPU priority, it's normally not nessary but on some AMD machines that can be useful
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\GTA5.exe\PerfOptions]
 "CpuPriorityClass"=dword:00000003
 

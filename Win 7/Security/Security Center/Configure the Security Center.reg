@@ -1,5 +1,6 @@
 Windows Registry Editor Version 5.00
 
+; Warn on missing AV and if Firewall gets deactivated
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Security Center]
 "FirewallOverride"=dword:1
 "AntiVirusOverride"=dword:1

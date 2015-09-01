@@ -1,0 +1,3 @@
+Since WIndows 8 you don't need to tweak or change any settings because it was designed to handle SSD well. There are a lot of wrong statements on the entire net that this needs to be applyed on Windows 7 but since the SP1 and some other updates it works the same as under Windows 8.
+
+To disbable defragmentation or any other thing doesn't have any positive effect on the SSD life, the important things are handled by the firmware anyway and not by the OS. The first SSD wasn't optimized and there are a lot of firmware bugs, so ensure you use the latest firmware instead of wasting you're time to tweak something.

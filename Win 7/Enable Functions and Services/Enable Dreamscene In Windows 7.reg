@@ -1,6 +1,8 @@
 Windows Registry Editor Version 5.00
 
-
+; You need to copy all DreamScene dll's and .exe from Vista into system32/syswow64 first!
+; After that you can apply this tweak
+; Remmber there is no official support for this since MS removed it official.
 [HKEY_CLASSES_ROOT\CLSID\{E31004D1-A431-41B8-826F-E902F9D95C81}]
 @="Windows DreamScene"
 

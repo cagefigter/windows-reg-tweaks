@@ -1,4 +1,6 @@
 Windows Registry Editor Version 5.00
 
+; Notify your AV program to scan the files
+; Not recommed if you use Kaspersky or any other AV which can controll that option anyway
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Attachments]
 "ScanWithAntiVirus"=dword:2

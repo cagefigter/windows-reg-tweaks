@@ -1,4 +1,6 @@
 Windows Registry Editor Version 5.00
 
+; This decrease the security since it disabled the Protocol Behavior, but in some cases
+; it can help.
 [HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
 "PreXPSP2ShellProtocolBehavior"=dword:1
