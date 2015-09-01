@@ -1,5 +1,0 @@
-Windows Registry Editor Version 5.00
-
-[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings]
-"MaxConnectionsPerServer"=dword:20
-"MaxConnectionsPer1_0Server"=dword:20
