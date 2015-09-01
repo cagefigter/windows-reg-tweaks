@@ -1,14 +1,4 @@
 Windows Registry Editor Version 5.00
 
-             
-   
-           
-       
-
-
-
-; [1539] - Windows Update kann Rechner für die Updateinstallation aktivieren
 [HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\WindowsUpdate\AU]
 "AUPowerManagement"=dword:1
-
-

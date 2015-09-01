@@ -1,14 +1,4 @@
 Windows Registry Editor Version 5.00
 
-             
-   
-           
-       
-
-
-
-; [1538] - Updates Installieren welche nicht von Microsoft Signiert sind
 [HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\WindowsUpdate]
 "AcceptTrustedPublisherCerts"=dword:1
-
-

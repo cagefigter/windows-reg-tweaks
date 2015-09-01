@@ -43,7 +43,7 @@ ToDo
 - [ ] Sort all tweaks maybe via .html or .js parsser to easier access them with e.g. a search function (like RSW?) (low-prio)
 - [ ] Delete dubs. (high-prio)
 - [ ] Remove not working ones of course this needs some testers (high-prio)
-- [ ] Rename them to english (some are in ger./ru.) (high-prio)
+- [x] Rename them to english (some are in ger./ru.) (high-prio)
 - [ ] Fix [reported problems](https://github.com/CHEF-KOCH/regtweaks/issues) (high-prio)
 - [ ] Add on/off toggles (registry/batch files) to revert all changes in case something goes wrong - s$it happens! 
 

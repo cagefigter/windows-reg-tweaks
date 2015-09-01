@@ -1,13 +1,6 @@
 Windows Registry Editor Version 5.00
 
-             
-   
-           
-       
-
-
-
-; [1537] - Automatische Updates über Updateservice bereitstellen
+; Include recommed updates
 [HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\WindowsUpdate\AU]
 "IncludeRecommendedUpdates"=dword:1
 

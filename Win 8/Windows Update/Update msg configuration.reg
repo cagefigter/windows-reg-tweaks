@@ -1,14 +1,4 @@
 Windows Registry Editor Version 5.00
 
-             
-   
-           
-       
-
-
-
-; [1382] - Update Berechtigungen konfigurieren
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate]
 "ElevateNonAdmins"=dword:1
-
-

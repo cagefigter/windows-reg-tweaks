@@ -1,7 +1,4 @@
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\WindowsUpdate\AU]
-"NoAutoUpdate"=dword:1
-"AUOptions"=dword:1
-"ScheduledInstallDay"=dword:7
-"ScheduledInstallTime"=dword:0
+"AutoInstallMinorUpdates"=dword:1

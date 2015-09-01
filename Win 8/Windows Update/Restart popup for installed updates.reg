@@ -1,14 +1,4 @@
 Windows Registry Editor Version 5.00
 
-             
-   
-           
-       
-
-
-
-; [1114] - Neustart für geplante Installation verzögern
 [HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\WindowsUpdate\AU]
 "RebootWarningTimeout"=dword:1
-
-

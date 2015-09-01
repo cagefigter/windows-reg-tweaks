@@ -1,15 +1,5 @@
 Windows Registry Editor Version 5.00
 
-             
-   
-           
-       
-
-
-
-; [1116] - Suchhäufigkeit für automatische Updates
 [HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\WindowsUpdate\AU]
 "DetectionFrequency"=dword:6
 "DetectionFrequencyEnabled"=dword:1
-
-

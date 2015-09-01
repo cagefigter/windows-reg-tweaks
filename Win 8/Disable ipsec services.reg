@@ -1,5 +1,5 @@
 Windows Registry Editor Version 5.00
 
-;Disable IPSEC Services
+; Disable IPSEC Services
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PolicyAgent]
 "Start"=dword:00000004
