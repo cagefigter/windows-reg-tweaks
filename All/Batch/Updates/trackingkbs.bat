@@ -16,10 +16,12 @@ title Windows 7 - 10 spyware KB remover
 start /w wusa.exe /uninstall /kb:2976978 /quiet /norestart
 
 ::Delete KB3075249 (telemetry for Win7/8.1)
+::This update adds telemetry points to the User Account Control (UAC) feature in order to collect data on elevations that come from low integrity levels.
 
 start /w wusa.exe /uninstall /kb:3075249 /quiet /norestart
 
 ::Delete KB3080149 (telemetry for Win7/8.1)
+::This package updates the Diagnostics and Telemetry tracking service to existing devices.
 
 start /w wusa.exe /uninstall /kb:3080149 /quiet /norestart
 
@@ -28,10 +30,12 @@ start /w wusa.exe /uninstall /kb:3080149 /quiet /norestart
 start /w wusa.exe /uninstall /kb:3021917 /quiet /norestart
 
 ::Delete KB3022345 (telemetry)
+::(replaced by KB3068708) – This update adds the Diagnostics and Telemetry tracking service to in-market devices.
 
 start /w wusa.exe /uninstall /kb:3022345 /quiet /norestart
 
 ::Delete KB3068708 (telemetry)
+::This update introduces the Diagnostics and Telemetry tracking service to existing devices.
 
 start /w wusa.exe /uninstall /kb:3068708 /quiet /norestart
 
