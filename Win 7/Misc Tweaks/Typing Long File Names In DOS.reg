@@ -1,5 +1,6 @@
 Windows Registry Editor Version 5.00
 
 ; Typing Long File Names In DOS
+; This doesn't matter on specific file systems like ZFS/ExFAT/..
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Command Processor]
 "CompletionChar"=dword:00000009

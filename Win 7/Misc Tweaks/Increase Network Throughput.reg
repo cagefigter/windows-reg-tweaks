@@ -1,6 +1,6 @@
 Windows Registry Editor Version 5.00
 
-;Increase Network Throughput
+; Increase Network Throughput
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\lanmanworkstation\parameters]
 "MaxCmds"=dword:00000064
 "MaxThreads"=dword:00000064
@@ -9,7 +9,6 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AFD\Parameters]
 "BufferMultiplier"=dword:00000400
 
-;Stop caching negative responses
-
+; Stop caching negative responses
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters]
 "MaxNegativeCacheTtl "=dword:00000000
