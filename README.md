@@ -31,8 +31,9 @@ The Home Edition doesn't support the GPEDIT.MSC stuff, so here is how to add the
 Project History
 ------------
 
-- [x] 25.08.2015	Added some image creation tools which are able handle the registry tweaks
-- [x] 18.08.2015	Initial upload and first release
+- [x] 01.09.2015	All tweaks are now in english.
+- [x] 25.08.2015	Added some image creation tools which are able handle the registry tweaks.
+- [x] 18.08.2015	Initial upload and first release.
 
 
 
