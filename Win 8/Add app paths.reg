@@ -4,6 +4,7 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\RAR.exe]
 @="X:\\PATHTO\\7z\\7z.exe"
 "Path"="X:\\PATHTO\\7z"
+
 ; Path Deletions: WRITE | WORDPAD | WMP | WINDOWS MAIL
 [-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\WRITE.EXE]
 [-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\WORDPAD.EXE]

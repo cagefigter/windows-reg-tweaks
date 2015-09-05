@@ -4,5 +4,6 @@ Windows Registry Editor Version 5.00
 "Icon"="%windir%\\explorer.exe"
 "Position"="Top"
 @="File Manager"
+
 [HKEY_CLASSES_ROOT\DesktopBackground\Shell\zFile Manager\command]
 @="C:\\Windows\\explorer.exe /e, c:"
