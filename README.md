@@ -4,6 +4,10 @@ Regtweaks (Win 7 - Win 10) Collection files original created under the GNUv2 lic
 **Current Status: Over 600+ tweaks**
 
 
+Before! you use any tweak ensure you read the comment inside the .reg (labled with ;) to see what it really change. Of course an backup/snapshot could also help in case something goes wrong.
+
+
+
 Project Goal
 ------------
 

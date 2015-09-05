@@ -1,5 +1,5 @@
 Windows Registry Editor Version 5.00
 
-;Other Microsoft Products Updates 
+; Enable search for other Microsoft Products Updates e.g. Office
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\Auto Update] 
 "EnableFeaturedSoftware"=dword:00000001
