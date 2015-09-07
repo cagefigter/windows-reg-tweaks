@@ -39,6 +39,11 @@ start /w wusa.exe /uninstall /kb:3022345 /quiet /norestart
 
 start /w wusa.exe /uninstall /kb:3068708 /quiet /norestart
 
+::Delete KB3083324 (telemetry)
+::This update introduces the Diagnostics and Telemetry tracking service to existing devices.
+
+start /w wusa.exe /uninstall /kb:KB3083324 /quiet /norestart
+
 ::Delete KB3044374 (Get Windows 10 for Win8.1)
 
 start /w wusa.exe /uninstall /kb:3044374 /quiet /norestart
@@ -98,5 +103,6 @@ KB3065987
 KB3050265
 KB971033
 KB2902907
+KB3083324
 
 ) do start "" /w wusa /uninstall /kb:%%a /passive /norestart

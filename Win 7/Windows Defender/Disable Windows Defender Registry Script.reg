@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; or via PsExec -accepteula -s reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender" /f /v DisableAntiSpyware /t REG_DWORD /d 00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender]
+"DisableAntiSpyware"=dword:00000001

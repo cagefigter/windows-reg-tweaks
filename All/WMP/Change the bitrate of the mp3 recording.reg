@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+; Edit the rates to the way you like:
+; 320 Kbps = dword:0004e200
+; 256 Kbps = dword:0003e800
+; 224 Kbps = dword:00036b00
+; 192 Kbps = dword:0002ee00
+; 160 Kbps = dword:00027100
+; 128 Kbps = dword:0001f400
+; 112 Kbps = dword:0001b580
+; 64 Kbps = dword:0000fa00
+; 56 Kbps = dword:0000dac0
+[HKEY_LOCAL_MACHINESOFTWARE/Microsoft/MediaPlayer/Settings/MP3Encoding]
+"LowRate"=dword:0000dac0
+"MediumRate"=dword:0000fa00
+"MediumHighRate"=dword:0001f400
+"HighRate"=dword:0002ee00

@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; Enable "Rename" in Recycle Bin
+[HKEY_CLASSES_ROOTCLSID{645FF040-5081-101B-9F08-00AA002F954E}ShellFolder]
+"Attributes"=hex:50,01,00,20
+"CallForAttributes"=dword:00000000

@@ -1,0 +1,41 @@
+1. Disable Cortana due privacy (it sends stuff back to MS)
+
+Do the following to disable Cortana in Edge
+
+* Open the Microsoft Edge browser if it is not open already.
+* Click on the three dots icon in the top right corner, and select Settings.
+* Scroll down in the menu that opens and click on "view advanced settings"
+* Scroll down until you find "have Cortana assist me in Microsoft Edge" and flip the switch to off
+
+
+
+2. Search Suggestions
+Everything you type in the address bar or search box is sent to the default search engine regardless of whether you hit enter or not.
+
+
+* Open the Microsoft Edge browser if it is not open already.
+* Click on the three dots icon in the top right corner, and select Settings.
+* Scroll down in the menu that opens and click on "view advanced settings"
+* Scroll down until you find "Show search suggestions as I type" and flip it to off.
+
+
+
+3. Page Predictions 
+Microsoft analyzes the browsing history to determine the most likely actions a user is going to take based on it.
+
+
+* Open the Microsoft Edge browser if it is not open already. 
+* Click on the three dots icon in the top right corner, and select Settings.
+* Scroll down in the menu that opens and click on "view advanced settings"
+* Scroll down until you find "Use page prediction to speed up browsing, improve reading, and make my overall experience better" and flip the switch to off.
+
+
+
+4. Smart Screen Filter (better use another AdBlocking system like HOSTS or any other external tool,[...])
+SmartScreen Filter uses a local blocklist to block access to malicious websites and downloads. The list is regularly updated, and users who try to access blocked content on the Internet are redirected to a Microsoft website which displays information about the blocked content and receives "standard PC information".
+
+
+* Open the Microsoft Edge browser if it is not open already.
+* Click on the three dots icon in the top right corner, and select Settings.
+* Scroll down in the menu that opens and click on "view advanced settings"
+* Find "Help protect me from malicious sites and downloads with SmartScreen Filter" and switch the setting to off.

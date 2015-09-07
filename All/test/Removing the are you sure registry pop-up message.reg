@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; Removing the "are you sure" registry pop-up message
+; "Adding information can unintentionally change or delete values and cause components to stop working correctly. If you do not trust the source of this information in (path to registry file), do not add it to the registry. Are you sure you want to continue?"
+[HKEY_CLASSES_ROOTregfileshellopencommand]
+@=regedit.exe s %1
