@@ -1,0 +1,8 @@
+• Click on the Start Menu, then open Settings.
+• Click on Privacy settings, which you'll find in the very last row of the menu.
+• Once you are in the Privacy menu, click on General
+• Under 'Send Microsoft info about how I write to help use improve typing and writing in the future' – Turn it to Off.
+• Now move ahead to the 'Speech, Inking and Typing' menu and click Stop getting to know me. This will help you turn off the speech tracking through dictation or Cortana.
+
+
+See also 'Microsoft Edge security hardening' folder for more options.

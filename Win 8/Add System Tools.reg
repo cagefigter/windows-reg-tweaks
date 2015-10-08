@@ -1,8 +1,0 @@
-Windows Registry Editor Version 5.00
-
-;System Tools
-[HKEY_CLASSES_ROOT\DesktopBackground\Shell\SystemToolsFO]
-"MUIVerb"="System Tools"
-"SubCommands"="Notepad;PCManager;Spooler;GroupPolicy;Sound;GodMode;Scheduler;Dismount;Nuke Icon Cache;Icons;Downloads;AddPrinter;router;Power"
-"icon"="%SystemRoot%\\system32\\SHELL32.dll,15"
-"Position"="Top"

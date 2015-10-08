@@ -1,0 +1,14 @@
+// Deactivates SafeDisk
+sc config secdrv start=disabled
+
+// Deactivates the autostart of the service
+sc config secdrv start=demand
+
+// Activates the autostart  of the service
+sc config secdrv start=auto
+
+// Start the service
+sc start secdrv
+
+// Stop the service
+sc stop secdrv

@@ -1,0 +1,17 @@
+Where Is The $WINDOWS.~BT Folder Located?
+* The $WINDOWS.~BT folder is hidden. It exists at the root of the drive you’ve installed Windows to. To see it, enable viewing hidden folders.
+
+
+What Is The $WINDOWS.~BT Folder?
+The $WINDOWS.~BT folder came from Windows, or more precisely a Windows update. It contains the files needed to upgrade to Windows 10. These files were gradually downloaded over time. The folder will have been created some time around the Windows 10 release (July 29). It may have been created before the release date so as to relieve Microsoft’s servers of the stress of too many downloads the day of release.
+
+
+Can I Delete The $WINDOWS.~BT Folder?
+For Windows 7/8 users, ff you aren’t planning on upgrading to Windows 10 you can delete this folder. The real question is, how to do that? Will a simply Delete function work? In theory it should. It’s a folder that you can just Shift+Delete however, since it’s tied to an update process, it will simply appear again. What you will end up with is several failed update attempts in your update history. I’ve got one for every day of the week
+
+
+Quick:
+* Open and Check the drive Windows is installed on.
+* Look for the folder $Windows.~BT (it is hidden folder so enable the option to view hidden files)
+* If exists, Windows installation files have already been downloaded without your permission
+* Ensure KB3035583 wasn installed or uninstall it + %windir%\system32\cleanmgr.exe Select the Windows drive and allow it to scan the drive. Once it’s finished scanning, click the ‘Clean up System files’ button and allow it to scan your drive one more time.

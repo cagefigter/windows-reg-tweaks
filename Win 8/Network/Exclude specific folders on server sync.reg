@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon]
+"ExcludeProfileDirs"="AppData\\Local; AppData\\LocalLow; $Recycle.Bin"
+
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\System]
+"ExcludeProfileDirs"=""

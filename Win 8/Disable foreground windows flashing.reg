@@ -1,6 +1,0 @@
-Windows Registry Editor Version 5.00
-
-[HKEY_CURRENT_USER\Control Panel\Desktop]
-
-"ForegroundFlashCount"=dword:00000001
-"ForegroundLockTimeout"=dword:00000000

@@ -1,0 +1,9 @@
+powercfg -h -size percentage
+
+
+For example: If I wanted to resize hiberfil.sys to be 100%, I would type either of the commands below exactly.
+powercfg -h -size 100%
+
+or
+
+powercfg -h -size 100

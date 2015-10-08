@@ -1,0 +1,4 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AllFilesystemObjects\shell\Search in GOOGLE\command]
+@="\"C:\\Users\\Jaidyn\\Documents\\SevenForums\\Tutorials\\Search Engine Shortcut - Create\\google.bat\" \"%1\""

@@ -1,5 +1,12 @@
 Windows Registry Editor Version 5.00
 
+; Changes:
+; * Logo
+; * Manufacturer
+; * SupportHours
+; * SupportPhone
+; * SupportURL
+; Fill in with what you need, ensure that the logo is .bmp/.png/.jpg.
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation]
 "Logo"="c:\windows\system32\logo.bmp"
 "Manufacturer"="Razorlight"

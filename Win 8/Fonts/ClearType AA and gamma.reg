@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; May not work after RTM versions or 8.1
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"FontSmoothingType"=dword:2

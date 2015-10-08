@@ -1,5 +1,5 @@
 Windows Registry Editor Version 5.00
 
-;Make the text white in command windows
+; Make the text white in command windows
 [HKEY_CURRENT_USER\Software\Microsoft\Command Processor]
 "DefaultColor"=dword:0000000F

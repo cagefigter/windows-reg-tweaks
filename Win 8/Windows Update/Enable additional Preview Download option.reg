@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsSelfHost\Applicability]
+"BranchName"="fbl_release"
+"ThresholdRiskLevel"="high"
+"ThresholdOptedIn"=dword:00000001
+"ThresholdInternal"=dword:00000001

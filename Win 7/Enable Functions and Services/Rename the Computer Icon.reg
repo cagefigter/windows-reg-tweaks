@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00 
+
+; Notice that LocalizedString=hex(2):  This is the way to script the data type called 'Expanded String'.  What's encoded in hex is: %username% at %computername%
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}]
+"LocalizedString"=hex(2):25,00,75,00,73,00,65,00,72,00,6e,00,61,00,6d,00,65,00,\
+ 25,00,20,00,61,00,74,00,20,00,25,00,63,00,6f,00,6d,00,70,00,75,00,74,00,65,\
+00,72,00,6e,00,61,00,6d,00,65,00,25,00,00,00

@@ -1,5 +1,5 @@
 Windows Registry Editor Version 5.00
 
-;Increase RPC Packet Size
+; Increase RPC Packet Size
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Rpc]
 "MaxRpcSize"=dword:00100000

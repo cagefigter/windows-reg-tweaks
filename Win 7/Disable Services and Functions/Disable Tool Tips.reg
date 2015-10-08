@@ -1,5 +1,5 @@
 Windows Registry Editor Version 5.00
 
-; Disable Tool Tips
+; Disable common Tool Tips
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
 "ShowInfoTip"=dword:00000000

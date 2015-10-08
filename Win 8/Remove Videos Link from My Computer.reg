@@ -1,4 +1,0 @@
-Windows Registry Editor Version 5.00
-
-;Remove Videos Link from My Computer 
-[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{A0953C92-50DC-43bf-BE83-3742FED03C9C}]

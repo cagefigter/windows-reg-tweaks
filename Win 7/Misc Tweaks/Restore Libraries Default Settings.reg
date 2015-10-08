@@ -34,7 +34,7 @@ Windows Registry Editor Version 5.00
 "PreCreate"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{2112AB0A-C86A-4ffe-A368-0DE96E47012E}\PropertyBag]
-"FoldersDependentOn"="{4BD8D571-6D19-48D3-BE97-422220080E43};{3214FAB5-9757-4298-BB61-92A9DEAA44FF}"
+"FoldersDependentOn"="{4BD8D571-6D19-48D3-BE97-422220080E43}; {3214FAB5-9757-4298-BB61-92A9DEAA44FF}"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{491E922F-5643-4af4-A7EB-4E7A138D8174}]
 "Name"="VideosLibrary"
@@ -63,7 +63,7 @@ Windows Registry Editor Version 5.00
 "PreCreate"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{491E922F-5643-4af4-A7EB-4E7A138D8174}\PropertyBag]
-"FoldersDependentOn"="{18989B1D-99B5-455B-841C-AB7C74E4DDFC};{2400183A-6185-49FB-A2D8-4A392A602BA3}"
+"FoldersDependentOn"="{18989B1D-99B5-455B-841C-AB7C74E4DDFC}; {2400183A-6185-49FB-A2D8-4A392A602BA3}"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{7b0db17d-9cd2-4a93-9733-46cc89022e7c}]
 "Name"="DocumentsLibrary"
@@ -88,7 +88,7 @@ Windows Registry Editor Version 5.00
 "PreCreate"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{7b0db17d-9cd2-4a93-9733-46cc89022e7c}\PropertyBag]
-"FoldersDependentOn"="{FDD39AD0-238F-46AF-ADB4-6C85480369C7};{ED4824AF-DCE4-45A8-81E2-FC7965083634}"
+"FoldersDependentOn"="{FDD39AD0-238F-46AF-ADB4-6C85480369C7}; {ED4824AF-DCE4-45A8-81E2-FC7965083634}"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{A302545D-DEFF-464b-ABE8-61C8648D939B}]
 "Name"="UsersLibrariesFolder"
@@ -125,5 +125,5 @@ Windows Registry Editor Version 5.00
 "PreCreate"=dword:00000001
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderDescriptions\{A990AE9F-A03B-4e80-94BC-9912D7504104}\PropertyBag]
-"FoldersDependentOn"="{33E28130-4E1E-4676-835A-98395C3BC3BB};{B6EBFB86-6907-413C-9AF7-4FC2ABF07CC5}"
+"FoldersDependentOn"="{33E28130-4E1E-4676-835A-98395C3BC3BB}; {B6EBFB86-6907-413C-9AF7-4FC2ABF07CC5}"
 

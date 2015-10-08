@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+; Disable automatic updates
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\Auto Update]
+"AUOptions"=dword:00000001
+
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"FeedbackToolEnabled"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run]
+"Sidebar"="C:\\Program Files\\Windows Sidebar\\sidebar.exe /autoRun"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"HideDrivesWithNoMedia"=dword:00000000

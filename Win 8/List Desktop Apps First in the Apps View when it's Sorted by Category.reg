@@ -1,5 +1,0 @@
-Windows Registry Editor Version 5.00
-
-;List Desktop Apps First in the Apps View when it's Sorted by Category 
-[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\StartPage] 
-"DesktopFirst"=dword:00000001

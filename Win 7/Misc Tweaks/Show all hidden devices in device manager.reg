@@ -2,4 +2,5 @@ Windows Registry Editor Version 5.00
 
 ; Show all hidden devices in device manager
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment]
-"DEVMGR_SHOW_NONPRESENT_DEVICES"=1
+"Devmgr_show_nonpresent_devices"=1
+"Devmgr_show_details"=1

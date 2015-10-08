@@ -11,9 +11,10 @@ Before! you use any tweak ensure you read the comment inside the .reg (labled wi
 Project Goal
 ------------
 
-* All of the tweaks could be integrated into image creations tools (vLite, WinToolKit,..) to simplify things, especially if you like to re-install Windows from the ground without need to apply each tweak one by one.
-* Show hidden things that aren't visible via GUI under Windows. Sometimes it's easier/faster to do this via .reg instead of search for the toggles.
-* Fix everything under ToDo.
+1. All of the tweaks could be integrated into image creations tools (vLite, WinToolKit,..) to simplify things, especially if you like to re-install Windows from the ground without need to apply each tweak one by one.
+2. Show hidden things that aren't visible via GUI under Windows. Sometimes it's easier/faster to do this via .reg instead of search for the toggles.
+3. Another goal is that the user doesn't need additional tools like O&O ShutUp, because some of such 'Privacy' tools are bundled with bloatware and are not nessary, because all can already be done with scripts and .reg tweak - So overall an Index/Backup script to read the current state is more transparent (see 1/2).
+4. Fix everything under ToDo.
 
 
 
@@ -21,14 +22,14 @@ Any problems, questions or something wrong?
 ------------
 
 * Feel free to open an [issue ticket](https://github.com/CHEF-KOCH/regtweaks/issues) and I will look at it asap. - Pull requests or ideas are always welcome!
-
+* Please do not use the issue tracker to ask for xyz tweaks, I not waste my time with that until there is a very good reasons to do so. If you found something that wasn't added here I will add it.
 
 
 
 Win 7-10 Home Users Notice
 ------------
 
-The Home Edition doesn't support the GPEDIT.MSC stuff, so here is how to add them back [here's the link how](http://drudger.deviantart.com/art/Add-GPEDIT-msc-215792914) or [this](http://www.askvg.com/how-to-enable-group-policy-editor-gpedit-msc-in-windows-7-home-premium-home-basic-and-starter-editions/).
+The Home Editions doesn't official supporting the GPEDIT.MSC stuff, so here is how to add them back [here's the link how](http://drudger.deviantart.com/art/Add-GPEDIT-msc-215792914) or [this](http://www.askvg.com/how-to-enable-group-policy-editor-gpedit-msc-in-windows-7-home-premium-home-basic-and-starter-editions/).
 
 
 
@@ -63,8 +64,17 @@ Tools
 
 
 
-Useful stuff
+Research
 ------------
 
+* [Vista Registry Editor - Examples of .Reg Files](http://www.computerperformance.co.uk/vista/vista_registry_tweaks.htm)
+* [Sevenforums Tutorial Index](http://www.sevenforums.com/tutorials/257-windows-7-tutorial-index.html)
+* [Microsoft is downloading Windows 10 to your machine 'just in case' (theinquirer.net)](http://www.theinquirer.net/inquirer/news/2425381/microsoft-is-downloading-windows-10-to-your-machine-just-in-case)
+* [Microsoft Is Downloading 6GB of Windows 10 Updates Without User’s Consent (nextbigwhat.com)](http://www.nextbigwhat.com/microsoft-is-downloading-6gb-of-windows-10-updates-without-users-consent-297/)
 * [Windows 10 findings and tips | Reddit](https://www.reddit.com/r/Windows10/comments/3f48kd/windows_10_tips_and_tricks/)
-* [fix windows 10 | isleaked](https://fix10.isleaked.com/)
+* [Fix Windows 10 | isleaked](https://fix10.isleaked.com/)
+* [AntiSpy for Windows 10 (ashampoo.com)](https://www.ashampoo.com/en/eur/pin/1004/security-software/Antispy-for-Windows-10)
+* O&O ShutUp10
+* DoNotSpy10
+* Windows 10 Privacy-Settings
+* W10Privacy

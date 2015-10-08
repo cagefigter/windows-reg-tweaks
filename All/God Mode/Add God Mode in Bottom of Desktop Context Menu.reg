@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\GodMode]
+@="God Mode"
+"Icon"="control.exe"
+"Position"="Bottom"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\GodMode\command]
+@="explorer shell:::{ED7BA470-8E54-465E-825C-99712043E01C}"
+

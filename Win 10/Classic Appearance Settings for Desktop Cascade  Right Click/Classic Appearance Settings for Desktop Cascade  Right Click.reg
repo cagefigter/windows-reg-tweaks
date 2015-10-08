@@ -1,0 +1,59 @@
+Windows Registry Editor Version 5.00
+; 
+; Created by http://winaero.com | Personalize Added by Mrox2 / Jacob Mrox
+;
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Appearance]
+"MUIVerb"="Appearance"
+"SubCommands"="Personalize;Wallpaper;Colors;Sounds;Screensaver;Icons"
+"icon"="desk.cpl"
+"Position"="Bottom"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Screensaver]
+@="Screensaver"
+"Position"="Bottom"
+"Icon"="desk.cpl"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Screensaver\Command]
+@="rundll32.exe shell32.dll,Control_RunDLL desk.cpl,screensaver,@screensaver"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Sounds]
+@="Sounds"
+"Position"="Bottom"
+"Icon"="mmsys.cpl"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Sounds\Command]
+@="rundll32.exe shell32.dll,Control_RunDLL mmsys.cpl ,2"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Wallpaper]
+@="Desktop Background"
+"Icon"="%SystemRoot%\\System32\\desk.cpl"
+"Position"="Bottom"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Wallpaper\Command]
+@="control.exe /NAME Microsoft.Personalization /PAGE pageWallpaper"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Icons]
+@="Desktop Icons"
+"Icon"="%SystemRoot%\\System32\\desk.cpl"
+"Position"="Bottom"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Icons\Command]
+@="rundll32 shell32.dll,Control_RunDLL desk.cpl,,0"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Colors]
+@="Color and Appearance"
+"Icon"="%SystemRoot%\\System32\\desk.cpl"
+"Position"="Bottom"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Colors\command]
+@="control.exe /NAME Microsoft.Personalization /PAGE pageColorization"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Personalize]
+@="Personalize"
+"Icon"="%SystemRoot%\\System32\\desk.cpl"
+"Position"="Top"
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Personalize\command]
+@="control.exe /NAME Microsoft.Personalization"

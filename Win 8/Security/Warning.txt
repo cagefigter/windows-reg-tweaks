@@ -1,0 +1,5 @@
+Some of the tweaks that disable xyz may can compromise the security. You'll be warned at this point. 
+
+E.g. the hide scripts at system start decrease the security since it hide stuff from you're eyes that may attackers can use to cheat on you (e.g. autostart/script entries that will be startet invisible).
+
+Some AV's may also have problems with these tweaks, because of mentioned security askpekt.

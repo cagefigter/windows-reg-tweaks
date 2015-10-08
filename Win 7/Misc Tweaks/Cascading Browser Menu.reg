@@ -1,24 +1,24 @@
 Windows Registry Editor Version 5.00
 
-;Cascading Browser Menu
+; Cascading Browser Menu
 [HKEY_CLASSES_ROOT\DesktopBackground\Shell\BrowserFO]
 "MUIVerb"="Browsers"
-"SubCommands"="Iron;iexplore;Firefox"
+"SubCommands"="Iron; iexplore; Firefox"
 "icon"="iexplore.exe"
 "Position"="Top"
-;Internet Explorer 11
+; Internet Explorer 11
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\iexplore]
 @="IE 11"
 "icon"=""%SYSTEMROOT\\Program Files\\Internet Explorer\\iexplore.exe",0"
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\iexplore\command]
 @="iexplore google.com"
-;Iron
+; Iron
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Iron]
 @="Iron"
 "icon"="%PATHTOBROWSER\\Iron\\chrome.exe"
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Iron\command]
 @="%PATHTOBROWSER\\Iron\\chrome.exe file:///D:/2/StartPage/0HOME.HTM"
-;Firefox
+; Firefox
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Firefox]
 @="Firefox"
 "icon"="%PATHTOBROWSER\\Firefox\\firefox.exe"

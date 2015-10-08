@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+; Add Folder Scan
+[HKEY_CLASSES_ROOT\Folder\shell\WindowsDefender]
+"Icon"="%ProgramFiles%\\\\Windows Defender\\\\EppManifest.dll"
+"MUIVerb"="Scan with Windows Defender"
+
+[HKEY_CLASSES_ROOT\Folder\shell\WindowsDefender\Command]
+@="cmd.exe /s /c \"\"C:\\Program Files\\Windows Defender\\MpCmdRun.exe\" -scan -scantype 3 -SignatureUpdate -file \"%1 \"\" & pause"
+
+; Add File Scan
+[HKEY_CLASSES_ROOT\*\shell\WindowsDefender]
+"Icon"="%ProgramFiles%\\\\Windows Defender\\\\EppManifest.dll"
+"MUIVerb"="Scan with Windows Defender"
+
+[HKEY_CLASSES_ROOT\*\shell\WindowsDefender\Command]
+@="cmd.exe /s /c \"\"C:\\Program Files\\Windows Defender\\MpCmdRun.exe\" -scan -scantype 3 -SignatureUpdate -file \"%1 \"\" & pause"

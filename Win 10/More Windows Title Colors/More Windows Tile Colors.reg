@@ -1,0 +1,25 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Accents\0\Theme0]
+"Color"=dword:00918b73
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Accents\0\Theme1]
+"Color"=dword:00a68e5e
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Accents\1\Theme0]
+"Color"=dword:00a44817
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Accents\1\Theme1]
+"Color"=dword:00a44817
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Accents\2\Theme0]
+"Color"=dword:00618a28
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Accents\2\Theme1]
+"Color"=dword:00bab4ab
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Accents\3\Theme0]
+"Color"=dword:0085bd37
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Accents\3\Theme1]
+"Color"=dword:0085bd37

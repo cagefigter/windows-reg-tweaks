@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shellex\ContextMenuHandlers\Copyto]
+@="{C2FBB630-2971-11d1-A18C-00C04FD75D13}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shellex\ContextMenuHandlers\Moveto]
+@="{C2FBB631-2971-11d1-A18C-00C04FD75D13}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder\shellex\ContextMenuHandlers\Copyto]
+@="{C2FBB630-2971-11d1-A18C-00C04FD75D13}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder\shellex\ContextMenuHandlers\Moveto]
+@="{C2FBB631-2971-11d1-A18C-00C04FD75D13}"

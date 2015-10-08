@@ -1,4 +1,5 @@
 Windows Registry Editor Version 5.00
 
+; Only loads Admin registry keys (located under HKLM)
 [HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\CurrentVersion\Internet Settings]
 "Security_HKLM_only"=dword:1

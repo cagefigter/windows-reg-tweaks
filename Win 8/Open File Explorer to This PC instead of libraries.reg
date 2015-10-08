@@ -1,5 +1,0 @@
-Windows Registry Editor Version 5.00
-
-;Open File Explorer to This PC instead of libraries
-[HKEY_CURRENT_USER\Software\Classes\CLSID\{031E4825-7B94-4dc3-B131-E946B44C8DD5}]
-"System.IsPinnedToNameSpaceTree"=dword:00000001

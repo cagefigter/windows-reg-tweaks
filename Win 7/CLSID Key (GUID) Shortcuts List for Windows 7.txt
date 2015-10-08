@@ -1,0 +1,9 @@
+explorer.exe shell:::{CLSID key number below}
+
+or
+
+explorer.exe /e,::{CLSID key number below}
+
+
+
+See: http://msdn.microsoft.com/en-us/library/ms691424(VS.85).aspx

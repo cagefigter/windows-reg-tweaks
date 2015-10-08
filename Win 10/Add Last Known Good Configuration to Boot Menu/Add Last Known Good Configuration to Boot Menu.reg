@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Add Last Known Good Configuration to Boot Menu
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Configuration Manager]
+"BackUpCount"=dword:00000002

@@ -1,0 +1,1 @@
+start "" "http://www.google.com/search?q=%~n1"

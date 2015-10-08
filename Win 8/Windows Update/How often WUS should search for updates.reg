@@ -1,5 +1,6 @@
 Windows Registry Editor Version 5.00
 
+; Every 6 days
 [HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\WindowsUpdate\AU]
 "DetectionFrequency"=dword:6
 "DetectionFrequencyEnabled"=dword:1

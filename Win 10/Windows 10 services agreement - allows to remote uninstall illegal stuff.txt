@@ -1,5 +1,12 @@
 "We may automatically check your version of the software and download software updates or configuration changes, including those that prevent you from accessing the Services, playing counterfeit games, or using unauthorised hardware peripheral devices."
 
+.... 
+
+"When you interact with your Windows device by speaking, [handwriting], or typing, Microsoft collects speech, inking, and typing information – including information about your Calendar and People [contacts]…"
+
+....
+
+"For individuals who have chosen to receive automatic updates through Windows Update, we help upgradable devices get ready for Windows 10 by downloading the files they’ll need if they decide to upgrade."
 
 Source:
 http://www.microsoft.com/en-us/servicesagreement/

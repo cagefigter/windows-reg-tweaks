@@ -1,0 +1,26 @@
+Windows Registry Editor Version 5.00
+
+; shellPromptAsAdministrator 
+[HKEY_CLASSES_ROOT\Directory\shell\runas]
+"Icon"="imageres.dll,-5323"
+"MUIVerb"="@shell32.dll,-37415"
+; Alternative text
+; "MUIVerb"="@shell32.dll,-22022"
+"Position"="Bottom"
+"SubCommands"="Windows.MultiVerb.cmd; Windows.MultiVerb.cmdPromptAsAdministrator"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\runas]
+"Icon"="imageres.dll,-5323"
+"MUIVerb"="@shell32.dll,-37415"
+; Alternative text
+; "MUIVerb"="@shell32.dll,-22022"
+"Position"="Bottom"
+"SubCommands"="Windows.MultiVerb.cmd; Windows.MultiVerb.cmdPromptAsAdministrator"
+
+[HKEY_CLASSES_ROOT\Drive\shell\runas]
+"Icon"="imageres.dll,-5323"
+"MUIVerb"="@shell32.dll,-37415"
+; Alternative text
+; "MUIVerb"="@shell32.dll,-22022"
+"Position"="Bottom"
+"SubCommands"="Windows.MultiVerb.cmd; Windows.MultiVerb.cmdPromptAsAdministrator"

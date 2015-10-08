@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Enable ReadyBoot
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\WMI\Autologger\ReadyBoot]
+"Start"=dword:00000004

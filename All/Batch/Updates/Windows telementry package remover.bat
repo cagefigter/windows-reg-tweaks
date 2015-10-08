@@ -15,4 +15,15 @@ wusa /uninstall /KB:3021917 /quiet /norestart
 wusa /uninstall /KB:3035583 /quiet /norestart
 wusa /uninstall /KB:3075249 /quiet /norestart
 
+echo[
+echo Remove Upgrade offer KB's - GWX
+echo ----------------------------------------------
+echo[
+wusa /uninstall /KB:2952664 /quiet /norestart
+wusa /uninstall /KB:3021917 /quiet /norestart
+wusa /uninstall /KB:3035583 /quiet /norestart
+wusa /uninstall /KB:3075249 /quiet /norestart
+wusa /uninstall /KB:3075851 /quiet /norestart
+wusa /uninstall /KB:3035583 /quiet /norestart
+
 Pause&Exit

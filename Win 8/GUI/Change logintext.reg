@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Replace with whatever you need here.
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon]
+"LogonPrompt"="CHEF-KOCH"

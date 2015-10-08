@@ -1,5 +1,0 @@
-Windows Registry Editor Version 5.00
-
-;Reassemble 'Libraries' above "This PC" in the navigation pane 
-[HKEY_CLASSES_ROOT\CLSID\{031E4825-7B94-4dc3-B131-E946B44C8DD5}]
-"SortOrderIndex"=dword:00000042

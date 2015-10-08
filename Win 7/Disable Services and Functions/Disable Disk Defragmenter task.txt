@@ -1,0 +1,5 @@
+New to Windows 7, this service is now used to defragment disks on a schedule. It will start and stop automatically and is not started at boot time. If you decide to disable this service (you use a different defragmenting application), you should also disable or delete the scheduled task:
+
+Head to Start -> Control Panel -> System and Security -> Administrator Tools -> Task Scheduler
+
+Left hand column: Task Scheduler Library -> Microsoft -> Windows -> Defrag -> Right Click ScheduleDefrag (under Name-Status-Triggers) and select Disable (what I would recommend doing) or "Delete" (not a good idea if you wish to restore this scheduled task later). 

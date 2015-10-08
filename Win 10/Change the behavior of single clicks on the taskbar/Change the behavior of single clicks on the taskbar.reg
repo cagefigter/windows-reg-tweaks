@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Change the behavior of single clicks on the taskbar
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"LastActiveClick"=dword:00000001

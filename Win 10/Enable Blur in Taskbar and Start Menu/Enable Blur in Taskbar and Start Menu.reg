@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Enable Blur in Taskbar and Start Menu
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize]
+"EnableBlurBehind"=dword:00000001

@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\explorer\HideDesktopIcons] 
+
+
+ [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\explorer\HideDesktopIcons\NewStartPanel]
+"{4336a54d-038b-4685-ab02-99bb52d3fb8b}"=dword:00000000 
+
+
+ [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\explorer\HideDesktopIcons\ClassicStartMenu]
+"{4336a54d-038b-4685-ab02-99bb52d3fb8b}"=dword:00000000 
