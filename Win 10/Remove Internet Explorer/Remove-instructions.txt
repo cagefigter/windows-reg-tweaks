@@ -1,0 +1,19 @@
+Normal procedure:
+Control Panel\All Control Panel Items\Programs and Features > Installed Updates
+
+Or
+
+Control Panel\All Control Panel Items\Programs and Features Turn Windows features on/off
+
+
+but this won't remove any packages by itself, so we must use this:
+
+
+
+1. Open command prompt as administrator.
+
+2. Copy and paste below command and press enter.
+
+FORFILES /P %WINDIR%\servicing\Packages /M Microsoft-Windows-InternetExplorer-*11.*.mum /c "cmd /c echo Uninstalling package @fname && start /w pkgmgr /up:@fname /norestart"
+
+If you get errors, just click okay, also ensure that you have take-ownership access to all %WINDIR%\servicing\Packages (or it will also shows errors about access denied)
