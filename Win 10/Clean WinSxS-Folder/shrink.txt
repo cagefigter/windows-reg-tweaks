@@ -1,0 +1,1 @@
+schtasks.exe /Run /TN "\Microsoft\Windows\Servicing\StartComponentCleanup"
