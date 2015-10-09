@@ -1,0 +1,1 @@
+DISM /Online /Disable-Feature /Featurename:Internet-Explorer-Optional-amd64  /Remove

@@ -1,0 +1,41 @@
+Step 1: To completely un-install Internet Explorer 11 Preview, follow the steps.
+
+a.       Click on Start.
+
+b.      Type CMD in Search.
+
+c.       Right click on CMD and select Run as administrator.
+
+d.      In Command prompt run the following command and hit enter.
+
+FORFILES /P %WINDIR%\servicing\Packages /M Microsoft-Windows-InternetExplorer-*9.*.mum /c "cmd /c echo Uninstalling package @fname && start /w pkgmgr /up:@fname /norestart"
+
+ 
+
+Step 2: Now try to un-install Internet Explorer 10. Follow the steps.
+
+ 
+
+a.       Click on Start.
+
+b.      Type CMD in Search.
+
+c.       Right click on CMD and select Run as administrator.
+
+d.      In Command prompt run the following command and hit enter.
+
+ FORFILES /P %WINDIR%\servicing\Packages /M Microsoft-Windows-InternetExplorer-*10.*.mum /c “cmd /c echo Uninstalling package @fname && start /w pkgmgr /up:@fname /norestart”
+
+ 
+
+Step 3: Now try to un-install Internet Explorer 9. Follow the steps.
+
+a.       Click on Start.
+
+b.      Type CMD in Search.
+
+c.       Right click on CMD and select Run as administrator.
+
+d.      In Command prompt run the following command and hit enter.
+
+ FORFILES /P %WINDIR%\servicing\Packages /M Microsoft-Windows-InternetExplorer-*11.*.mum /c "cmd /c echo Uninstalling package @fname && start /w pkgmgr /up:@fname /norestart"
