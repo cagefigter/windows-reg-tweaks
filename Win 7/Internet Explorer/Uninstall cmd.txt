@@ -1,0 +1,36 @@
+# Thanks goes to:
+http://blogs.msdn.com/b/askie/archive/2014/03/28/command-line-options-available-to-uninstall-internet-explorer.aspx
+
+
+IE-10:
+
+FORFILES /P %WINDIR%\servicing\Packages /M Microsoft-Windows-InternetExplorer-*10.*.mum /c "cmd /c echo Uninstalling package @fname && start /w pkgmgr /up:@fname /quiet /norestart"
+
+If you get an error(s) during the process, ignore it by clicking OK on the pop up window(s). And when the blinking cursor appears next to C:/Windows/System32,
+Reboot PC
+
+after reboot / go to Windows Updates .. check for updates.. locate IE 10 and IE11 and right click/Hide
+
+
+
+IE-11:
+
+FORFILES /P %WINDIR%\servicing\Packages /M Microsoft-Windows-InternetExplorer-*11.*.mum /c "cmd /c echo Uninstalling package @fname && start /w pkgmgr /up:@fname /quiet /norestart"
+
+If you get an error(s) during the process, ignore it by clicking OK on the pop up window(s). And when the blinking cursor appears next to C:/Windows/System32,
+Reboot PC
+
+
+OR:
+
+You list all your features using
+
+dism /online /get-features
+
+One of the features is Internet-Explorer-Optional-amd64, which you can remove with:
+
+dism /online /disable-feature /featurename:Internet-Explorer-Optional-amd64
+
+
+
+After the reboot - go to Windows Updates - check for updates - locate IE 10/IE11 and right click/Hide!
