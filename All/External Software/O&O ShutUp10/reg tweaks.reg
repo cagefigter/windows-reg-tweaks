@@ -1,256 +1,215 @@
-Security
+Windows Registry Editor Version 5.00
 
-Disable password reveal button
+;Security
 
+;Disable password reveal button
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CredUI]
 "DisablePasswordReveal"=dword:00000001
 
-Disable user steps recorder
-
+;Disable user steps recorder
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\AppCompat]
 "DisableUAR"=dword:00000001
 
-Disable telemetry (1 of 3)
-
+;Disable telemetry (1 of 3)
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\DiagTrack]
 "Start"=dword:00000004
 
-Disable telemetry (2 of 3)
-
+;Disable telemetry (2 of 3)
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\dmwappushsvc]
 "Start"=dword:00000004
 
-Disable telemetry (3 of 3)
-
+;Disable telemetry (3 of 3)
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\WMI\AutoLogger\AutoLogger-Diagtrack-Listener]
 "Start"=dword:00000000
 
-Disable WiFi Sense
-
+;Disable WiFi Sense
 [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\WcmSvc\wifinetworkmanager\features\S-1-5-21-3902212115-2543662138-3061636537-1001]
 "FeatureStates"=dword:0000033c
 
-Disable app acess to wireless connections 
-
+;Disable app acess to wireless connections 
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\DeviceAccess\Global\{A8804298-2D5F-42E3-9531-9C8C39EB29CE}]
 "Value"="Deny"
 
-Disable app acess to loosely coupled devices
-
+;Disable app acess to loosely coupled devices
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\DeviceAccess\Global\LooselyCoupled]
 "Value"="Deny"
 
-Disable Internet access of Windows Media Digital Rights Management (DRM)
-
+;Disable Internet access of Windows Media Digital Rights Management (DRM)
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WMDRM]
 "DisableOnline"=dword:00000001
 
-Disable Windows Defender
-
+;Disable Windows Defender
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender]
 "DisableAntiSpyware"=dword:00000001
 
 
-Privacy
 
-Disable app access to user account information
+; Privacy
 
+;Disable app access to user account information
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\DeviceAccess\Global\{C1D23ACC-752B-43E5-8448-8D0E519CD6D6}]
 "Value"="Deny"
 
-Prevent sharing of handwriting data
-
+;Prevent sharing of handwriting data
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\TabletPC]
 "PreventHandwritingDataSharing"=dword:00000001
 
-Disable Inventory Collector
-
+;Disable Inventory Collector
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\AppCompat]
 "DisableInventory"=dword:00000001
 
-Disable Input Personalization (1 of 5)
-
+;Disable Input Personalization (1 of 5)
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Personalization\Settings]
 "AcceptedPrivacyPolicy"=dword:00000000
 
-Disable Input Personalization (2 of 5)
-
+;Disable Input Personalization (2 of 5)
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\SettingSync\Groups\Language]
 "Enabled"=dword:00000000
 
-Disable Input Personalization (3 of 5)
-
+;Disable Input Personalization (3 of 5)
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\InputPersonalization]
 "RestrictImplicitInkCollection"=dword:00000001
 
-Disable Input Personalization (4 of 5)
-
+;Disable Input Personalization (4 of 5)
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\InputPersonalization]
 "RestrictImplicitTextCollection"=dword:00000001
 
-Disable Input Personalization (5 of 5)
-
+;Disable Input Personalization (5 of 5)
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\InputPersonalization\TrainedDataStore]
 "HarvestContacts"=dword:00000000
 
-Disable Camera in logon screen
-
+;Disable Camera in logon screen
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Personalization]
 "NoLockScreenCamera"=dword:00000001
 
-Disable and resert Cortana (personal assistant)
-
+;Disable and resert Cortana (personal assistant)
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search]
 "AllowCortana"=dword:00000000
 
-Disable transmission of typing information
-
+;Disable transmission of typing information
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Input\TIPC]
 "Enabled"=dword:00000000
 
-Disable and reset advertising ID and info (1 of 2)
-
+;Disable and reset advertising ID and info (1 of 2)
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\AdvertisingInfo]
 "Enabled"=dword:00000000
 
-Disable and reset advertising ID and info (2 of 2)
-
+;Disable and reset advertising ID and info (2 of 2)
 [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\AdvertisingInfo]
 "Enabled"=dword:00000000
 
-Disable app notifications
-
+;Disable app notifications
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\PushNotifications]
 "ToastEnabled"=dword:00000000
 
-Disable app access to calendar
-
+;Disable app access to calendar
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\DeviceAccess\Global\{A8804298-2D5F-42E3-9531-9C8C39EB29CE}]
 "Value"="Deny"
 
-Disable app access to camera
-
+;Disable app access to camera
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\DeviceAccess\Global\{E5323777-F976-4f5b-9B55-B94699C46E44}]
 "Value"="Deny"
 
-Disable app access to localization settings
-
+;Disable app access to localization settings
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\DeviceAccess\Global\{BFA794E4-F964-4FDB-90F6-51056BFE4B44}]
 "Value"="Deny"
 
-Disable app access to microphone
-
+;Disable app access to microphone
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\DeviceAccess\Global\{2EEF81BE-33FA-4800-9670-1CD474972C3F}]
 "Value"="Deny"
 
-Disable app access to messages
-
+;Disable app access to messages
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\DeviceAccess\Global\{992AFA70-6F47-4148-B3E9-3003349C1548}]
 "Value"="Deny"
 
-Disable biometrical features
-
+;Disable biometrical features
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Biometrics]
 "Enabled"=dword:00000000
 
-Disable access to local language for browsers
-
+;Disable access to local language for browsers
 [HKEY_CURRENT_USER\Control Panel\International\User Profile]
 "HttpAcceptLanguageOptOut"=dword:00000001
 
-Disable SmartScreen filter for URLs
-
+;Disable SmartScreen filter for URLs
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\AppHost]
 "EnableWebContentEvaluation"=dword:00000000
 
 
-Location Services
 
-Disable funcionality to locate system
+;Location Services
 
+;Disable funcionality to locate system
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\LocationAndSensors]
 "DisableLocation"=dword:00000001
 
-Disable sensors for locating the system
-
+;Disable sensors for locating the system
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\LocationAndSensors]
 "DisableSensors"=dword:00000001
 
 
-User Behavior
 
-Disable application telemetry (1 of 3)
+;User Behavior
 
+;Disable application telemetry (1 of 3)
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DataCollection]
 "AllowTelemetry"=dword:00000000
 
-Disable application telemetry (2 of 3)
-
+;Disable application telemetry (2 of 3)
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\DataCollection]
 "AllowTelemetry"=dword:00000000
 
-Disable application telemetry (3 of 3)
-
+;Disable application telemetry (3 of 3)
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\AppCompat]
 "AITEnable"=dword:00000000
 
 
-Windows Update
 
-Disable Windows Update via peer-to-peer (1 of 3)
+;Windows Update
 
+;Disable Windows Update via peer-to-peer (1 of 3)
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\DeliveryOptimization]
 "SystemSettingsDownloadMode"=dword:00000000
 
-Disable Windows Update via peer-to-peer (2 of 3)
-
+;Disable Windows Update via peer-to-peer (2 of 3)
 [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\DeliveryOptimization\Config]
 "DODownloadMode"=dword:00000000
 
-Disable Windows Update via peer-to-peer (3 of 3)
-
+;Disable Windows Update via peer-to-peer (3 of 3)
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DeliveryOptimization]
 "DODownloadMode"=dword:00000000
 
-Activate deferring of upgrades
-
+;Activate deferring of upgrades
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate]
 "DeferUpgrade"=dword:00000001
 
-Disable automatic driver updates through Windows Update
-
+;Disable automatic driver updates through Windows Update
 [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\DriverSearching]
 "SearchOrderConfig"=dword:00000000
 
-Disable automatic Windows Updates
-
+;Disable automatic Windows Updates
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU]
 "NoAutoUpdate"=dword:00000001
 
-Disable Windows Updates for other products (e.g. Microsoft Office)
-
+;Disable Windows Updates for other products (e.g. Microsoft Office)
 [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\WindowsUpdate\Services\7971f918-a847-4430-9279-4a52d1efe18d]
 "RegisteredWithAU"=dword:00000000
 
 
-Miscellaneous
 
-Disable feedback reminders (1 of 2)
+;Miscellaneous
 
+;Disable feedback reminders (1 of 2)
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Siuf\Rules]
 "NumberOfSIUFInPeriod"=dword:00000000
 
-Disable feedback reminders (2 of 2)
-
+;Disable feedback reminders (2 of 2)
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Siuf\Rules]
 "NumberOfSIUFInPeriod"=dword:00000000
 
-Disable extension of Windows 10 search with Bing
-
+;Disable extension of Windows 10 search with Bing
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Search]
 "BingSearchEnabled"=dword:00000000
 
-Disable Microsoft OneDrive
-
+;Disable Microsoft OneDrive
 [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\OneDrive]
 "DisableFileSyncNGSC"=dword:00000001
