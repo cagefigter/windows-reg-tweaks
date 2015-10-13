@@ -1,4 +1,4 @@
-REM Adobe Flash Player v.  9.4.XX.0
+REM Adobe Flash Player v. 9.4.XX.0
 
 MsiExec.exe /uninstall {58BAA8D0-404E-4585-9FD3-ED1BB72AC2EE} /quiet /norestart
 
@@ -6,7 +6,7 @@ MsiExec.exe /uninstall {483CFBDB-5870-41ED-82DC-992D1A2CBA87} /quiet /norestart
 
  
 
-REM Adobe Flash Player v.  9.0.151.0
+REM Adobe Flash Player v. 9.0.151.0
 
 MsiExec.exe /uninstall {74B3FB8A-2A0F-4CEA-84FD-12C9B03EE377} /quiet /norestart
 
@@ -14,7 +14,7 @@ MsiExec.exe /uninstall {693E05C4-15CF-4EC4-8298-AFCC049F4B94} /quiet /norestart
 
  
 
-REM Adobe Flash Player v.  9.4.XX.0
+REM Adobe Flash Player v. 9.4.XX.0
 
 MsiExec.exe /uninstall {6FEFB724-6655-492B-9D10-00F530FC39D3} /quiet /norestart
 
@@ -22,7 +22,7 @@ MsiExec.exe /uninstall {41FA4099-8AAA-495C-B1F0-E0447F9F4A93} /quiet /norestart
 
  
 
-REM Adobe Flash Player v.  9.0.246
+REM Adobe Flash Player v. 9.0.246
 
 MsiExec.exe /uninstall {9BA8B441-9E83-4307-A582-03EC9A456C72} /quiet /norestart
 
@@ -38,7 +38,7 @@ MsiExec.exe /uninstall {B4D79216-306A-400B-858B-00C05F0B0E80} /quiet /norestart
 
  
 
-REM Adobe Flash Player v.  9.0.262
+REM Adobe Flash Player v. 9.0.262
 
 MsiExec.exe /uninstall {C64CF7F5-92A0-4615-AA2D-A1237AD3F332} /quiet /norestart
 
@@ -46,7 +46,7 @@ MsiExec.exe /uninstall {211986FD-3BB6-4B0D-8AAF-C22A6DBC7E36} /quiet /norestart
 
  
 
-REM Adobe Flash Player v.  9.0.277
+REM Adobe Flash Player v. 9.0.277
 
 MsiExec.exe /uninstall {4FB5B082-6906-4764-9486-332393B33C9F} /quiet /norestart
 
@@ -54,7 +54,7 @@ MsiExec.exe /uninstall {7EC95A10-14F2-496A-99FA-772454E44566} /quiet /norestart
 
  
 
-REM Adobe Flash Player v.  9.0.280
+REM Adobe Flash Player v. 9.0.280
 
 MsiExec.exe /uninstall {2CB88388-9DFB-46f7-B7F1-862EB29A6FAB} /quiet /norestart
 
@@ -62,7 +62,7 @@ MsiExec.exe /uninstall {17EDE3E8-7AF0-4c54-B6E7-0CA4129E9C21} /quiet /norestart
 
  
 
-REM Adobe Flash Player v.  10.0.2
+REM Adobe Flash Player v. 10.0.2
 
 MsiExec.exe /uninstall {3A6829EF-0791-4FDD-9382-C690DD0821B9} /quiet /norestart
 
@@ -70,7 +70,7 @@ MsiExec.exe /uninstall {685A56F8-75B6-44AD-B3DA-FB0A3266B47C} /quiet /norestart
 
  
 
-REM Adobe Flash Player v.  10.0.12
+REM Adobe Flash Player v. 10.0.12
 
 MsiExec.exe /uninstall {2BD2FA21-B51D-4F01-94A7-AC16737B2163} /quiet /norestart
 
@@ -78,7 +78,7 @@ MsiExec.exe /uninstall {A19AA51E-C145-4323-947E-D0D71EC84E47} /quiet /norestart
 
  
 
-REM Adobe Flash Player v.  10.0.22
+REM Adobe Flash Player v. 10.0.22
 
 MsiExec.exe /uninstall {922E8525-AC7E-4294-ACAA-43712D4423C0} /quiet /norestart
 
@@ -86,7 +86,7 @@ MsiExec.exe /uninstall {CECF7500-69B8-4EEE-9A5F-8D2FC2625760} /quiet /norestart
 
  
 
-REM Adobe Flash Player v.  10.0.32
+REM Adobe Flash Player v. 10.0.32
 
 MsiExec.exe /uninstall {B7B3E9B3-FB14-4927-894B-E9124509AF5A} /quiet /norestart
 
@@ -110,7 +110,7 @@ MsiExec.exe /uninstall {20B3FD5B-A987-406B-A5B5-CDE3CA1EF4E1} /quiet /norestart
 
  
 
-REM Adobe Flash Player v.  10.1.52
+REM Adobe Flash Player v. 10.1.52
 
 MsiExec.exe /uninstall {6E9EF98E-259E-416D-B5F8-0ABDB99942CE} /quiet /norestart
 
@@ -118,7 +118,7 @@ MsiExec.exe /uninstall {EFB786FD-D916-416B-A23A-1EBEAF4A9DDC} /quiet /norestart
 
  
 
-REM Adobe Flash Player v.  10.1.55
+REM Adobe Flash Player v. 10.1.55
 
 MsiExec.exe /uninstall {FFB768E4-E427-4553-BC36-A11F5E62A94D} /quiet /norestart
 

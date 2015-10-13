@@ -1,1 +1,31 @@
 https://forums.adobe.com/thread/1007357
+
+
+
+There is a "universal flash player installer" you can get it here:  from http://download.macromedia.com/get/flashplayer/current/support/uninstall_flash_player.exe. 
+
+
+This uninstaller gets updated with each flash player release. You also need to get the current copy to uninstall the latest version of the flash players.
+
+
+--------------------------------------
+
+1. Open notepad and save the file as mms.cfg  with following details in the file.
+
+AutoUpdateDisable=1
+
+ProtectedMode=0
+
+2. Save file then need to be deployed to belowlocation according to architecture type.
+
+64 bit
+
+C:\Windows\SysWOW64\Macromed\Flash\mms.cfg
+
+32 bit
+
+C:\Windows\System32\Macromed\Flash\mms.cfg
+
+
+Source:
+https://helpx.adobe.com/flash-player/kb/administration-configure-auto-update-notification.html

@@ -36,8 +36,9 @@ icacls "%windir%\SysWOW64\FlashPlayerCPLApp.cpl" /grant administrators:F /t
 rd /s /q "%windir%\SysWOW64\FlashPlayerCPLApp.cpl"
 echo.
 
-rd /s /q "%appdata%\Adobe"
-rd /s /q "%appdata%\Macromedia"
+::rd /s /q "%appdata%\Adobe"
+::rd /s /q "%appdata%\Macromedia"
+rd /s /q %appdata%\Macromedia\Flash Player"
 echo.
 
 ::del C:\Windows\SysWOW64\Macromed\Flash\*.* /Q
