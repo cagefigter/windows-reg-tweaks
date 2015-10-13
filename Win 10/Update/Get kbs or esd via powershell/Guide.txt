@@ -1,0 +1,12 @@
+1) Start and ensure wu service is started and running.
+2) Type Get-BitsTransfer -AllUsers | Select -ExpandProperty FileList in powershell
+
+The output can look like:
+RemoteName         : http://tlu.dl.delivery.mp.microsoft.com/filestreamingservice/files/84e3767b-f837-
+4c05-8251-4b577a3325f8?P1=1435871315&P2=301&P3=2&P4=ZPJrW2Yj%2fzNyfz1fRDBneyiKh5LmQOMC6bOyCxi9nuQ%
+3d
+LocalName          : C:\WINDOWS\SoftwareDistribution\Download\b6faa6aa1638e27f7eecac5274fb9000\
+10162.0.150629-1700.fbl_impressive_CLIENTPRO_RET_x64fre_en-us.esd
+IsTransferComplete : False
+BytesTotal         : 2876507242
+BytesTransferred   : 5767168
