@@ -1,0 +1,10 @@
+So when performing Windows Update, the WU engine should perform the following to check for proxy.
+•Check System Proxy (netsh winhttp) to see if any proxy settings are defined. If defined, will use the settings to connect to proxy and establish outbound connection. This will fail in an authenticated proxy environment since it will attempt to connect as domain\machine$ unless proxy has been configured to allow this connection type. 
+•If no system proxy defined, it then loads the user's proxy setting that is defined in IE Settings or Settings > Network & Internet > Proxy
+
+NETSH Logs: %userprofile%\AppData\Local\Temp\NetTraces\*
+
+WU Logs: %windir%\logs\windowsupdate \*
+
+
+Original and credits belongs to: http://answers.microsoft.com/en-us/insider/forum/insider_wintp-insider_update/windows10-windows-automatic-update-and-store/17f48b91-c12c-41de-8c3a-63954cd40639?page=7
