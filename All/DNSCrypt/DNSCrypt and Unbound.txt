@@ -6,15 +6,19 @@ This small guidance is designed to secure your DNS Port (53) with encrypted traf
 This will work on the following Systems:
  * Windows 7 - 10
  * Linux (Ubuntu and others, you only may need to change some prefs)
- * DNSCrypt/Unbound is generally designed to work under all Systems but this guide is docused on Windows / Linux.
+ * DNSCrypt/Unbound is generally designed to work under all systems but this guide is docused on Windows / Linux.
 
 
  What does this change on your system:
  * soltysiak will be used as Primary DNS 
  * Port 2053 (needs to be changed via registry) will be used fot the resolver (it's native port)
- * Unbound Service.conf tweaked to work together with DNSCrypt + it uses as alternative Googles 8.8.8.8 Server (don't worry Google usees DNSSEC) to ensure it works with e.g. Android or other devices/OS which may Need this to get proper DNS working
- * The Network config Redirects everything to 127.0.0.1. 
+ * Unbound Service.conf tweaked to work together with DNSCrypt + it uses as alternative Googles 8.8.8.8 Server (don't worry Google uses DNSSEC) to ensure it works with e.g. Android or other devices/OS which may need this to get proper DNS working (for e.g. tethering).
+ * The Network config redirects everything to 127.0.0.1. Be careful with a huge HOSTS file!
  * Advance users can use this to block ads/IP's/Domains + Change given config as per Needs (read every single document first before you touch anything!).
+
+
+Why both DNSCrypt and Unbound?
+ * See here.
 
 
 Required Software:
@@ -26,10 +30,9 @@ I recommed to use the Unbound Setup (because this gives an Option to start is as
 
 
 Now let's start:
- * Install unbound.exe and ensure it's started as Service (it will be installed to C:\Program Filex (x86)\Unbound (for x64 machines and C:\Program Files\Unbound on x86 machines.
- * Unpack the DNSCrypt package to C:\Program Filex (x86)\DNSCrypt or the part for x86 machines
- * Now you're almost done, just open the Unbound install Location and open and edit the Service.conf file (if not exist just copy the example.conf and rename it) and add the following into it
-
+ * Install unbound.exe and ensure it's started as Service (it will be installed to C:\Program File (x86)\Unbound (for x64 machines and C:\Program Files\Unbound on x86 machines.
+ * Unpack the DNSCrypt package to C:\Program Filex (x86)\DNSCrypt or the part for x86 machines.
+ * Now you're almost done, just open the Unbound install location and open/edit the Service.conf file (if not exist just copy the example.conf and rename it) and add the following into it:
 
 
  # Unbound configuration file on windows.
@@ -48,11 +51,11 @@ Now let's start:
   # on Windows, this setting makes reports go into the Application log
   # found in ControlPanels - System tasks - Logs 
   use-syslog: yes
-  log-time-ascii: yes
+ log-time-ascii: yes
   num-threads: 1 # 1 is enough for not heavy loaded server
   cache-min-ttl: 60
   infra-host-ttl: 60
- #root-hints: "C:\Program Files (x86)\Unbound\named.root"
+  #root-hints: "C:\Program Files (x86)\Unbound\named.root"
 
 
   # power of 2 close to num-threads
@@ -138,24 +141,22 @@ Now let's start:
 
  save this and you're done with the UnBound part.
 
- * Now start the cmd aka Shell and type: the following 
-
-
- *cd C:\Program Files\DNSCrypt  [press enter now]
+ * Now start the cmd aka shell and type the following: 
+ * cd C:\Program Files\DNSCrypt  [press enter now]
  * dnscrypt-proxy.exe -R <your-dns-resolver-you-like-to-use> -L "C:\Program Files (x86)\DNSCrypt\dnscrypt-resolvers.csv" --install  [pres enter now]
- * That's it
-
+ * That's it, on Linux based Systems you Need to add --daemonize too, which ensures that the Service is running in the background.
+ 
 
 Now the last three important steps are:
- * Go into the Network Settings and choose your Internet Adapter and set your own DNS, this must be set to 127.0.0.1 (and if you want to e.g. tether your devices it must be set to 0.0.0.0 but only in this case).
+ * Go into the Network Settings and choose your Internet Adapter (e.g. IPv4) and set your own DNS, this must be set to 127.0.0.1 (and if you want to e.g. tether your devices it must be set to 0.0.0.0 but only in this case). If you like to use IPv6 and the resolver support it, you must use ::1 instead of 127.0.0.1.
  * Now go to the registry (regedit) and navigate to: [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\dnscrypt-proxy\Parameters] you will see your installed DNSCrypt Parameters but the important one is the ResolverAddress which needs to be changed to e.g. 5533 or your resolver port in my example it's 2053.
  * The very last step is to disable the Windows internal DNSClient (aka Cache), open Services.msc and search for dnsclient, stop it and ensure it will be disabled all the time.
- * Restart your machine or if you don't want to wait, open up your Shell and type: net stop dnscrypt-proxy && net start dnscrypt-proxy. AND do the same with unbound (replace dnscrypt-proxy with unbound). 
- * That's it ! I added an example registry thingy here, how it could looks like if all is done
+ * Restart your machine or if you don't want to wait, open up your shell and type: net stop dnscrypt-proxy && net start dnscrypt-proxy. AND do the same with unbound (replace dnscrypt-proxy with unbound). 
+ * That's it ! I added an example registry thingy here, how it could looks like if all is done.
 
  Windows Registry Editor Version 5.00
 
- ; for x64 machines
+ ; For x64 machines
 
  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\dnscrypt-proxy]
  "Type"=dword:00000010
@@ -169,7 +170,7 @@ Now the last three important steps are:
  "WOW64"=dword:00000001
  "ObjectName"="LocalSystem"
 
- ; soltysiak is used as resolver + port 2053 
+ ; Soltysiak is used as resolver + port 2053 
 
  [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\dnscrypt-proxy\Parameters]
  "ResolversList"="C:\\Program Files (x86)\\DNSCrypt\\dnscrypt-resolvers.csv"
@@ -183,7 +184,7 @@ Now the last three important steps are:
  "EDNSPayloadSize"=dword:000004e4
  "MaxActiveRequests"=dword:000000c8
  "Plugins"=hex(7):00,00
-
+ 
 
 
 ALTERNATIVE! (for DNSCrypt only)
@@ -192,46 +193,48 @@ ALTERNATIVE! (for DNSCrypt only)
  The only benefit using this is, that this is for beginners and that it updates the resolvers.csv file autmatically, normally you only Need to update the package or/and resolvers.scv manually.
 
 
-What is important to know:
- * Besides the part that your dns is now fully secured some apps may not work anymore or have negative side-effects e.g. the Windows own or external Firewalls that are depending on the internal DNSClient Show the resolver or ip adress instead of the real ones, or they log a lot of port 53 stuff (even if it's not blocked). You can just ignore it or use another Firewall which are not Windows own related. 
- * Advanced users can manipulate add/Change the config files as per Needs, ensure you read the man pages/documents. 
- * For each changes on Unbound or DNSCrypt (config or files) you must restart the Services (via Shell or Services.msc) to ensure that the new changes gets applied.
-
-
-Before you start to cry/flame that it's not working for you, ensure that:
- * Temp. disable your Firewall (if you use Software based ones) ensure that port 53 + resolver port and 443 isn't blocked!
- * The paths are correct you unzipped installed dnscrypt/unbound
- * The DNSCrypt resolver.csv was updated and you choosed an resolver which works 
-* Ensure you restarted your machine or started the Service manually (if e.g. dnscrypt not starts this 100% means that the configuration not works)
- * You read all documents AND ALL LINKS here before you ask any stupid question e.g. what DNSCRypt is or why you need it ...
- * You not manipulated the registry (because if you not know what you're doing) it can make it on wrong configured Services not start dnscrypt.
- * Ensure that the Service.conf has the correct file ending (on Linux Unix and on Windows .. well, Windows) 
-
-
 I like to update Unbound and/or DNSCrypt how can I do this?
  * Just replace the old packages with the new ones, ensure you not override the Service.conf (on Unbound), on DNSCrypt you can replace everything, the changes are stored within the registry. 
 
 
 DNSCrypt or Unbound seems to not start because wrong config, how can I check and solve it?
 On Unbound:
- * cd C:\Program Files (x86)\Unbound [press enter here]
- * unbound-checkconf.exe [press enter here]
- * if there are some Errors it Shows you the lines, also check that the Service was stopped before you edit stuff and restart if you're done.
+  * cd C:\Program Files (x86)\Unbound [press enter here]
+  * unbound-checkconf.exe [press enter here]
+  * if there are some Errors it Shows you the lines, also check that the Service was stopped before you edit stuff and restart if you're done.
+  
+
+ On DNSCrypt:
+  * Just use the --uninstall option + ensure that all registry entries are deleted ! 
+  * Now, again use --install with your prefered resolver. 
+  * From my experience DNSCrypt not starts because the user 'manipulated' the registry with wrong information, eg. the 'Plugins' are wrong named or such things. Just use --install and not touch the registry, besides that you Need to configure the port you not Need to touch anything if you beginner (read the man what options you have in registry).
+  
 
 
- On DNSCrypt
- * just use the --uninstall Option + ensure that all registry entries are deleted ! 
- * Now, again use --install with your prefered resolver. 
- * From my experience DNSCrypt not starts because the user 'manipulated' the registry with wrong Information, eg. the Plugins are wrong named or such Things. Just use --install and not touch the registry, besides that you Need to configure the port you not Need to touch anything if you beginner (read the man what options you have in registry).
+What is important to know:
+ * Besides the part that your DNS is now fully secured some apps may not work anymore or have negative side-effects e.g. the Windows own Firewall or the ones which are depending on the internal DNSClient, like WFC, showing the resolver or DNS adress instead of the real ones, or they log a lot of Port 53 stuff (even if it's not blocked). You can just ignore it or use another Firewall which are not Windows own related eg. Windows 10 Firewall Control.
+ * Advanced users can manipulate add/change the config files as per needs, ensure you read the man pages/documents. 
+ * For each changes on Unbound or DNSCrypt (config/files) you must restart the Services! (via Shell or Services.msc) to ensure that the new changes gets applied.
 
 
+Before you start to cry/flame that it's not working for you, ensure that:
+ * Temp. disable your Firewall (if you use Software based ones) ensure that port 53 + resolver port (in this case 2053) and 443 isn't blocked!
+ * The paths are correct you unzipped installed dnscrypt/unbound.
+ * The DNSCrypt resolver.csv was updated and you choosed an resolver which works.
+ * Ensure you restarted your machine or started the Service manually (if e.g. dnscrypt not starts this 100% means that the configuration not works).
+ * You read all documents AND ALL LINKS here before you ask any stupid question e.g. what DNSCrypt is or why you need it ...
+ * You not manipulated the registry (because if you not know what you're doing) it can make it on wrong configured Services not start dnscrypt.
+ * Ensure that the Service.conf has the correct file ending [EOL] (on Linux -> Unix and on Windows .. well, Windows).
 
- ToDO:
+
+ ToDo:
  * Maybe add screenshots or YouTube (but in given links there are enouth shell screenshots).
+ * Exluse my language and grammar, my browser and I not speaking the same languages all the time (3 langs I need to handle). 
 
 
 Sources:
  * https://dnscrypt.org/
+ * https://wiki.archlinux.org/index.php/DNSCrypt
  * https://github.com/jedisct1/dnscrypt-proxy/blob/master/README-WINDOWS.markdown
  * https://www.unbound.net
  * https://unbound.net/documentation/unbound-windows-manual-01.pdf
@@ -239,3 +242,4 @@ Sources:
  * https://dominustemporis.com/2014/05/dnscrypt-on-windows-update/
  * http://yvoinov.blogspot.de/2014/05/windows-7-unbound-dnscrypt.htm
  * http://ubuntuforums.org/showthread.php?t=2183265
+ * https://gist.github.com/CHEF-KOCH/e8bbb30ec0e9cf98d39b
