@@ -1,0 +1,10 @@
+Spotlight is disabled by default. To enable it, open Settings, click Personalization and select Lock Screen. Select Windows Spotlight in the Background drop down.
+
+Lock the screen by pressing Win+L and you should see a new image from Bing.
+
+At the top of the screen it will say "Like what you see?" Hover over this, and select either "I want more", if you want to keep that image and see more like it, or choose "not a fan" if you'd prefer to see something different.
+
+
+Needs:
+* Windows 10 Pro Build 10547 (Insider)
+* Windows 10 Home
