@@ -47,21 +47,11 @@ ToDo
 
 - [ ] Add new tweaks (high-prio)
 - [ ] Sort all tweaks maybe via .html or .js parsser to easier access them with e.g. a search function (like RSW?) (low-prio)
-- [ ] Delete dubs. (high-prio)
+- [x] Delete duplicates (high-prio)
 - [ ] Remove not working ones of course this needs some testers (high-prio)
 - [x] Rename them to english (some are in ger./ru.) (high-prio)
 - [ ] Fix [reported problems](https://github.com/CHEF-KOCH/regtweaks/issues) (high-prio)
-- [ ] Add on/off toggles (registry/batch files) to revert all changes in case something goes wrong - s$it happens! 
-
-
-
-Tools
-------------
-
-* [RSAT for Windows 10](https://www.microsoft.com/en-us/download/details.aspx?id=45520)
-* [NTLite](https://www.ntlite.com) / [vLite](http://www.vlite.net/)
-* [WinToolkit](https://www.Wincert.net)
-
+- [ ] Add on/off toggles (registry/batch files) to revert all changes in case something goes wrong - s$it happens!
 
 
 Research
@@ -74,7 +64,9 @@ Research
 * [Windows 10 findings and tips | Reddit](https://www.reddit.com/r/Windows10/comments/3f48kd/windows_10_tips_and_tricks/)
 * [Fix Windows 10 | isleaked](https://fix10.isleaked.com/)
 * [AntiSpy for Windows 10 (ashampoo.com)](https://www.ashampoo.com/en/eur/pin/1004/security-software/Antispy-for-Windows-10)
-* O&O ShutUp10
-* DoNotSpy10
-* Windows 10 Privacy-Settings
-* W10Privacy
+* [O&O ShutUp10](http://www.oo-software.com/en/shutup10)
+* [DoNotSpy10](http://pxc-coding.com/portfolio/donotspy10/)
+* [Windows 10 Privacy](http://www.winprivacy.de/english-home/)
+* [RSAT for Windows 10](https://www.microsoft.com/en-us/download/details.aspx?id=45520)
+* [NTLite](https://www.ntlite.com) / [vLite](http://www.vlite.net/)
+* [WinToolkit](https://www.Wincert.net)
