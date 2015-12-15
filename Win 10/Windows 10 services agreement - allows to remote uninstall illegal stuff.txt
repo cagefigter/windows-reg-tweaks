@@ -9,4 +9,5 @@
 "For individuals who have chosen to receive automatic updates through Windows Update, we help upgradable devices get ready for Windows 10 by downloading the files they’ll need if they decide to upgrade."
 
 Source:
-http://www.microsoft.com/en-us/servicesagreement/
+* http://www.microsoft.com/en-us/servicesagreement/
+* http://download.microsoft.com/download/7/2/9/7290EA05-DC56-4BED-9400-138C5701F174/WS2016LicensingDatasheet.pdf
