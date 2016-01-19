@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+; This registry file hides "Quick access" from the root namespace of File Explorer
+
+[HKEY_CLASSES_ROOT\CLSID\{679f85cb-0220-4080-b29b-5540cc05aab6}\ShellFolder]
+"Attributes"=dword:a0600000
+
+ 
+[HKEY_CLASSES_ROOT\Wow6432Node\CLSID\{679f85cb-0220-4080-b29b-5540cc05aab6}\ShellFolder]
+"Attributes"=dword:a0600000
