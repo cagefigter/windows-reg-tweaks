@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+[-HKEY_CLASSES_ROOT\.lnk\ShellEx\{00021500-0000-0000-C000-000000000046}]
+
+[HKEY_CLASSES_ROOT\lnkfile]
+"InfoTip"="prop:System.Comment;System.DateCreated;System.Link.TargetParsingPath;System.Image.Dimensions;System.Size;System.Media.Duration"
