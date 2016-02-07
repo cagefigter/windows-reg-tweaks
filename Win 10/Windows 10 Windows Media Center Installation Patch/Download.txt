@@ -1,0 +1,32 @@
+x86:
+
+File: WMC_6.3.9600.16384_x86_v12.7z
+MD5: 0d80788b432420d7d0ce01e7bacc6d4f
+SHA1: 31bc15b11f307dfb3718fde547f6cfe35ba336d4
+
+https://mega.nz/#!PwUCQK5K!XLwP6W-RFrYupTVG7Q3oxkW97S6_4cxLDFMeRGBjd80
+
+Mirrors:
+https://files.fm/u/px8bb74s
+http://www.mediafire.com/download/1iud64tat5u6646/WMC_6.3.9600.16384_x86_v12.7z
+http://www.mirrorcreator.com/files/1RPT8ZBX/
+
+
+===================================================================================
+
+x64:
+
+File: WMC_6.3.9600.16384_x64_v12.7z
+MD5: 90cb039371ec041ce3e308533d85b62e
+SHA1: 7e0335164ae92c7821473c1c495e6afbf865285a
+
+
+https://mega.nz/#!7kdR1ICb!1TCdTd_UpqtYqVXyihhA6DwbFz1Yvo7fE8PVD21mrAU
+
+Mirrors:
+https://files.fm/u/t7frkptm
+http://www.mediafire.com/download/40bbps46kxatmub/WMC_6.3.9600.16384_x64_v12.7z
+http://www.mirrorcreator.com/files/1Q5TDQ0K/
+
+
+Patch was created by abbodi1406, all credits goes to him! Thanks! 

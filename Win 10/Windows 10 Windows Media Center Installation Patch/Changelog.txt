@@ -1,0 +1,6 @@
+- this is mainly a dism-only pack, with additional few tweaks to facilitate the install, and copying the patched files
+- all available lanuages are now installed by there dism packages
+- added a workaround to prevent the system from restoring original non-patched files
+- better support for Win8.1
+- included simple script BackupRestoreSettings.cmd to save settings (registry and eHome folder from ProgramData)
+uninstall script is also modded to not remove these settings (in case you needed a reinstall)
