@@ -1,0 +1,23 @@
+Windows Registry Editor Version 5.00
+
+; Skip the first Run Dialog
+[HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Internet Explorer\Main] 
+"DisableFirstRunCustomize"=dword:00000001
+"RunOnceHasShown"=dword:00000001
+"RunOnceComplete"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Internet Explorer\Main] 
+"DisableFirstRunCustomize"=dword:00000001
+"RunOnceHasShown"=dword:00000001
+"RunOnceComplete"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main]
+"DisableFirstRunCustomize"=dword:00000001
+"RunOnceHasShown"=dword:00000001
+"RunOnceComplete"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main]
+"AlwaysShowMenus"=dword:00000000
+"DisableFirstRunCustomize"=dword:00000001
+"RunOnceHasShown"=dword:00000001
+"RunOnceComplete"=dword:00000001

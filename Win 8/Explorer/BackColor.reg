@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+; Set black background
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Accent]
+"StartColor"=dword:ff85847c
+"AccentColor"=dword:ffb76900
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Accent]
+"DefaultStartColor"=dword:ff85847c
+
+[HKEY_CURRENT_USER\Control Panel\Colors]
+"HotTrackingColor"="22 16 105"

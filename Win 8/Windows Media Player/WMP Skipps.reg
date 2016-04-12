@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+; Skip EULA + First Time usage dialog
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MediaPlayer\Preferences]
+"AcceptedEULA"=dword:00000001
+"FirstTime"=dword:00000001
+
+; Skip
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\WindowsMediaPlayer]
+"GroupPrivacyAcceptance"=dword:00000001
