@@ -4,7 +4,7 @@ Regtweaks (Win 7 - Win 10) Collection files original created under the GNUv2 lic
 **Current Status: Over 600+ tweaks**
 
 
-Before! you use any tweak ensure you read the comment inside the .reg (labled with ;) to see what it really change. Of course an backup/snapshot could also help in case something goes wrong.
+Before! you use any tweak ensure you read the comment inside the .reg (labeled with **;**) to see what it really change. Of course an backup/snapshot could also help in case something goes wrong.
 
 
 
@@ -22,7 +22,7 @@ Any problems, questions or something wrong?
 ------------
 
 * Feel free to open an [issue ticket](https://github.com/CHEF-KOCH/regtweaks/issues) and I will look at it asap. - Pull requests or ideas are always welcome!
-* Please do not use the issue tracker to ask for xyz tweaks, I not waste my time with that until there is a very good reasons to do so. If you found something that wasn't added here I will add it.
+* Please do not use the issue tracker to ask for xyz tweaks, I not waste my time with that until there is a very good reasons to do so. If you found something that wasn't added here contact me and I will add it.
 
 
 
@@ -46,7 +46,7 @@ ToDo
 ------------
 
 - [ ] Add new tweaks (high-prio)
-- [ ] Sort all tweaks maybe via .html or .js parsser to easier access them with e.g. a search function (like RSW?) (low-prio)
+- [ ] Sort all tweaks maybe via .html or .js parser to easier access them with e.g. a search function (like RSW?) (low-prio)
 - [x] Delete duplicates (high-prio)
 - [ ] Remove not working ones of course this needs some testers (high-prio)
 - [x] Rename them to english (some are in ger./ru.) (high-prio)
