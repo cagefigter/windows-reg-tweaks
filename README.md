@@ -36,7 +36,8 @@ The Home Editions doesn't official supporting the GPEDIT.MSC stuff, so here is h
 Project History
 ------------
 
-- [x] 01.09.2015	All tweaks are now in english.
+- [x] 31.05.2016    First internal GUI test 
+- [x] 01.09.2015	All tweaks are now in English.
 - [x] 25.08.2015	Added some image creation tools which are able handle the registry tweaks.
 - [x] 18.08.2015	Initial upload and first release.
 
