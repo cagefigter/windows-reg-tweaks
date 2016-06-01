@@ -1,0 +1,16 @@
+Download and Info: http://www.glass8.eu/download.html
+
+Changelog: http://www.glass8.eu/out/changelog81.txt
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!BEFORE you apply it READ THIS:!!
+!!!http://www.glass8.eu/guide.html!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Aero Glass for Win8.1+ v1.4.5 
+
+This version is for Win8.1 6.3.9600 and for Win10 up to 10.0.10586!
+
+Installer (32-bit+64-bit Windows) (included into this folder)
+32-bit Windows ~> http://www.glass8.eu/files/win81_x86_1.4.5.7z
+64-bit Windows ~> http://www.glass8.eu/files/win81_x64_1.4.5.7z
