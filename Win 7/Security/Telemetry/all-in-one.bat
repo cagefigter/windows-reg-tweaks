@@ -16,7 +16,7 @@ schtasks /Change /TN "\Microsoft\Windows\Application Experience\Microsoft Compat
 schtasks /Change /TN "\Microsoft\Windows\Application Experience\ProgramDataUpdater" /DISABLE
 schtasks /Change /TN "\Microsoft\Windows\Autochk\Proxy" /DISABLE
 schtasks /Change /TN "\Microsoft\Windows\Customer Experience Improvement Program\Consolidator" /DISABLE
-schtasks /Change /TN "\Microsoft\Windows\Customer Experience Improvement ProgramKernelCeipTask\" /DISABLE
+schtasks /Change /TN "\Microsoft\Windows\Customer Experience Improvement Program\KernelCeipTask" /DISABLE
 schtasks /Change /TN "\Microsoft\Windows\Customer Experience Improvement Program\UsbCeip" /DISABLE
 schtasks /Change /TN "\Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticDataCollector" /DISABLE
 schtasks /Change /TN "\Microsoft\Windows\Maintenance\WinSAT" /DISABLE
