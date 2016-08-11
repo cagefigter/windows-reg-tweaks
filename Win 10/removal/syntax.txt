@@ -1,0 +1,31 @@
+offline:
+install_wim_tweak.exe /p "X:\MountDir" /lUninstallinstall_wim_tweak.exe /p "X:\MountDir" /c PackageName /rHideinstall_wim_tweak.exe /p "X:\MountDir" /h /l
+
+
+
+online:
+install_wim_tweak.exe /o /lUninstallinstall_wim_tweak.exe /o /c PackageName /rHideinstall_wim_tweak.exe /h /o /l
+
+
+
+Mini Tutorial:
+
+Example how I uninstall offline using en_windows_10_enterprise_2015_ltsb_x64_dvd_6848446.iso
+*Place install.wim at E:\
+*Place install_wim_tweak.exe at E:\
+*Create a folder name "IMG" at E:\
+E:\install.wimE:\install_wim_tweak.exeE:\IMG
+1. Mount install.wim at E:\IMG (CMD admin)
+Dism /Mount-Wim /Wimfile:E:\install.wim /index:1 /MountDir:E:\IMG
+2. Unhide offline ~ Create Packages.txt at C:\Windows\System32
+E:\install_wim_tweak.exe /p "E:\IMG" /l
+3. Uninstall Telemetry
+E:\install_wim_tweak.exe /p "E:\IMG" /c Microsoft-OneCore-AllowTelemetry-Reduced-Default-Package /rE:\install_wim_tweak.exe /p "E:\IMG" /c Microsoft-OneCore-TroubleShooting-Package /rE:\install_wim_tweak.exe /p "E:\IMG" /c Microsoft-OneCore-TroubleShooting-WOW64 /r
+Uninstall Diagnostics Tracking
+E:\install_wim_tweak.exe /p "E:\IMG" /c Microsoft-Windows-DiagTrack-Internal-Package /r
+Uninstall Windows Defender ( WARNING : No Windows Defender access via Windows Settings / Group policy )
+E:\install_wim_tweak.exe /p "E:\IMG" /c Windows-Defender-AM-Default-Definitions-Package /rE:\install_wim_tweak.exe /p "E:\IMG" /c Windows-Defender-Client-Package /rE:\install_wim_tweak.exe /p "E:\IMG" /c Windows-Defender-Group-Policy-Package /rE:\install_wim_tweak.exe /p "E:\IMG" /c Windows-Defender-Client-WOW64-Package /r
+Unnstall Search
+E:\install_wim_tweak.exe /p "E:\IMG" /c Microsoft-Windows-Search2-base-Package /rE:\install_wim_tweak.exe /p "E:\IMG" /c Microsoft-Windows-Search2-Package /rE:\install_wim_tweak.exe /p "E:\IMG" /c Microsoft-Windows-Search2-shell-Package /rE:\install_wim_tweak.exe /p "E:\IMG" /c Microsoft-Windows-Search2-WOW64-base-Package /rE:\install_wim_tweak.exe /p "E:\IMG" /c Microsoft-Windows-Search2-WOW64-Package /rE:\install_wim_tweak.exe /p "E:\IMG" /c Microsoft-Windows-Search2-WOW64-shell-Package /r
+Uninstall Cortana ( WARNING : Breaks Windows Search function too )
+E:\install_wim_tweak.exe /p "E:\IMG" /c Microsoft-Windows-Cortana-Package /rE:\install_wim_tweak.exe /p "E:\IMG" /c Microsoft-Windows-Cortana-PAL-Desktop-Package /r
