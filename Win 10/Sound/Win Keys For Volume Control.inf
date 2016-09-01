@@ -1,0 +1,12 @@
+; "Win Keys For Volume Control"
+
+[version]
+signature="$CHICAGO$"
+
+
+[DefaultInstall]
+AddReg=Add
+
+
+[Add]
+HKLM,"System\CurrentControlSet\Control\Keyboard Layout","Scancode Map",0x00000001,00,00,00,00,00,00,00,00,04,00,00,00,5b,e0,46,00,30,e0,5c,e0,2e,e0,5b,e0,00,00,00,00
