@@ -1,0 +1,2 @@
+// Turn DEP for every application on
+bcdedit.exe /set {current} nx AlwaysOn
