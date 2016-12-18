@@ -1,0 +1,8 @@
+reg add "HKLM\SOFTWARE\Policies\Microsoft\SQMClient\Windows" /v "CEIPEnable" /t REG_DWORD /d "0" /f
+schtasks /change /TN "Microsoft\Windows\Customer Experience Improvement Program\Consolidator" /Disable
+schtasks /change /TN "Microsoft\Windows\Customer Experience Improvement Program\KernelCeipTask" /Disable
+schtasks /change /TN "Microsoft\Windows\Customer Experience Improvement Program\UsbCeip" /Disable
+schtasks /change /TN "Microsoft\Windows\Autochk\Proxy" /Disable
+schtasks /change /TN "Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser" /Disable
+schtasks /change /TN "Microsoft\Windows\Application Experience\ProgramDataUpdater" /Disable
+schtasks /change /TN "Microsoft\Windows\Application Experience\StartupAppTask" /Disable

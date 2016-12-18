@@ -1,0 +1,8 @@
+:: Clean up the WinSxS folder (useful after each Win update)
+Dism.exe /online /Cleanup-Image /StartComponentCleanup /ResetBase
+
+
+
+
+Dism++ can do the same via GUI (yes page is in chinese, noo it's not malware)
+http://www.chuyu.me/

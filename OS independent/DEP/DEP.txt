@@ -1,0 +1,12 @@
+When enabling:
+
+            bcdedit.exe /set {current} nx AlwaysOn 
+            bcdedit.exe /set {current} nx optin  (this is default)
+
+ When disabling:
+
+            bcdedit.exe /set {current} nx AlwaysOff
+			
+			
+			
+When setting DEP to ON/OFF the Windows ingegrated method gets greyed-out!

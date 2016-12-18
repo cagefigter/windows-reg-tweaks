@@ -1,0 +1,5 @@
+bcdedit /set useplatformclock true (enables HPET)
+bcdedit /deletevalue useplatformclock (disables HPET)
+
+
+The Bios and OS both supporting HPET, if you disable HPET in Windows you not need to do the same in Bios. 
