@@ -2,7 +2,19 @@
 Dism.exe /online /Cleanup-Image /StartComponentCleanup /ResetBase
 
 
+:: Opens cleanmgr (windows own CCleaner solution) with all hidden options
+%SystemRoot%\System32\Cmd.exe /c Cleanmgr /sageset:65535 & Cleanmgr /sagerun:65535
 
 
+:: Check online the status of the current WinImage
+Dism.exe /online /Cleanup-Image /StartComponentCleanup /restorehealth
+
+
+:: Cleans the WinSxS folder
+Dism.exe /online /cleanup-image /startcomponentcleanup
+
+~~~~~~~~~~~~~~~~
+Optional
+~~~~~~~~~~~~~~~~
 Dism++ can do the same via GUI (yes page is in chinese, noo it's not malware)
 http://www.chuyu.me/
