@@ -68,5 +68,5 @@ Research
 * [O&O ShutUp10](http://www.oo-software.com/en/shutup10)
 * [Windows 10 Privacy](http://www.winprivacy.de/english-home/)
 * [RSAT for Windows 10](https://www.microsoft.com/en-us/download/details.aspx?id=45520)
-* [NTLite](https://www.ntlite.com) / [vLite](http://www.vlite.net/)
+* [NTLite](https://www.ntlite.com) / [NTLite](https://www.ntlite.com/)
 * [WinToolkit](https://www.Wincert.net)
