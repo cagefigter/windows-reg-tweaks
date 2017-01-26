@@ -1,0 +1,22 @@
+:: After all is done (restart)
+shutdown.exe /r /o /f /t 00
+
+
+:: Win 7
+Bcdedit.exe -set TESTSIGNING OFF  /off
+
+Bcdedit.exe -set TESTSIGNING ON   /on
+
+
+
+:: Win 8+
+bcdedit /set loadoptions DDISABLE_INTEGRITY_CHECKS & bcdedit /set testsigning on
+
+bcdedit /set loadoptions DENABLE_INTEGRITY_CHECKS & bcdedit /set testsigning off
+
+
+
+
+:: Outdated
+bcdedit -set loadoptions ENABLE_INTEGRITY_CHECKS
+bcdedit -set TESTSIGNING OFF
