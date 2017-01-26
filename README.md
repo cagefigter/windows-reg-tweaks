@@ -1,10 +1,10 @@
-Regtweaks (Win 7 - Win 10) Collection files original created under the GNUv2 license 2015 by [CHEF-KOCH](https://github.com/CHEF-KOCH). Some tweaks are taken from the www, some are found by myself.
+Regtweaks (Win 7 - Win 10) Collection files original created under the GNUv2 license 2015 by [CHEF-KOCH](https://github.com/CHEF-KOCH). Some tweaks are taken from the internet, some are found by myself.
 
 
 **Current Status: Over 600+ tweaks**
 
 
-Before! you use any tweak ensure you read the comment inside the .reg (labeled with **;**) to see what it really change. Of course an backup/snapshot could also help in case something goes wrong.
+Before! you use any tweak(s) ensure you read the comment(s) inside the .reg (labeled with **;**) to see what it really changes. Of course an backup/snapshot could also help in case something goes wrong. Remember: Shit happens!
 
 
 
@@ -26,7 +26,7 @@ Any problems, questions or something wrong?
 
 
 
-Win 7-10 Home Users Notice
+Win 7 - 10 Home Users Notice
 ------------
 
 The Home Editions doesn't official supporting the GPEDIT.MSC stuff, so here is how to add them back [here's the link how](http://drudger.deviantart.com/art/Add-GPEDIT-msc-215792914) or [this](http://www.askvg.com/how-to-enable-group-policy-editor-gpedit-msc-in-windows-7-home-premium-home-basic-and-starter-editions/).
@@ -36,7 +36,8 @@ The Home Editions doesn't official supporting the GPEDIT.MSC stuff, so here is h
 Project History
 ------------
 
-- [x] 31.05.2016    First internal GUI test 
+- [x] 26.01.2017    First Beta GUI tests
+- [x] 31.05.2016    First internal GUI tests 
 - [x] 01.09.2015	All tweaks are now in English.
 - [x] 25.08.2015	Added some image creation tools which are able handle the registry tweaks.
 - [x] 18.08.2015	Initial upload and first release.
@@ -66,7 +67,6 @@ Research
 * [Fix Windows 10 | isleaked](https://fix10.isleaked.com/)
 * [AntiSpy for Windows 10 (ashampoo.com)](https://www.ashampoo.com/en/eur/pin/1004/security-software/Antispy-for-Windows-10)
 * [O&O ShutUp10](http://www.oo-software.com/en/shutup10)
-* [DoNotSpy10](http://pxc-coding.com/portfolio/donotspy10/)
 * [Windows 10 Privacy](http://www.winprivacy.de/english-home/)
 * [RSAT for Windows 10](https://www.microsoft.com/en-us/download/details.aspx?id=45520)
 * [NTLite](https://www.ntlite.com) / [vLite](http://www.vlite.net/)
