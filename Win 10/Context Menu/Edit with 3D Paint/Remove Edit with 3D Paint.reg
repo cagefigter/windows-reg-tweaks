@@ -1,0 +1,57 @@
+Windows Registry Editor Version 5.00
+
+; Remove 'Edit with 3D Paint' Context Menu (From Insider Build 15031 onwards)
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\SystemFileAssociations\.bmp\Shell\3D Edit]
+@="@%SystemRoot%\\system32\\mspaint.exe,-59500"
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\SystemFileAssociations\.bmp\Shell\3D Edit\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,00,73,00,\
+  70,00,61,00,69,00,6e,00,74,00,2e,00,65,00,78,00,65,00,20,00,22,00,25,00,31,\
+  00,22,00,20,00,2f,00,46,00,6f,00,72,00,63,00,65,00,42,00,6f,00,6f,00,74,00,\
+  73,00,74,00,72,00,61,00,70,00,50,00,61,00,69,00,6e,00,74,00,33,00,44,00,00,\
+  00
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\SystemFileAssociations\.jpeg\Shell\3D Edit]
+@="@%SystemRoot%\\system32\\mspaint.exe,-59500"
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\SystemFileAssociations\.jpeg\Shell\3D Edit\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,00,73,00,\
+  70,00,61,00,69,00,6e,00,74,00,2e,00,65,00,78,00,65,00,20,00,22,00,25,00,31,\
+  00,22,00,20,00,2f,00,46,00,6f,00,72,00,63,00,65,00,42,00,6f,00,6f,00,74,00,\
+  73,00,74,00,72,00,61,00,70,00,50,00,61,00,69,00,6e,00,74,00,33,00,44,00,00,\
+  00
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\SystemFileAssociations\.jpg\Shell\3D Edit]
+@="@%SystemRoot%\\system32\\mspaint.exe,-59500"
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\SystemFileAssociations\.jpg\Shell\3D Edit\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,00,73,00,\
+  70,00,61,00,69,00,6e,00,74,00,2e,00,65,00,78,00,65,00,20,00,22,00,25,00,31,\
+  00,22,00,20,00,2f,00,46,00,6f,00,72,00,63,00,65,00,42,00,6f,00,6f,00,74,00,\
+  73,00,74,00,72,00,61,00,70,00,50,00,61,00,69,00,6e,00,74,00,33,00,44,00,00,\
+  00
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\SystemFileAssociations\.jpg\Shell\3D Edit]
+@="@%SystemRoot%\\system32\\mspaint.exe,-59500"
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\SystemFileAssociations\.jpg\Shell\3D Edit\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,00,73,00,\
+  70,00,61,00,69,00,6e,00,74,00,2e,00,65,00,78,00,65,00,20,00,22,00,25,00,31,\
+  00,22,00,20,00,2f,00,46,00,6f,00,72,00,63,00,65,00,42,00,6f,00,6f,00,74,00,\
+  73,00,74,00,72,00,61,00,70,00,50,00,61,00,69,00,6e,00,74,00,33,00,44,00,00,\
+  00
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\SystemFileAssociations\.png\Shell\3D Edit]
+@="@%SystemRoot%\\system32\\mspaint.exe,-59500"
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\SystemFileAssociations\.png\Shell\3D Edit\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+  00,5c,00,73,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,6d,00,73,00,\
+  70,00,61,00,69,00,6e,00,74,00,2e,00,65,00,78,00,65,00,20,00,22,00,25,00,31,\
+  00,22,00,20,00,2f,00,46,00,6f,00,72,00,63,00,65,00,42,00,6f,00,6f,00,74,00,\
+  73,00,74,00,72,00,61,00,70,00,50,00,61,00,69,00,6e,00,74,00,33,00,44,00,00,\
+  00
