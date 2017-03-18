@@ -14,3 +14,6 @@ This version is for Win8.1 6.3.9600 and for Win10 up to 10.0.10586!
 Installer (32-bit+64-bit Windows) (included into this folder)
 32-bit Windows ~> http://www.glass8.eu/files/win81_x86_1.4.5.7z
 64-bit Windows ~> http://www.glass8.eu/files/win81_x64_1.4.5.7z
+
+
+This is the 'trial' version with watermark, I not provide a 'cracked' version, don't even ask me for that!
