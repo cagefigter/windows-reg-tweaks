@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+; Win 10 Version 1703 RS2 Add Traditional Control Panel (with icon) to right-click context menu (Desktop)
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Control Panel]
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Control Panel\command]
+@="rundll32.exe shell32.dll,Control_RunDLL"
+"Icon"="imageres.dll,-27"
