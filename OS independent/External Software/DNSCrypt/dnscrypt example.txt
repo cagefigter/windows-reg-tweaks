@@ -1,0 +1,4 @@
+dnscrypt-proxy --install -R dnscrypt.org-fr --local-address=127.0.0.1:5353 --plugin=libdcplugin_example_ldns_blocking.dll,--domains=C:\blacklisted-domains.txt
+
+
+C:\Program Files\DNSCrypt\libdcplugin_example_ldns_blocking.dll,--domains=C:\Program Files\DNSCrypt\Names.txt,--ips=C:\Program Files\DNSCrypt\IPs.txt,--logfile=C:\DNSCrypt-Block.log
