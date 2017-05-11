@@ -1,8 +1,0 @@
-Windows Registry Editor Version 5.00
-
-[HKEY_CLASSES_ROOT\*\shell\sandboxNoAdmin]
-@="Run Sandboxed (No admin)"
-"Icon"="\"C:\\Program Files\\Sandboxie\\Start.exe\""
-
-[HKEY_CLASSES_ROOT\*\shell\sandboxNoAdmin\command]
-@="\"C:\\Program Files\\Sandboxie\\Start.exe\" /env:__COMPAT_LAYER=RUNASINVOKER /box:__ask__ \"%1\" %*"
