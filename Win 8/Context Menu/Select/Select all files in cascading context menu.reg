@@ -1,6 +1,6 @@
 Windows Registry Editor Version 5.00
 
-; DD CASCADING "SELECT" TO CONTEXT MENU
+; Add Cascading "SELECT" to context menu
 [HKEY_CLASSES_ROOT\*\shell\SelectAllFO]
 "MUIVerb"="Select"
 "icon"="imageres.dll,-5308"
