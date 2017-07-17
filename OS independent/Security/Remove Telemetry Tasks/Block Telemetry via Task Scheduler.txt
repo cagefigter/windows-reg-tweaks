@@ -20,7 +20,6 @@ schtasks /Change /TN "Microsoft\Windows\FileHistory\File History (maintenance mo
 schtasks /Change /TN "Microsoft\Windows\DiskFootprint\Diagnostics" /Disable
 schtasks /Change /TN "Microsoft\Windows\CloudExperienceHost\CreateObjectTask" /Disable
 schtasks /Change /TN "Microsoft\Windows\Windows Error Reporting\QueueReporting" /Disable
-
 schtasks /change /TN "Microsoft\Office\OfficeTelemetry\AgentFallBack2016" /Disable
 schtasks /Change /TN "Microsoft\Office\OfficeTelemetry\OfficeTelemetryAgentLogOn2016" /Disable
 schtasks /Change /TN "Microsoft\Office\OfficeTelemetryAgentLogOn" /Disable
