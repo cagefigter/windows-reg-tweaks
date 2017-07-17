@@ -32,3 +32,9 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WinDefend]
 "Start"=dword:00000004
+
+[-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\EPP]
+[-HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\EPP]
+[-HKEY_CLASSES_ROOT\Drive\shellex\ContextMenuHandlers\EPP]
+
+
