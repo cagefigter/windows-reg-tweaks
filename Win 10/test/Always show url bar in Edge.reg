@@ -1,6 +1,0 @@
-Windows Registry Editor Version 5.00
-
-; Always show address bar in Edge, includes the new tab page and the start page
-[HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Storage\microsoft.microsoftedge_8wekyb3d8bbwe\MicrosoftEdge\ServiceUI]
-"StartPageAddressBarPinned"=dword:00000001
-"NewTabPageAddressBarPinned"=dword:00000001

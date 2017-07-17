@@ -1,8 +1,0 @@
-Windows Registry Editor Version 5.00
-
-;dword:00000000 = off
-;dword:00000002 = lan only
-;dword:00000003 = lan and web
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\DeliveryOptimization\Config]
-"DownloadMode"=dword:00000000
-"DODownloadMode"=dword:00000000

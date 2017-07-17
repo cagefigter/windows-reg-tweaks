@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; dword:00000000 = Show all icons
+; dword:00000001 = Compress and hide icons on the taskbar
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer]
+"EnableAutoTray"=dword:00000000

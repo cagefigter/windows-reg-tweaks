@@ -1,6 +1,0 @@
-Windows Registry Editor Version 5.00
-
-; dword:00000000 = No Confirmation
-; dword:00000001 = Confirmation
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
-"ConfirmFileDelete"=dword:00000001
