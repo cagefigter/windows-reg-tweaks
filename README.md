@@ -36,6 +36,7 @@ The Home Editions doesn't official supporting the GPEDIT.MSC stuff, so here is h
 Project History
 ------------
 
+- [x] 18.07.2017    GUI is done, some internal fixes before rolling out at the end of this year, some cleanups are nessary
 - [x] 13.04.2017    Second and last GUI beta test
 - [x] 26.01.2017    First beta GUI tests
 - [x] 31.05.2016    First internal GUI tests 
