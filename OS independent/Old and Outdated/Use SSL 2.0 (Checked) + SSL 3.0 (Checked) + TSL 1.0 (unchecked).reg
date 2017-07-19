@@ -1,5 +1,0 @@
-Windows Registry Editor Version 5.00
-
-; Use SSL 2.0 (Checked) + SSL 3.0 (Checked) + TSL 1.0 (unchecked)
-[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings]
-"SecureProtocols"=dword:00000028

@@ -1,7 +1,0 @@
-Since Windows 8 the key is stored not anymore as a sticker behind the hardware/pc. It's integrated in the hardware (Bios/UEFI). 
-
-That means you can read the key but as far as I know they are useless. 
-
-Overall that means an clean installation is not possible you need to upgrade you're OS first so that the new Windows 10 'knows' your system as legit. After it recgnozize your hardware you can make a clean installation. 
-
-Of course there are some illegal hacks that bypass the activating mechanism but that's of course illegal and will not supported here. 
