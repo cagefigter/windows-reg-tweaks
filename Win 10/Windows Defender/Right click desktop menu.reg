@@ -1,7 +1,0 @@
-Windows Registry Editor Version 5.00
-
-[HKEY_CLASSES_ROOT\DesktopBackground\Shell\WindowsDefender]
-"MUIVerb"="Windows Defender"
-"SubCommands"="WD-Open;WD-Settings;WD-Update;WD-Update-QS;WD-QuickScan;WD-FullScan"
-"Icon"="%ProgramFiles%\\Windows Defender\\EppManifest.dll"
-"Position"="Bottom"

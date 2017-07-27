@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search]
+"AllowCortana"=dword:00000001
+"AllowSearchToUseLocation"=dword:00000000
+"ConnectedSearchUseWeb"=dword:00000000
+"DisableWebSearch"=dword:00000001
+Win8.1 only? "ConnectedSearchSafeSearch"=dword:00000003
+Win8.1 only? "ConnectedSearchPrivacy"=dword:00000003
+Win8.1 only? "ConnectedSearchUseWebOverMeteredConnections"=dword:00000000
+"PreventIndexingOutlook"=dword:00000001
+"PreventIndexingEmailAttachments"=dword:00000001
+"AutoIndexSharedFolders"=dword:00000001

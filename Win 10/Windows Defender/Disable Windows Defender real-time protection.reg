@@ -1,5 +1,0 @@
-Windows Registry Editor Version 5.00
-
-; Disable Windows Defender real-time protection
-[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection]
-"DisableRealtimeMonitoring"=dword:00000001
