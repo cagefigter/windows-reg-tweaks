@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Disable Self-Defense [Setting > Additional > Self-Defence] - Must be unchecked first !!
+[HKEY_CURRENT_USER\SOFTWARE\KasperskyLab\AVP19.0.0]
+"LastLicenseNotificationTime"="1800000000"
