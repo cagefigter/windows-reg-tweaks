@@ -1,0 +1,7 @@
+- Recommended: Create a restore point.
+
+- Take owernship 3 files (All in C:\Windows\System32):
+. Uxtheme.dll
+. Themeui.dll
+. Uxinit.dll
+- Try to patch with UltraUXpatcher again!
