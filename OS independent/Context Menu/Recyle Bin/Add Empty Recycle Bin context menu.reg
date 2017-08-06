@@ -1,0 +1,27 @@
+Windows Registry Editor Version 5.00
+ 
+[HKEY_CLASSES_ROOT\Directory\Background\shell\empty]
+"CommandStateHandler"="{c9298eef-69dd-4cdd-b153-bdbc38486781}"
+"Description"="@shell32.dll,-31332"
+"Icon"="shell32.dll,-254"
+"MUIVerb"="@shell32.dll,-10564"
+"SubCommands"=""
+
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\empty\command]
+"DelegateExecute"="{48527bb3-e8de-450b-8910-8c4099cb8624}"
+
+
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\empty\shell\001flyout]
+"MUIVerb"="with confirmation"
+
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\empty\shell\001flyout\command]
+"DelegateExecute"="{48527bb3-e8de-450b-8910-8c4099cb8624}"
+
+
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\empty\shell\002flyout]
+"MUIVerb"="without confirmation"
+"CommandFlags"=dword:00000020
+
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\empty\shell\002flyout\command]
+@="PowerShell Clear-RecycleBin -force -ErrorAction:Ignore"
