@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00 
+
+;Add Copy To Folder & Move To Folder to the context menu from all files and folders.
+;Note: It won't break the function of the "Play all" buttons. :)
+;Cheers, Herby - herby.virtualplastic.net
+
+[HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex\ContextMenuHandlers\CopyToMenu]
+@="{C2FBB630-2971-11D1-A18C-00C04FD75D13}"
+
+[HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex\ContextMenuHandlers\MoveToMenu]
+@="{C2FBB631-2971-11D1-A18C-00C04FD75D13}"
