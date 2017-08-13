@@ -1,0 +1,11 @@
+Enhanced Recycle Bin Menu by Herby - herby.virtualplastic.net
+
+ERBM+.reg replaces the Delete command from the Recycle Bin with a Clear Temp command.
+This prevents users from accidentally deleting of the Recycle Bin Icon from the Desktop. :)
+It also adds a Disk Cleanup command which performs an Extended Disc Cleanup on all disks.
+The Clear Temp command clears both Temp dirs: %UserProfile%\AppData\Local\Temp\ and %SystemRoot%\Temp\.
+
+Install: merge ERBM+.reg
+Uninstall: merge ERBM-.reg
+
+[/Herby]
