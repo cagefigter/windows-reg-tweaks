@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+# Disable administrator linked connections to protect against malware accessing the admin's network shares
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"EnableLinkedConnections"=dword:00000000

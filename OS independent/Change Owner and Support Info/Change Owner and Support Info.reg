@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation]
+
+# Create a BMP logo (24-bit, 172x172 pixel) and copy it to %systemdrive%\oemlogo.bmp
+"Logo"="C:\\Windows\\System32\\oemlogo.bmp"
+# put your information below:
+"Manufacturer"="[your company name here]"
+"SupportHours"="[your support hours here]"
+"SupportPhone"="[your phone here]"
+"SupportURL"="[your website URL here]"

@@ -1,0 +1,44 @@
+Windows Registry Editor Version 5.00
+
+# Set Explorer's Folder properties
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"Start_SearchFiles"=dword:00000002
+"ServerAdminUI"=dword:00000000
+"Hidden"=dword:00000002
+"ShowCompColor"=dword:00000001
+# Always show every file extension
+"HideFileExt"=dword:00000000
+"DontPrettyPath"=dword:00000000
+"ShowInfoTip"=dword:00000000
+"HideIcons"=dword:00000000
+"MapNetDrvBtn"=dword:00000000
+"WebView"=dword:00000001
+"Filter"=dword:00000000
+"SuperHidden"=dword:00000000
+"SeparateProcess"=dword:00000000
+"AutoCheckSelect"=dword:00000000
+"IconsOnly"=dword:00000000
+"ShowTypeOverlay"=dword:00000001
+"ListviewAlphaSelect"=dword:00000001
+"ListviewShadow"=dword:00000001
+"TaskbarAnimations"=dword:00000001
+"StartMenuInit"=dword:00000004
+"Start_ShowRun"=dword:00000001
+"Start_ShowDownloads"=dword:00000001
+"Start_ShowHelp"=dword:00000000
+"Start_ShowVideos"=dword:00000001
+"Start_MinMFU"=dword:0000000a
+"Start_JumpListItems"=dword:00000019
+"Start_AdminToolsRoot"=dword:00000000
+"StartMenuAdminTools"=dword:00000001
+"Start_PowerButtonAction"=dword:00000002
+"TaskbarSizeMove"=dword:00000001
+"DisablePreviewDesktop"=dword:00000000
+"TaskbarSmallIcons"=dword:00000001
+# Combine buttons when Taskbar is full only
+"TaskbarGlomLevel"=dword:00000001
+"AlwaysShowMenus"=dword:00000001
+"PersistBrowsers"=dword:00000001
+"ShowPreviewHandlers"=dword:00000001
+# Increase the Speed of the Aero Taskbar Thumbnails in Windows 7
+"ExtendedUIHoverTime"=dword:00000001

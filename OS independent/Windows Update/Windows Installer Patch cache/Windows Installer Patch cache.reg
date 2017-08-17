@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+# Set the Windows Installer Patch cache size to save disk space (value means a %, eg. 5 = 5% of the disk space)
+[HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Installer]
+"MaxPatchCacheSize"=dword:00000005

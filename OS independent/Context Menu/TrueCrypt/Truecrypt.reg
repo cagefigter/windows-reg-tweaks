@@ -1,0 +1,4 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\TrueCryptVolume\Shell\open\command]
+@="\"C:\\Program Files\\TrueCrypt\\TrueCrypt.exe\" /v \"%1\" /q background"
