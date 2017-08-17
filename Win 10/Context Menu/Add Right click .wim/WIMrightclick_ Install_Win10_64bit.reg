@@ -1,0 +1,178 @@
+Windows Registry Editor Version 5.00
+; © maxXPsoft on 3/6/2011
+; Changelog
+;   Windows 10 below
+;
+;   Add Right click .wim Windows 7 and now Windows 8 with UAC ON
+;   http://www.msfn.org/board/topic/150275-add-right-click-wim-windows-7/
+;
+; 3/10/2011 Add-Driver's added
+; 3/13/2011 Fix showing up on non .wim files. Use wimrightclick - Uninstall.reg first to cleanup wrong entries.
+;   Added opening Dism.log folder. You can delete before running or open with your favorite editor. I use Notepad++
+; 3/16/2011 Added and working Windows Update/Language or other Add-Package *.cab *.msu.
+;   Create a folder C:\zPackage or modify this to your package folder
+; 3/18/2011 Now working with UAC on and raises a uac prompt all except .Wim Info. I can't get Dism to pause.
+;   Added creating C:\zPackage and C:\zMountDir
+; 3/23/2011 Added Get-Drivers To Desktop, Get-Packages To Desktop, Get-Features To Desktop. Must be Mounted
+; 3/26/2011 Fix Cleanup + Delete zMountDir command
+; 4/3/2011 Found the list was too long and bottom items was not working. I combined some things.
+;   Run the .wimrightclick - Uninstall.reg first
+; 4/12/11 Fix Drivers Packages Features To Desktop found by jbm
+; 4/8/2012 To use Imagex from Program files location use this registry instead.
+;   [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\IMAGEX compress export\command]
+;   @="\"C:\\Program Files\\Windows AIK\\Tools\\amd64\\imagex\" /export \"%1\" * \"%1\".new" 
+;   Also if you have UAC turned on it might need admin shield like my example for Dism
+; 6/28/12 Fix minor issue with Shell\.Wim\command found by myselfidem
+; 9/17/12 Modify Mounting of Image suggestion by MrJinje is now 'Mount RW = Enter Image Index #'
+; 10/13/12 Add icons to commands. Rewrite commands using powershell so would work with UAC on. Added Admin shield to powershell.exe
+; 10/14/12 Fix Imagex commands. I prefer right now to use Imagex for export cause new dism does it 1 at a time.
+;   You can download Imagex.exe and drop in system32 folder as part of Windows Assessment and Deployment Kit (ADK) for Windows® 8
+;   Get this download and I just selected deployment tools. http://www.microsoft.com/en-us/download/details.aspx?id=30652
+;   A plus to that is you don't need a 1GB + download, was 80mb here and includes WSIM for xml editing. - minus is you need .NET4 ;(
+; 10/15/12 Fix Drivers Packages Features To Desktop
+; 10/24/12 Updated to use Language from system32\Dism\ dll's. Run the .wimrightclick - Uninstall.reg first.
+;   You can modify this to use your language. To change to German (de-DE) just edit ALL "MUIVerb"
+;      "MUIVerb"="@C:\\PROGRA~2\\WINDOW~3\\10\\ASSESS~1\\DEPLOY~1\\amd64\\DISM\\Dism\\WimProvider.dll,-101"
+;        change to
+;      "MUIVerb"="@C:\\PROGRA~2\\WINDOW~3\\10\\ASSESS~1\\DEPLOY~1\\amd64\\DISM\\Dism\\de-DE\\WimProvider.dll.mui,-101"
+;   Must ADD the .mui. I use different dll on some so be carefull
+;   You may need to manually mod the file "MUIVerb"="Ajoute des packages de pilotes à une image hors connexion."
+; 03/30/2013
+;   Updated adding /Table format
+;   Added Sleep to some functions and Stop on some. After some operations like adding Drivers or Packages may want to check for errors.
+; 04/05/2013
+;   Removed some of the sleep things where they caused dism to stop processing. That makes image hard to unmount.
+; 05/15/2013
+;   Added shutdown anti-virus(MSE for me) with Autoit to speedup most things with this. Can add any program like AVG, Avast, Norton.
+;    Create a reg/script for your anti-vir and i'll add to download.
+;   Cleaned up reg entries adding like Max.WimInfo and shorten. Removed sub-menus since they take up 1 item on a maximum 16 list.
+; 08/8/2013
+;   Added reg scripts for Windows 8.1 with Windows Assessment and Deployment Kit (Windows ADK) for Windows 8.1 installed for both amd64 and x86
+;     C:\Program Files (x86)\Windows Kits\8.1\Assessment and Deployment Kit
+;     (ADK) https://developer.microsoft.com/en-us/windows/hardware/windows-assessment-deployment-kit
+;
+;-------------------------------------------------------------------------------------
+; 10/23/2016 Windows 10
+;   http://www.msfn.org/board/topic/176151-add-right-click-wim-windows-10/
+;   Added reg scripts for Windows 10 with Windows Assessment and Deployment Kit (Windows ADK) for Windows 10 installed for 64 bit
+;     (ADK) https://developer.microsoft.com/en-us/windows/hardware/windows-assessment-deployment-kit
+;      Install with this command >> adksetup.exe /features OptionId.DeploymentTools /norestart /q /ceip off
+;     C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit is only 54MB doing this
+;   You need nircmd from Nirsoft http://www.nirsoft.net/utils/nircmd.html
+;   I place nircmd.exe in C:\Windows
+
+;-------------------------------------------------------------------------------------
+; This will create a Mount folder on a drive. I set to C:\zMountDir and C:\zPackage
+;  where it will be at bottom of drive in windows explorer to find easier. Edit this to drive you want.
+;
+; Cleanup-Mountpoints - On 64 bit I have had trouble dismount or mounting after a dismount.
+;  I use this to Dism /Cleanup-Wim and clean the registry then delete zMountDir and zPackage.
+;  As long as it save's it is ok, just the dismount occasionally get's error. I have installed many times with no problems
+;
+; heres how I created this http://msdn.microsoft.com/en-us/library/cc144171%28v=vs.85%29.aspx#cascade_subcommands
+;
+; To see both the long and short file names for each file in the folder, type the following on the command line: dir /x
+;
+; ADK is keeping Image Mount information here and won't let you remount another image so I delete this key
+; Cleanup-Mountpoints command will do same thing possibly better
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WIMMount\Mounted Images]
+
+[HKEY_CLASSES_ROOT\.WIM]
+@="WIMfile"
+
+[HKEY_CLASSES_ROOT\WIMfile\DefaultIcon]
+;  shell32.dll,-137
+@=hex(2):73,00,68,00,65,00,6c,00,6c,00,33,00,32,00,2e,00,64,00,6c,00,6c,00,2c,\
+  00,2d,00,31,00,33,00,37,00,00,00
+
+[HKEY_CLASSES_ROOT\WIMfile\Shell\.Wim]
+"MUIVerb"="Windows Imaging Format (WIM)"
+"SubCommands"="Max.CleanupDelete;Max.WimInfo;Max.MkDirs;Max.MountRW;Max.MountBoot;Max.GetIntl;Max.AddDrivers;Max.AddPackage;Max.UnmountSave;Max.UnmountNoSave;Max.Compress;Max.Log"
+"icon"="isoburn.exe"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\WIMfile\Shell\.Wim\command]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Max.AddDrivers]
+"MUIVerb"="@C:\\PROGRA~2\\WINDOW~3\\10\\ASSESS~1\\DEPLOY~1\\amd64\\DISM\\Dism\\DmiProvider.dll,-1110"
+"Icon"="shell32.dll,-139"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Max.AddDrivers\command]
+@="nircmd elevatecmd runassystem powershell -command \"&C:\\PROGRA~2\\WINDOW~3\\10\\ASSESS~1\\DEPLOY~1\\amd64\\DISM\\Dism.exe /image:C:\\zMountDir /Add-Driver /driver:C:\\Drivers /recurse\";Write-Host -NoNewLine 'Press any key to continue...';$null = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown');\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Max.AddPackage]
+"MUIVerb"="@C:\\PROGRA~2\\WINDOW~3\\10\\ASSESS~1\\DEPLOY~1\\amd64\\DISM\\Dism\\CbsProvider.dll,-1104"
+"Icon"="shell32.dll,-271"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Max.AddPackage\command]
+@="nircmd elevatecmd runassystem powershell -command \"&C:\\PROGRA~2\\WINDOW~3\\10\\ASSESS~1\\DEPLOY~1\\amd64\\DISM\\Dism.exe /image:C:\\zMountDir /Add-Package /PackagePath:C:\\zPackage\";Write-Host -NoNewLine 'Press any key to continue...';$null = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown');\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Max.CleanupDelete]
+"MUIVerb"="@C:\\Windows\\System32\\Dism\\imagingprovider.dll,-1122"
+"Icon"="shell32.dll,-192"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Max.CleanupDelete\command]
+@="nircmd elevatecmd runassystem cmd /c start /b powershell -command \"&C:\\PROGRA~2\\WINDOW~3\\10\\ASSESS~1\\DEPLOY~1\\amd64\\DISM\\Dism.exe /Cleanup-Mountpoints;powershell -command remove-item -path HKLM:\\SOFTWARE\\Microsoft\\WIMMount -recurse;powershell -command remove-item C:\\zMountDir -recurse;powershell -command remove-item C:\\zPackage -recurse;Write-Host '';Timeout 5;\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Max.Compress]
+"MUIVerb"="@C:\\PROGRA~2\\WINDOW~3\\10\\ASSESS~1\\DEPLOY~1\\amd64\\DISM\\IMAGEX.exe,-113"
+"icon"="zipfldr.dll,-101"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Max.Compress\command]
+@="nircmd elevatecmd runassystem cmd /c start /b powershell -command \"&C:\\PROGRA~2\\WINDOW~3\\10\\ASSESS~1\\DEPLOY~1\\amd64\\DISM\\IMAGEX.exe /export \"%1\" * \"%1\".new\";Write-Host '';Timeout 10;\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Max.GetIntl]
+"MUIVerb"="@C:\\PROGRA~2\\WINDOW~3\\10\\ASSESS~1\\DEPLOY~1\\amd64\\DISM\\Dism\\IntlProvider.dll,-3900"
+"Icon"="shell32.dll,-14"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Max.GetIntl\command]
+@="nircmd elevatecmd runassystem powershell -command \"&C:\\PROGRA~2\\WINDOW~3\\10\\ASSESS~1\\DEPLOY~1\\amd64\\DISM\\Dism.exe /Image:C:\\zMountDir /Get-Intl\";Write-Host -NoNewLine 'Press any key to continue...';$null = $Host.UI.RawUI.ReadKey('NoEcho,IncludeKeyDown');\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Max.Log]
+"MUIVerb"="@C:\\PROGRA~2\\WINDOW~3\\10\\ASSESS~1\\DEPLOY~1\\amd64\\DISM\\Dism.exe,-105"
+"icon"="notepad.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Max.Log\command]
+@="explorer /select, C:\\Windows\\Logs\\DISM\\Dism.log"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Max.MkDirs]
+"MUIVerb"="Mkdir zMountdir zPackage"
+"Icon"="shell32.dll,-174"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Max.MkDirs\command]
+@="cmd /c start /b powershell if (!(test-path C:\\zPackage -pathtype container)){new-item C:\\zPackage -type directory};if (!(test-path C:\\zMountDir -pathtype container)){new-item C:\\zMountDir -type directory};Write-Host '';Timeout 5;\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Max.MountRW]
+"MUIVerb"="@C:\\Windows\\System32\\Dism\\WimProvider.dll,-1105"
+"Icon"="shell32.dll,-16739"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Max.MountRW\command]
+@="nircmd elevatecmd runassystem C:\\PROGRA~2\\WINDOW~3\\10\\ASSESS~1\\DEPLOY~1\\amd64\\DISM\\Dism.exe /mount-wim /WimFile:\"%1\" /index:1 /mountdir:C:\\zMountDir\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Max.MountBoot]
+"MUIVerb"="Mounts Boot.wim Image 2"
+"Icon"="shell32.dll,-16739"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Max.MountBoot\command]
+@="nircmd elevatecmd runassystem C:\\PROGRA~2\\WINDOW~3\\10\\ASSESS~1\\DEPLOY~1\\amd64\\DISM\\Dism.exe /mount-wim /WimFile:\"%1\" /index:2 /mountdir:C:\\zMountDir\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Max.UnmountNOSave]
+"MUIVerb"="@C:\\Windows\\System32\\Dism\\WimProvider.dll,-1107"
+"Icon"="shell32.dll,-240"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Max.UnmountNOSave\command]
+@="nircmd elevatecmd runassystem C:\\PROGRA~2\\WINDOW~3\\10\\ASSESS~1\\DEPLOY~1\\amd64\\DISM\\Dism.exe /unmount-wim /mountdir:C:\\zMountDir /discard\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Max.UnmountSave]
+"MUIVerb"="@C:\\Windows\\System32\\Dism\\WimProvider.dll,-160"
+"Icon"="shell32.dll,-16761"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Max.UnmountSave\command]
+@="nircmd elevatecmd runassystem C:\\PROGRA~2\\WINDOW~3\\10\\ASSESS~1\\DEPLOY~1\\amd64\\DISM\\Dism.exe /unmount-wim /mountdir:C:\\zMountDir /commit\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Max.WimInfo]
+"MUIVerb"="@C:\\Windows\\System32\\Dism\\WimProvider.dll,-1111"
+"Icon"="winhlp32.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\Max.WimInfo\command]
+@="nircmd elevatecmd runassystem cmd /c start /b powershell -command \"&C:\\PROGRA~2\\WINDOW~3\\10\\ASSESS~1\\DEPLOY~1\\amd64\\DISM\\Dism.exe /Get-WimInfo /WimFile:\"%1\";Write-Host '';Write-Host '';Timeout 10;\""
