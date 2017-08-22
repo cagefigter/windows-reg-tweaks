@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\CLSID\{580722ff-16a7-44c1-bf74-7e1acd00f4f9}]
+@="Personalization (classic)"
+"InfoTip"="@%SystemRoot%\\System32\\themecpl.dll,-2#immutable1"
+"System.ApplicationName"="Microsoft.Personalization"
+"System.ControlPanel.Category"=dword:00000001
+"System.Software.TasksFileUrl"="Internal"
+
+[HKEY_CLASSES_ROOT\CLSID\{580722ff-16a7-44c1-bf74-7e1acd00f4f9}\DefaultIcon]
+@="%SystemRoot%\\System32\\themecpl.dll,-1"
+
+[HKEY_CLASSES_ROOT\CLSID\{580722ff-16a7-44c1-bf74-7e1acd00f4f9}\Shell\Open\command]
+ @="explorer shell:::{ED834ED6-4B5A-4bfe-8F11-A626DCB6A921}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ControlPanel\NameSpace\{580722ff-16a7-44c1-bf74-7e1acd00f4f9}]
+@="Personalization (classic)"
