@@ -4,6 +4,10 @@ Regtweaks (Win 7 - Win 10) Collection files original created under the GNUv2 lic
 **Current Status: Over 600+ tweaks**
 
 
+[![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Star)](https://github.com/CHEF-KOCH/regtweaks)
+[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/CHEF-KOCH)
+
+
 Before! you use any tweak(s) ensure you read the comment(s) inside the .reg (labeled with **;**) to see what it really changes. Of course an backup/snapshot could also help in case something goes wrong. Remember: Shit happens!
 
 
