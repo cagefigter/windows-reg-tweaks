@@ -1,8 +1,0 @@
-Windows Registry Editor Version 5.00
-
-[HKEY_CLASSES_ROOT\exefile\shell\open\command]
-@="\"%1\" %*"
-"IsolatedCommand"="\"%1\" %*"
-
-[HKEY_CLASSES_ROOT\.exe]
-@="exefile"
