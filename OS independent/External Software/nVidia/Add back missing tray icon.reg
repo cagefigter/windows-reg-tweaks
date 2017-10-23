@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; Adds back the missing tray icon (if you installed the driver without GeForce Experience)
+[HKEY_LOCAL_MACHINE\SOFTWARE\NVIDIA Corporation\NvTray]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NVIDIA Corporation\NvTray\0_nvupdt.dll]
+"FullPath"="C:\\Program Files\\NVIDIA Corporation\\Update Core\\NvGFTrayPlugin.dll"
