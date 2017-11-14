@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+; Save as Add_Extended_Disk_Cleanup_to_Context_Menu.reg
+; extended_disk_cleanup.vbs file must be in same location: C:\Windows
+
+[HKEY_CLASSES_ROOT\DesktopBackground\shell\Extended Disk Cleanup]
+"HasLUAShield"=""
+"Icon"="cleanmgr.exe"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\shell\Extended Disk Cleanup\command]
+@="WScript C:\\Windows\\Extended_Disk_Cleanup.vbs"
