@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; This will force Windows to load all Devices & drivers for it, otherwise is set to Fast Boot. 
+; 0 is Off, 1 is On
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power
+Set]
+"HiberbootEnabled"="1"
