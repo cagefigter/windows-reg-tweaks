@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+; https://forums.malwarebytes.com/topic/215749-removal-instructions-for-troubleshooter/
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"legalnoticecaption"=-
+"legalnoticetext"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon]
+"LegalNoticeCaption"=-
+"LegalNoticeText"=-
