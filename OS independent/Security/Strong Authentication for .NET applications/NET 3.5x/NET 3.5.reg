@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; For AD FS on Windows Server 2016 and Windows Server 2012 R2 you need to use the .NET Framework 4.0/4.5.x key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft.NETFramework\v4.0.30319
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft.NETFramework\v2.0.50727]
+"SchUseStrongCrypto"=dword:00000001
