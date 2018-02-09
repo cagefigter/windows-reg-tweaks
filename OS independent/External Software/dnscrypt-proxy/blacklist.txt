@@ -16,6 +16,7 @@
 
 ad.*
 ads.*
+ads[0-9]*
 banner.*
 banners.*
 creatives.*
