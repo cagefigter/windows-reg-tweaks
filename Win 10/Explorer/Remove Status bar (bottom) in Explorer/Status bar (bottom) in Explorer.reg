@@ -1,6 +1,0 @@
-Windows Registry Editor Version 5.00
-
-; dword:00000000 = Hide the status bar
-; dword:00000001 = Show the status bar
-[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
-"ShowStatusBar"=dword:00000001

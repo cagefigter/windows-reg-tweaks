@@ -1,5 +1,0 @@
-Windows Registry Editor Version 5.00
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Notepad\DefaultFonts]
-"lfFaceName"="Times New Roman"
-"iPointSize"=dword:00000078

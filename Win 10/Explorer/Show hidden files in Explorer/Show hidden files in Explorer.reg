@@ -1,6 +1,0 @@
-Windows Registry Editor Version 5.00
-
-; dword:00000000 = Hidden files are hidden
-; dword:00000001 = Hidden files are visible
-[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
-"Hidden"=dword:00000001

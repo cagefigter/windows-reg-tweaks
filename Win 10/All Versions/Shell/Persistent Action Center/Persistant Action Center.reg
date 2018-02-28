@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; Make Action Center remain opened in Windows 10.
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\ImmersiveShell\Launcher]
+"DisableLightDismiss"=dword:00000001

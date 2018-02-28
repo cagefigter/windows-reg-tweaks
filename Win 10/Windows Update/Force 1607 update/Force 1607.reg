@@ -1,7 +1,0 @@
-[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate]
-
-; Win10 getting forced from 1511 to 1607 in spite of group policy settings
-“DeferUpgrade”=dword:00000001
-“DeferUpgradePeriod”=dword:00000008
-“DeferOSUpgrade”=dword:00000001
-“PauseDeferrals”=dword:00000001

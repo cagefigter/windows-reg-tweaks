@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+; This will make the taskbar clock show seconds
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+“ShowSecondsInSystemClock”=dword:00000000

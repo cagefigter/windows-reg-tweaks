@@ -1,6 +1,0 @@
-Windows Registry Editor Version 5.00
-
-; dword:00000000 = extensions are visible
-; dword:00000001 = extensions are hidden
-[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
-"HideFileExt"=dword:00000000
