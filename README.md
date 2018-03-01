@@ -31,6 +31,12 @@ Any problems, questions or something wrong?
 
 
 
+Find registry settings yourself
+------------
+
+To answer the question how do I find all these registry tweaks, it's very easy and explained with pictures and an example video over [here](https://chefkochblog.wordpress.com/2018/02/28/how-i-find-every-registry-tweak/).
+
+
 Win 7 - 10 Home Users Notice
 ------------
 
