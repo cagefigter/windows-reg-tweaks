@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE/SOFTWARE/Microsoft/Windows Media Foundation/Platform]
+"EnableFrameServerMode"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows Media Foundation]
+"EnableFrameServerMode"=dword:00000000
