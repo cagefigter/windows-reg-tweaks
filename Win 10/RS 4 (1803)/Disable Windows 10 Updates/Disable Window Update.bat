@@ -2,7 +2,11 @@ Windows Registry Editor Version 5.00
 
 ; After you applied these registry changes, you need to restart the wuauserv service, or restart the PC.
 [HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\WindowsUpdate]
-"DisableWindowsUpdateAcces"=dword:00000000
+"DisableWindowsUpdateAcces"=dword:00000001
+
+; Group Policy Path: Computer Configuration\Administrative Templates\System\Internet Communication Management\Internet Communication Management and you configure Turn off access to all Windows Update features to be Enabled
+;[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\WindowsUpdate]
+;"DisableWindowsUpdateAccess"=dword:00000001
 
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
 "NoWindowsUpdate"=dword:00000000
