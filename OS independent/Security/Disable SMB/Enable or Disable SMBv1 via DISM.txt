@@ -1,0 +1,9 @@
+Disable
+=======
+Dism /online /Disable-Feature /FeatureName:"SMB1Protocol"
+
+
+Enable
+=======
+Dism /online /Enable-Feature /FeatureName:"SMB1Protocol" -All
+
