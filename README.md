@@ -4,9 +4,9 @@ Regtweaks (Win 7 - Win 10) Collection files original created under the GNUv2 lic
 **Current Status: Over 600+ tweaks**
 
 
-[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40CHEF-KOCH)](https://twitter.com/FZeven)
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40CHEF-KOCH)](https://twitter.com/CKsTechNews)
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/CHEF-KOCH)
-[![Discord](https://discordapp.com/api/guilds/204394292519632897/widget.png)](https://discord.me/NVinside)
+[![Discord](https://discordapp.com/api/guilds/418256415874875402/widget.png)](https://discord.me/CHEF-KOCH)
 
 
 Before! you use any tweak(s) ensure you read the comment(s) inside the .reg (labeled with **;**) to see what it really changes. Of course an backup/snapshot could also help in case something goes wrong. Remember: Shit happens!
@@ -21,6 +21,14 @@ Project Goal
 3. Another goal is that the user doesn't need additional tools like O&O ShutUp, because some of such 'Privacy' tools are bundled with bloatware and are not necessary, because all can already be done with scripts and .reg tweak - So overall an Index/Backup script to read the current state is more transparent (see 1/2).
 4. Fix everything under ToDo.
 
+
+
+RegTweaks is free, but powered by your support
+------------
+
+There are many reoccurring costs involved with maintaining free, open source and privacy respecting programs. As you probably know, developing quality applications takes much time and resources. Your donation will make it possible to keep my the current development standard.
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://github.com/CHEF-KOCH/Donations)
 
 
 Any problems, questions or something wrong?
