@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; Stop telemetry logging
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\15.0\osm]
+"Enablelogging"=dword:00000000
+"EnableUpload"=dword:00000000

@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; https://technet.microsoft.com/en-us/library/jj591589.aspx
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Office\15.0\osm]
+"EnableFileObfuscation"=dword:00000001
+
