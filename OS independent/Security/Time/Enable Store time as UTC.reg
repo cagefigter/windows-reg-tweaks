@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+; By default it sets local time in your BIOS. So when you look at the BIOS settings, it shows you the correct time.
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation]
+ "RealTimeIsUniversal"=dword:00000001
+ 
+ 
