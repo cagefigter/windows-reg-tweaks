@@ -46,6 +46,17 @@ Find registry settings yourself
 To answer the question how do I find all these registry tweaks, it's very easy and explained with pictures and an example video over [here](https://chefkochblog.wordpress.com/2018/02/28/how-i-find-every-registry-tweak/).
 
 
+
+Find hidden Windows features yourself
+------------
+
+[Mach2](https://github.com/riverar/mach2) is not an official Microsoft program. Nevertheless, you can still [download it from it's Github page](https://github.com/riverar/mach2/releases). It's recommended you run the tool with `--help` for details on how to use the tool. In order to find hidden features, Mach2 needs to scan PDB files, otherwise known as Program Database files, which contain debug symbols for the Windows executables. The problem, though, is that these symbol files are not installed with Windows and you need to download them from Microsoft's Symbol Server.
+
+A complete guide is [available here](https://www.bleepingcomputer.com/news/microsoft/finding-and-enabling-hidden-features-in-windows-10-using-mach2/).
+
+Keep in mind that not all feature IDs can be found within Windows debugging symbols. [Capstone](https://github.com/aquynh/capstone) is still needed in order to disassemble all details.
+
+
 Win 7 - 10 Home Users Notice
 ------------
 
@@ -56,6 +67,7 @@ The Home Editions doesn't official supporting the GPEDIT.MSC stuff, so here is h
 Project History
 ------------
 
+- [x] 04.05.2018	Mach2 will be integrated into the GUI, until then I provide links to the project and an external guide how to find hidden Windows features in Insider Builds
 - [x] 18.07.2017    GUI is done, some internal fixes before rolling out at the end of this year, some cleanups are necessary
 - [x] 13.04.2017    Second and last GUI beta test
 - [x] 26.01.2017    First beta GUI tests
@@ -70,6 +82,7 @@ ToDo
 ------------
 
 - [ ] Add new tweaks (all time high-prio)
+- [ ] Adapt or integrate Mach2 within the GUI (Work-in-Process WiP)
 - [x] Sort all tweaks maybe via .html or .js parser to easier access them with e.g. a search function (like RSW?) (main-prio) in other words: GUI Client
 - [x] Delete duplicates (high-prio)
 - [x] Remove not working ones of course this needs some testers (high-prio)
