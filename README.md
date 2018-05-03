@@ -1,4 +1,4 @@
-Regtweaks (Win 7 - Win 10) Collection files original created under the GNUv2 license 2015 by [CHEF-KOCH](https://github.com/CHEF-KOCH). Some tweaks are taken from the internet, some are found by myself.
+Regtweaks (Win 7 - Win 10) Collection files original created under the GNUv2 license 2015 by [CHEF-KOCH](https://github.com/CHEF-KOCH). Some tweaks are taken from the Internet, some are found by myself.
 
 
 **Current Status: Over 600+ tweaks**
@@ -19,7 +19,7 @@ Project Goal
 1. All of the tweaks could be integrated into image creations tools (vLite, WinToolKit,..) to simplify things, especially if you like to re-install Windows from the ground without need to apply each tweak one by one.
 2. Show hidden things that aren't visible via GUI under Windows. Sometimes it's easier/faster to do this via .reg instead of search for the toggles.
 3. Another goal is that the user doesn't need additional tools like O&O ShutUp, because some of such 'Privacy' tools are bundled with bloatware and are not necessary, because all can already be done with scripts and .reg tweak - So overall an Index/Backup script to read the current state is more transparent (see 1/2).
-4. Fix everything under ToDo.
+4. Fix everything listed under ToDo.
 
 
 
@@ -36,6 +36,7 @@ Any problems, questions or something wrong?
 
 * Feel free to open an [issue ticket](https://github.com/CHEF-KOCH/regtweaks/issues) and I will look at it asap. - Pull requests or ideas are always welcome!
 * Please do not use the issue tracker to ask for xyz tweaks, I not waste my time with that until there is a very good reasons to do so. If you found something that wasn't added here contact me and I will add it.
+* Windows 7 - 8 support is limited, I simply don't have time to check every OS and I personally won't support it anymore because my philosophy is to use the latest OS due security reasons.
 
 
 
@@ -68,10 +69,10 @@ Project History
 ToDo
 ------------
 
-- [ ] Add new tweaks (high-prio)
-- [x] Sort all tweaks maybe via .html or .js parser to easier access them with e.g. a search function (like RSW?) (low-prio)
+- [ ] Add new tweaks (all time high-prio)
+- [x] Sort all tweaks maybe via .html or .js parser to easier access them with e.g. a search function (like RSW?) (main-prio) in other words: GUI Client
 - [x] Delete duplicates (high-prio)
-- [ ] Remove not working ones of course this needs some testers (high-prio)
+- [x] Remove not working ones of course this needs some testers (high-prio)
 - [x] Rename tweaks to english (some are in ger./ru.) (high-prio)
 - [ ] Fix [reported problems](https://github.com/CHEF-KOCH/regtweaks/issues) (high-prio)
 - [x] Add on/off toggles (registry/batch files) to revert all changes in case something goes wrong
