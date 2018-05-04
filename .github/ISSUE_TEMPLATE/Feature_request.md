@@ -4,6 +4,8 @@ about: Suggest your idea for regtweaks
 
 ---
 
+Before you submit something please take you time [read what is currently broken in Windows](https://github.com/CHEF-KOCH/regtweaks/blob/master/Known%20Windows%20Issue.md).
+
 **Is your feature request related to a problem? If yes, please describe it in much details as possible.**
 A clear and concise description of what the problem is. Ex. I'm always frustrated when,[...]
 

@@ -4,6 +4,8 @@ about: Create a report to help solved an issue
 
 ---
 
+Before you submit something please take you time [read what is currently broken in Windows](https://github.com/CHEF-KOCH/regtweaks/blob/master/Known%20Windows%20Issue.md).
+
 **Describe the bug or problem**
 A clear and concise description of what the bug is. None reproducable bugs getting automatically closed without any explanation!
 
