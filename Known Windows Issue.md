@@ -29,6 +29,7 @@ Diagnostic data can't be changed | Some users see “Windows Insider Program man
 Icon and GUI glitches | See [here](https://medium.com/@itsmichaelwest/things-wrong-with-the-ui-ux-in-the-windows-10-april-2018-update-ce9c5aebbd32). | // | // | Needs to be fixed by MS
 Frame drops in D3D9 games | Some games dropping frames mostly DirectX9 based ones | Enable "Disable fullscreen optimations" and "Override DPI Scaling" & Turn off/on Windows 10 game boost, and the boost setting you turn on/off on the overlay | // | Needs to be changed by Game Developers to adopt MS 'game optimization feature' 
 IPv6 DNS RA and other flags are none functional | Stateless-DHCP, Router Advertisements flags are been ignored | Downgrade to Build 1703 | // | [Needs to be fixed by MS](https://social.technet.microsoft.com/Forums/windows/en-US/b16e7d78-e390-4ada-a24b-3ccba60fa571/no-ipv6-dns-statelessdhcp-since-windows-10-anniversary-update?forum=win10itpronetworking).
+MAC address randomization is gone | On Home and Pro (?) versions the option is not available anymore | Install another driver | // | MS has changed this behavior, however this [feature is not as affective as you might think](https://searchsecurity.techtarget.com/tip/MAC-address-randomization-schemes-Examining-the-pros-and-cons). 
 
 
 
