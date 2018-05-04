@@ -5,7 +5,9 @@ The document is provides 'as it' and is not designed to explain every little 'fa
 
 The list is checked against:
 * Windows 10 1803 Ent. VL OEM. 
-* Please don't ask for Home/Pro! I give a rats-ass about those versions but feel free to submit something if you like to.
+* Please don't ask for Home/Pro! I give a rats-ass about those versions but feel free to submit something if you like.
+
+
 
 
 Problem | Description | Workaround | Fix | Additional Information 
