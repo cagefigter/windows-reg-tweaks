@@ -1,6 +1,0 @@
-Windows Registry Editor Version 5.00
-
-[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Search]
-„BingSearchEnabled“=dword:00000001
-„CortanaConsent“=dword:00000001
-
