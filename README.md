@@ -81,6 +81,7 @@ Project History
 ToDo
 ------------
 
+- [ ] Add Windows 'urgent' Bug List (requested) (mid-prio)
 - [ ] Add new tweaks (all time high-prio)
 - [ ] Adapt or integrate Mach2 within the GUI (Work-in-Process WiP)
 - [x] Sort all tweaks maybe via .html or .js parser to easier access them with e.g. a search function (like RSW?) (main-prio) in other words: GUI Client
