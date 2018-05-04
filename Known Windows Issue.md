@@ -10,7 +10,7 @@ The list is checked against:
 
 Problem | Description | Workaround | Fix | Additional Information 
 --- | --- | --- | --- | --- |
-Unnecessarily writing on SSD will shorten the lifetime | [fsutil behavior set disablelastaccess 1](https://translate.google.com/translate?hl=en&sl=ja&u=http://blog.livedoor.jp/nichepcgamer/archives/1071061265.html&prev=search) | fsutil behavior set disablelastaccess 1 | [here](https://github.com/CHEF-KOCH/regtweaks/blob/master/Win%2010/RS%204%20(1803)/SSD/NtfsDisableLastAccessUpdate.reg) | 5
+Unnecessarily writing on SSD will shorten the lifetime | [fsutil behavior set disablelastaccess](https://translate.google.com/translate?hl=en&sl=ja&u=http://blog.livedoor.jp/nichepcgamer/archives/1071061265.html&prev=search) | fsutil behavior set disablelastaccess 1 | [Here](https://github.com/CHEF-KOCH/regtweaks/blob/master/Win%2010/RS%204%20(1803)/SSD/NtfsDisableLastAccessUpdate.reg) | //
 Windows Cortana WebSearch can't be globally turned off | Disabling WebSearch via GPO or registry globally (HKEY_LOCAL_MACHINE) doesn't work | You only can set it [per user basis](https://github.com/CHEF-KOCH/regtweaks/tree/master/Win%2010/RS%204%20(1803)/Features/Cortana%20WebSearch) (HKEY_CURRENT_USER) | // | Needs fixed by MS
 Chrome, Edge freezes due [broken hardware decoder | The original issue ticket can be found [here](https://bugs.chromium.org/p/chromium/issues/detail?id=838809), [some Reddit user reporting not only Chrome is affected](https://www.reddit.com/r/Windows10/comments/8gf68w/chrome_freezes_windows_after_april_update/), see also [here](https://www.reddit.com/r/Windows10/comments/8guv3d/edge_high_cpu_usage_with_youtube/) | //  | Fixed with 17134.5+ | [Neowin](https://www.neowin.net/news/google-chrome-is-freezing-intermittently-with-the-windows-10-april-2018-update)
 Homegroup glitches | Homegroup was removed, there still GUI toggles (not working), this needs to be fixed with an GUI update. | Ignore it | Remove some leftovers manually | //
@@ -30,6 +30,6 @@ Icon and GUI glitches | See [here](https://medium.com/@itsmichaelwest/things-wro
 Frame drops in D3D9 games | Some games dropping frames mostly DirectX9 based ones | Enable "Disable fullscreen optimations" and "Override DPI Scaling" & Turn off/on Windows 10 game boost, and the boost setting you turn on/off on the overlay | // | Needs to be changed by Game Developers to adopt MS 'game optimization feature' 
 IPv6 DNS RA and other flags are none functional | Stateless-DHCP, Router Advertisements flags are been ignored | Downgrade to Build 1703 | // | [Needs to be fixed by MS](https://social.technet.microsoft.com/Forums/windows/en-US/b16e7d78-e390-4ada-a24b-3ccba60fa571/no-ipv6-dns-statelessdhcp-since-windows-10-anniversary-update?forum=win10itpronetworking).
 MAC address randomization is gone | On Home and Pro (?) versions the option is not available anymore | Install another driver | // | MS has changed this behavior, however this [feature is not as affective as you might think](https://searchsecurity.techtarget.com/tip/MAC-address-randomization-schemes-Examining-the-pros-and-cons). 
-
+nVidia games changing the color profiles | Washed out colors with nvidia drivers | See [here](https://forums.geforce.com/default/topic/966561/finally-a-fix-for-the-games-changing-the-color-profiles-/) | New drivers ? | // 
 
 
