@@ -25,11 +25,14 @@ Delayed mouse reactions | VSync seems to be broken (for some people ?) Needs con
 Unusable microphone | Microsoft added new permission blacklists in order to block illegal access to webcam/mic | // | Settings > Privacy. See if microphone access is allowed for apps. | //
 Context menu doesn’t appear | Some users don't see the context menu | // | Install a new graphic cards driver | //
 Fixes for Spectre and Meltdown | Spectre Variant 2 protection isn't enabled and calls InSprectre as vulnerable | // | Possible 8 May with patchday | //
-Diagnostic data can't be changed | Some users see “Windows Insider Program manages this option” when they try to change the diagnostic data upload options in Settings > Privacy > Diagnostics & Feedback. | // | // | Needs to be fixed by MS
+Diagnostic data can't be changed | [Some users see “Windows Insider Program manages this option”](https://imgur.com/a/mpMw8Co) when they try to change the diagnostic data upload options in Settings > Privacy > Diagnostics & Feedback. | // | // | Needs to be fixed by MS
 Icon and GUI glitches | See [here](https://medium.com/@itsmichaelwest/things-wrong-with-the-ui-ux-in-the-windows-10-april-2018-update-ce9c5aebbd32). | // | // | Needs to be fixed by MS
 Frame drops in D3D9 games | Some games dropping frames mostly DirectX9 based ones | Enable "Disable fullscreen optimations" and "Override DPI Scaling" & Turn off/on Windows 10 game boost, and the boost setting you turn on/off on the overlay | // | Needs to be changed by Game Developers to adopt MS 'game optimization feature' 
 IPv6 DNS RA and other flags are none functional | Stateless-DHCP, Router Advertisements flags are been ignored | Downgrade to Build 1703 | // | [Needs to be fixed by MS](https://social.technet.microsoft.com/Forums/windows/en-US/b16e7d78-e390-4ada-a24b-3ccba60fa571/no-ipv6-dns-statelessdhcp-since-windows-10-anniversary-update?forum=win10itpronetworking).
 MAC address randomization is gone | On Home and Pro (?) versions the option is not available anymore | Install another driver | // | MS has changed this behavior, however this [feature is not as affective as you might think](https://searchsecurity.techtarget.com/tip/MAC-address-randomization-schemes-Examining-the-pros-and-cons). 
 nVidia games changing the color profiles | Washed out colors with nvidia drivers | See [here](https://forums.geforce.com/default/topic/966561/finally-a-fix-for-the-games-changing-the-color-profiles-/) | New drivers ? | // 
-
-
+CDPUserSvc is using CPU constantly | Freezes + Crashes and lagg can appear | // | // | Needs to be fixed by [MS](https://aka.ms/AA17j2v).
+Slow Alt+Tab | Alt+Tab while Gaming is slow/slower | Windows key--->Configuration(the gear)--->System--->Focus Assist--->DISABLE everything! | // | // | //
+Speakers Enhancements are automatically reset | Realtek, Creative etc enhancements are automatically reset after restart | // | // | Needs to be fixed by [MS](https://aka.ms/AA17iws).
+You can't remove redundant keyboard language packs | [Enlish (US) Language Pack is not removable](https://i.redditmedia.com/B_UPLuUc9SwhuCCX1r7Ch8ahjZnpyckjXm3-fohwgGw.png?w=1024&s=428c3794801af5fbcacd70e20369faff) | // | // | Needs to be fixed by [MS](https://aka.ms/AA1615h).
+Windows uses GiB instead of GB | SI is wrong | // | // | Needs to be fixed by MS 
