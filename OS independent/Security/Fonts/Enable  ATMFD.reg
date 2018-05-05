@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; Applications that rely on embedded font technology will not display properly. Disabling ATMFD.DLL could cause certain applications to stop working properly if they use OpenType fonts. Microsoft Windows does not release any OpenType fonts natively. However, third-party applications could install them and they could be affected by this change.
+; https://docs.microsoft.com/en-us/security-updates/securitybulletins/2015/ms15-078
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows]  
+"DisableATMFD"=dword:00000000
