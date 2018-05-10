@@ -1,11 +1,11 @@
-﻿The following known issue are currently present in Windows 1803. Before you submit any bug or feature request I expect that you read this document in order to get a short overview what is broken and what can be manually fixed or needs an update (file changes). 
+﻿The following known issue are currently present in Windows 1803 (Spring Creators Update aka April Update). Before you submit any bug or feature request I expect that you read this document in order to get a short overview what is broken and what can be manually fixed or needs an update (file changes). 
 
-The document is provides 'as it' and is not designed to explain every little 'fart' or possible issue, moreover it's to show quickly what are the 'urgent' things which are (as time of writing) considerable broken.
+The document is provides 'as it' and is not designed to explain every little 'fart', moreover it's designed to show quickly what are the 'urgent' things which are (as time of writing) considerable broken or needs a fix.
 
 
 The list is checked against:
 * Windows 10 1803 Ent. VL OEM. 
-* Please don't ask for Home/Pro! I give a rats-ass about those versions but feel free to submit something if you like.
+* Please don't ask for Home/Pro versions! I give a rats-ass about those versions but feel free to submit something if you like.
 
 
 
@@ -39,5 +39,4 @@ Speakers Enhancements are automatically reset | Realtek, Creative etc enhancemen
 You can't remove redundant keyboard language packs | [English (US) Language Pack is not removable](https://i.redditmedia.com/B_UPLuUc9SwhuCCX1r7Ch8ahjZnpyckjXm3-fohwgGw.png?w=1024&s=428c3794801af5fbcacd70e20369faff) | // | // | Needs to be fixed by [MS](https://aka.ms/AA1615h).
 Windows uses GiB instead of GB | SI is wrong | // | // | Needs to be fixed by MS 
 When switching the refresh rate from 59 Hz to 60Hz the refresh rate remains at 59 Hz | [Screen refresh rate in Windows does not apply the user selected settings on monitors & TVs (that report specific TV compatible timings)](https://support.microsoft.com/en-us/help/2006076/screen-refresh-rate-in-windows-does-not-apply-the-user-selected-settin) | // | There will never be a fix cause it's not nVidia/AMD or Windows related issue. | You can 'fix' this via [CRU](https://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU)
-12 bpc is automatically applied even on HDTVs that support only 8 bpc, resulting in a scrambled display | Windows 10 Fall Creators Update Bug 2007663 | Open the NVIDIA Control Panel -> Change Resolution page, select Use
-NVIDIA color settings, then set the Output color depth to 8 bpc. | Maybe with other drivers? (unconfirmed) | //
+12 bpc is automatically applied even on HDTVs that support only 8 bpc, resulting in a scrambled display | Windows 10 Fall Creators Update Bug 2007663 | Open the NVIDIA Control Panel -> Change Resolution page, select Use NVIDIA color settings, then set the Output color depth to 8 bpc. | Maybe with other drivers? (unconfirmed) | //
