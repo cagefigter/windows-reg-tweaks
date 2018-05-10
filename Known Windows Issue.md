@@ -38,3 +38,7 @@ Slow Alt+Tab | Alt+Tab while Gaming is slow/slower | Windows key--->Configuratio
 Speakers Enhancements are automatically reset | Realtek, Creative etc enhancements are automatically reset after restart | // | // | Needs to be fixed by [MS](https://aka.ms/AA17iws).
 You can't remove redundant keyboard language packs | [Enlish (US) Language Pack is not removable](https://i.redditmedia.com/B_UPLuUc9SwhuCCX1r7Ch8ahjZnpyckjXm3-fohwgGw.png?w=1024&s=428c3794801af5fbcacd70e20369faff) | // | // | Needs to be fixed by [MS](https://aka.ms/AA1615h).
 Windows uses GiB instead of GB | SI is wrong | // | // | Needs to be fixed by MS 
+When switching the refresh rate from 59 Hz to 60Hz, the refresh rate remains at 59 Hz | [Screen refresh rate in Windows does not apply the user selected settings on monitors & TVs (that report specific TV compatible timings)](https://support.microsoft.com/en-us/help/2006076/screen-refresh-rate-in-windows-does-not-apply-the-user-selected-settin) | // || There will never be a fix cause it's not nVidia/AMD or Windows related issue | You can 'fix' this via [CRU](https://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU)
+ 12 bpc is automatically applied even on
+HDTVs that support only 8 bpc, resulting in a scrambled display | Windows 10 Fall Creators Update Bug 2007663 | open the NVIDIA Control Panel->Change Resolution page, select “Use
+NVIDIA color settings”, then set the Output color depth to 8 bpc. | Maybe with other drivers? (unconfirmed) | //
