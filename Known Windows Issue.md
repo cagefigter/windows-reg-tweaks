@@ -4,7 +4,7 @@ The document is provides 'as it' and is not designed to explain every little 'fa
 
 
 The list is checked against:
-* Windows 10 1803 Ent. VL OEM. 
+* Windows 10 1803 Ent. VL OEM (en_windows_10_business_editions_version_1803_updated_march_2018_x64_dvd_12063333). 
 * Please don't ask for Home/Pro versions! I give a rats-ass about those versions but feel free to submit something if you like.
 
 
@@ -33,11 +33,11 @@ Frame drops in D3D9 games | Some games dropping frames mostly DirectX9 based one
 IPv6 DNS RA and other flags are none functional | Stateless-DHCP, Router Advertisements flags are been ignored | Downgrade to Build 1703 | // | [Needs to be fixed by MS](https://social.technet.microsoft.com/Forums/windows/en-US/b16e7d78-e390-4ada-a24b-3ccba60fa571/no-ipv6-dns-statelessdhcp-since-windows-10-anniversary-update?forum=win10itpronetworking).
 MAC address randomization is gone | On Home and Pro (?) versions the option is not available anymore | Install another driver | // | MS has changed this behavior, however this [feature is not as affective as you might think](https://searchsecurity.techtarget.com/tip/MAC-address-randomization-schemes-Examining-the-pros-and-cons). 
 nVidia games changing the color profiles | Washed out colors with nVidia drivers | See [here](https://forums.geforce.com/default/topic/966561/finally-a-fix-for-the-games-changing-the-color-profiles-/) | New drivers ? | // 
-CDPUserSvc is using CPU constantly | Freezes + Crashes and lagg can appear | // | // | Needs to be fixed by [MS](https://aka.ms/AA17j2v).
+CDPUserSvc is using CPU constantly | Freezes + Crashes and lags can appear | // | // | Needs to be fixed by [MS](https://aka.ms/AA17j2v).
 Slow Alt+Tab | Alt+Tab while Gaming is slow/slower | Windows key--->Configuration(the gear)--->System--->Focus Assist--->DISABLE everything! | // | // 
 Speakers Enhancements are automatically reset | Realtek, Creative etc enhancements are automatically reset after restart | // | // | Needs to be fixed by [MS](https://aka.ms/AA17iws).
 You can't remove redundant keyboard language packs | [English (US) Language Pack is not removable](https://i.redditmedia.com/B_UPLuUc9SwhuCCX1r7Ch8ahjZnpyckjXm3-fohwgGw.png?w=1024&s=428c3794801af5fbcacd70e20369faff) | (Workaround](https://www.reddit.com/r/windows/comments/8hi21r/fix_1803_cannot_remove_english_us_language_pack/) | // | Needs to be fixed by [MS](https://aka.ms/AA1615h).
 Windows uses GiB instead of GB | SI is wrong | // | // | Needs to be fixed by MS 
 When switching the refresh rate from 59 Hz to 60Hz the refresh rate remains at 59 Hz | [Screen refresh rate in Windows does not apply the user selected settings on monitors & TVs (that report specific TV compatible timings)](https://support.microsoft.com/en-us/help/2006076/screen-refresh-rate-in-windows-does-not-apply-the-user-selected-settin) | // | There will never be a fix cause it's not nVidia/AMD or Windows related issue. | You can 'fix' this via [CRU](https://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU)
 12 bpc is automatically applied even on HDTVs that support only 8 bpc, resulting in a scrambled display | Windows 10 Fall Creators Update Bug 2007663 | Open the NVIDIA Control Panel -> Change Resolution page, select Use NVIDIA color settings, then set the Output color depth to 8 bpc. | Maybe with other drivers? (unconfirmed) | //
-RDP app might not work | More details [here](https://support.microsoft.com/en-us/help/4093492/credssp-updates-for-cve-2018-0886-march-13-2018) | Use third-party RDP app | Wait till CredSSP protocol got an update, you need to update your server. This is not a bug at all, it's due security reasons! | [CVE-2018-0886](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0886( 
+RDP App might not work | More details [here](https://support.microsoft.com/en-us/help/4093492/credssp-updates-for-cve-2018-0886-march-13-2018) | Use third-party RDP app | Wait till CredSSP protocol got an update, you need to update your server. This is not a bug at all, it's due security reasons! | [CVE-2018-0886](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0886) 
