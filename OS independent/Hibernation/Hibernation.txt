@@ -1,0 +1,6 @@
+The GUI sometime doesn't respect the hibernation option, so force it via cmd (times are in mins.)
+
+powercfg /h ON
+powercfg /X hibernate-timeout-ac 15
+powercfg /X hibernate-timeout-dc 15
+
