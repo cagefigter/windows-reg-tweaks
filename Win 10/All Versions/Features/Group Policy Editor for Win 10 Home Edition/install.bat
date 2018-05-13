@@ -1,0 +1,1 @@
+for /f "tokens=*" %G IN ('dir /b "%SystemRoot%\servicing\Packages\Microsoft-Windows-GroupPolicy-Client*.mum"') do (dism /online /norestart /add-package:"%SystemRoot%\servicing\Packages\%G"
