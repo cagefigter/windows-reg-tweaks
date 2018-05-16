@@ -1,6 +1,11 @@
 Windows Registry Editor Version 5.00
 
+; Bing Search doesn't work anyway once Cortana is disabled
+; SearchWebUI is also not possible once Cortana is disabled
+; AllowSearchToUseLocation is already covered by GUI and also not possible once Cortana is disabled.
+; "ConnectedSearchUseWebOverMeteredConnections"=dword:00000001
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Search]
-„BingSearchEnabled“=dword:00000001
-„CortanaConsent“=dword:00000001
+"BingSearchEnabled“=dword:00000001
+"CortanaConsent“=dword:00000001
+"AllowSearchToUseLocation"=dword:00000001
 
