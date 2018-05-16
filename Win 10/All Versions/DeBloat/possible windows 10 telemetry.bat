@@ -49,6 +49,8 @@ if "%VERBOSE%"=="yes" (
 	REM Additional KB entries removed by Microsoft; originally associated with telemetry
 	start /wait "" wusa /uninstall /kb:2976987 /norestart /quiet
 	start /wait "" wusa /uninstall /kb:3068707 /norestart /quiet
+	REM GWX KB4134660 (https://support.microsoft.com/en-us/help/4134660/provides-a-notification-of-an-improved-privacy-experience-on-upgrade-t)
+	start /wait "" wusa /uninstall /kb:KB4134660 /norestart /quiet
 ) else (
 	REM KB 2902907 (https://support.microsoft.com/en-us/kb/2902907)
 	start /wait "" wusa /uninstall /kb:2902907 /norestart /quiet >> "%LOGPATH%\%LOGFILE%" 2>&1
@@ -95,6 +97,8 @@ if "%VERBOSE%"=="yes" (
 	REM Additional KB entries removed by Microsoft; originally associated with telemetry
 	start /wait "" wusa /uninstall /kb:2976987 /norestart /quiet >> "%LOGPATH%\%LOGFILE%" 2>&1
 	start /wait "" wusa /uninstall /kb:3068707 /norestart /quiet >> "%LOGPATH%\%LOGFILE%" 2>&1
+	REM GWX KB4134660 (https://support.microsoft.com/en-us/help/4134660/provides-a-notification-of-an-improved-privacy-experience-on-upgrade-t)
+	start /wait "" wusa /uninstall /kb:KB4134660 /norestart /quiet >> "%LOGPATH%\%LOGFILE%" 2>&1
 )
 
 
