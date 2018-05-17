@@ -1,0 +1,10 @@
+Overview:
+https://support.microsoft.com/en-us/help/4100347/intel-microcode-updates-for-windows-10-version-1803-and-windows-server
+
+
+Download KB4100347 MSU for Windows 10 v1803 32-bit (x86) - 1.2 MB
+http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/05/windows10.0-kb4100347-x86_626ea1e8760527840c3eb367518c291855b849cf.msu
+
+
+Download KB4100347 MSU for Windows 10 v1803 64-bit (x64) - 1.1 MB
+http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/05/windows10.0-kb4100347-x64_89793c02681ab9df96565ca4c5ee601e4475ec8f.msu
