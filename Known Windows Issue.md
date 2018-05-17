@@ -41,3 +41,14 @@ Windows uses GiB instead of GB | SI is wrong | // | // | Needs to be fixed by MS
 When switching the refresh rate from 59 Hz to 60Hz the refresh rate remains at 59 Hz | [Screen refresh rate in Windows does not apply the user selected settings on monitors & TVs (that report specific TV compatible timings)](https://support.microsoft.com/en-us/help/2006076/screen-refresh-rate-in-windows-does-not-apply-the-user-selected-settin) | // | There will never be a fix cause it's not nVidia/AMD or Windows related issue. | You can 'fix' this via [CRU](https://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU)
 12 bpc is automatically applied even on HDTVs that support only 8 bpc, resulting in a scrambled display | Windows 10 Fall Creators Update Bug 2007663 | Open the NVIDIA Control Panel -> Change Resolution page, select Use NVIDIA color settings, then set the Output color depth to 8 bpc. | Maybe with other drivers? (unconfirmed) | //
 RDP App might not work | More details [here](https://support.microsoft.com/en-us/help/4093492/credssp-updates-for-cve-2018-0886-march-13-2018) | Use third-party RDP app | Wait till CredSSP protocol got an update, you need to update your server. This is not a bug at all, it's due security reasons! | [CVE-2018-0886](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0886) 
+Reliability issues have been observed during the creation of shielded VMs and the required artifacts for their deployment. There are also reliability issues for the Shielding File Wizard with or without the SCVMM interface. | Existing shielded VMs and HGSs are not affected. | // | MS needs to fix it | //
+
+
+
+
+
+
+
+
+* [How to temporarily prevent a driver update from reinstalling in Windows 10](https://support.microsoft.com/en-us/help/3073930/how-to-temporarily-prevent-a-driver-update-from-reinstalling-in-window)
+
