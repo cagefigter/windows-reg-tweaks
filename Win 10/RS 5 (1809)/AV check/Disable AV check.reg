@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+; Build 17672+ 
+; The Windows Security Center (WSC) service now requires antivirus products to run as a protected process to register. Products that have not yet implemented this will not appear in the Windows Security UI, and Windows Defender Antivirus will remain enabled side-by-side with these products.
+; For testing purposes, you can disable this new behavior in Windows Insider builds by creating the following registry key and rebooting the device. This key will be removed as we get closer to release. 
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Security Center\Feature]
+"DisableAvCheck"=dword:00000001
+
