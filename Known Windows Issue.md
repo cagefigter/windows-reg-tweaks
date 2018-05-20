@@ -26,7 +26,7 @@ Color Theme can't be set to 'simple black' | No black accent color choosable | A
 Delayed mouse reactions | VSync seems to be broken (for some people ?) Needs confirmation | Change the driver? | // | //
 Unusable microphone | Microsoft added new permission blacklists in order to block illegal access to webcam/mic | // | Settings > Privacy. See if microphone access is allowed for apps. | //
 Context menu doesn’t appear | Some users don't see the context menu | // | Install a new graphic cards driver | //
-Fixes for Spectre and Meltdown | Spectre Variant 2 protection isn't enabled and calls InSprectre as vulnerable | // | Possible 8 May with patchday | //
+Fixes for Spectre NG | // | // | Possible 21/22 May via patchday | //
 Diagnostic data can't be changed | [Some users see “Windows Insider Program manages this option”](https://imgur.com/a/mpMw8Co) when they try to change the diagnostic data upload options in Settings > Privacy > Diagnostics & Feedback. | // | // | Needs to be fixed by MS
 Icon and GUI glitches | See [here](https://medium.com/@itsmichaelwest/things-wrong-with-the-ui-ux-in-the-windows-10-april-2018-update-ce9c5aebbd32). | // | // | Needs to be fixed by MS
 Frame drops in D3D9 games | Some games dropping frames mostly DirectX9 based ones | Enable "Disable fullscreen optimizations" and "Override DPI Scaling" & Turn off/on Windows 10 game boost, and the boost setting you turn on/off on the overlay | // | Needs to be changed by Game Developers to adopt MS 'game optimization feature' 
