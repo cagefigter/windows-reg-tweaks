@@ -20,7 +20,7 @@ Duplicate `Settings` | Settings panel is still available as Win32 and UWP app | 
 GUI glitches in Windows Defender | By design there some shadow/animation glitches also called 'glaring bug'. | // | // | Needs to be fixed by MS 
 Strange Unicode symbols in Registry | See [here](https://imgur.com/a/nTIc8j0). | // | // | //
 Background apps re-start automatically after a restart | Even after using Registry or [GPO settings on Home Edition](https://github.com/CHEF-KOCH/regtweaks/tree/master/Win%2010/All%20Versions/Features/Group%20Policy%20Editor%20for%20Win%2010%20Home%20Edition) | [Workaround for Pro/Ent. users](https://old.reddit.com/r/Windows10/comments/8i6wkj/whenever_i_turn_my_pc_on_background_apps_turns/). | See [here](https://blogs.technet.microsoft.com/mniehaus/2015/11/23/seeing-extra-apps-turn-them-off/]) & [here](https://docs.microsoft.com/en-us/windows/application-management/remove-provisioned-apps-during-update). | GPO needs fixed by MS
-Sound crackling | Crackling during Music/Video playback | [Needs confirmation](https://github.com/CHEF-KOCH/regtweaks/tree/master/Win%2010/RS%204%20(1803)/Audio%20crackling%20fix%20%5BTEST!%5D) | Via Realtek, Asus, Creative Driver or MS update? | //
+Sound crackling | Crackling during Music/Video playback | [Needs confirmation](https://github.com/CHEF-KOCH/regtweaks/tree/master/Win%2010/RS%204%20(1803)/Audio%20crackling%20fix%20%5BTEST!%5D) | Fixed with 8451 | //
 Spotlight doesn't work | // | A Workaround is [here](https://www.reddit.com/r/Windows10/comments/8gxxs2/aio_fix_windows_10_any_version_spotlight_not/). | // | Needs to be fixed by MS
 Color Theme can't be set to 'simple black' | No black accent color choosable | A regfix is [here](https://github.com/CHEF-KOCH/regtweaks/tree/master/Win%2010/RS%204%20(1803)/Theme/Black%20accent%20color)  | // | Needs to be changed by MS
 Delayed mouse reactions | VSync seems to be broken (for some people ?) Needs confirmation | Change the driver? | // | //
@@ -51,19 +51,19 @@ Ghost partition appears | New partitions may appear in File Explorer after insta
 
 Spectre NG ([Variant 4](https://www.neowin.net/news/spectre-variant-4-disclosed-mitigations-to-result-in-another-performance-hit)) isn't patched (yet).
 
-OS Version | KB | Patch | Microcode for
---- | --- | --- | --- | 
+OS Version | KB | Patch | Microcode for CPU
+--- | --- | --- | --- 
 Windows 10 1507 | [KB4091666](https://support.microsoft.com/en-us/help/4091666/kb4091666-intel-microcode-updates) | [Download](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4091666) | Sandy Bridge, Ivy Bridge, Haswell, Broadwell,
-Skylake
-Windows 10 1511 | // | // | // 
+Skylake |
+Windows 10 1511 | // | // | // |
 Windows 10 1607 | [KB4091664](https://support.microsoft.com/en-us/help/4091664/kb4091664-intel-microcode-updates) | [Download](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4091664) | Sandy Bridge, Ivy Bridge, Haswell, Broadwell,
-Skylake, Kaby Lake, Coffee Lake
+Skylake, Kaby Lake, Coffee Lake |
 Windows 10 1703 | [KB4091663](https://support.microsoft.com/en-us/help/4091663/kb4091663-intel-microcode-updates) | [Download](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4091663) | Sandy Bridge, Ivy Bridge, Haswell, Broadwell,
-Skylake, Kaby Lake, Coffee Lake
+Skylake, Kaby Lake, Coffee Lake |
 Windows 10 1709 | [KB4090007](https://support.microsoft.com/en-us/help/4090007/intel-microcode-updates) | [Download](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4090007) | Sandy Bridge, Ivy Bridge, Haswell, Broadwell,
-Skylake, Kaby Lake, Coffee Lake
+Skylake, Kaby Lake, Coffee Lake |
 Windows 10 1803 | [KB4100347](https://support.microsoft.com/en-us/help/4100347/intel-microcode-updates-for-windows-10-version-1803-and-windows-server) | [Download](https://www.catalog.update.microsoft.com/search.aspx?q=4100347) | Sandy Bridge, Ivy Bridge, Haswell, Broadwell,
-Skylake, Kaby Lake, Coffee Lake
+Skylake, Kaby Lake, Coffee Lake |
 
 
 
