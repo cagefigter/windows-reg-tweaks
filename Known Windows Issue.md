@@ -26,7 +26,7 @@ Color Theme can't be set to 'simple black' | No black accent color choosable | A
 Delayed mouse reactions | VSync seems to be broken (for some people ?) Needs confirmation | Change the driver? | // | //
 Unusable microphone | Microsoft added new permission blacklists in order to block illegal access to webcam/mic | // | Settings > Privacy. See if microphone access is allowed for apps. | //
 Context menu doesn’t appear | Some users don't see the context menu | // | Install a new graphic cards driver | //
-Fixes for Spectre NG | // | // | Possible 21/22 May via patchday | //
+Fixes for Spectre NG (Variant 4) | // | // | unpatched | //
 Diagnostic data can't be changed | [Some users see “Windows Insider Program manages this option”](https://imgur.com/a/mpMw8Co) when they try to change the diagnostic data upload options in Settings > Privacy > Diagnostics & Feedback. | // | // | Needs to be fixed by MS
 Icon and GUI glitches | See [here](https://medium.com/@itsmichaelwest/things-wrong-with-the-ui-ux-in-the-windows-10-april-2018-update-ce9c5aebbd32). | // | // | Needs to be fixed by MS
 Frame drops in D3D9 games | Some games dropping frames mostly DirectX9 based ones | Enable "Disable fullscreen optimizations" and "Override DPI Scaling" & Turn off/on Windows 10 game boost, and the boost setting you turn on/off on the overlay | // | Needs to be changed by Game Developers to adopt MS 'game optimization feature' 
@@ -46,6 +46,24 @@ Ghost partition appears | New partitions may appear in File Explorer after insta
 
 
 
+## Spectre 
+
+
+Spectre NG ([Variant 4](https://www.neowin.net/news/spectre-variant-4-disclosed-mitigations-to-result-in-another-performance-hit)) isn't patched (yet).
+
+OS Version | KB | Patch | Microcode for
+--- | --- | --- | --- | 
+Windows 10 1507 | [KB4091666](https://support.microsoft.com/en-us/help/4091666/kb4091666-intel-microcode-updates) | [Download](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4091666) | Sandy Bridge, Ivy Bridge, Haswell, Broadwell,
+Skylake
+Windows 10 1511 | // | // | // 
+Windows 10 1607 | [KB4091664](https://support.microsoft.com/en-us/help/4091664/kb4091664-intel-microcode-updates) | [Download](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4091664) | Sandy Bridge, Ivy Bridge, Haswell, Broadwell,
+Skylake, Kaby Lake, Coffee Lake
+Windows 10 1703 | [KB4091663](https://support.microsoft.com/en-us/help/4091663/kb4091663-intel-microcode-updates) | [Download](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4091663) | Sandy Bridge, Ivy Bridge, Haswell, Broadwell,
+Skylake, Kaby Lake, Coffee Lake
+Windows 10 1709 | [KB4090007](https://support.microsoft.com/en-us/help/4090007/intel-microcode-updates) | [Download](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4090007) | Sandy Bridge, Ivy Bridge, Haswell, Broadwell,
+Skylake, Kaby Lake, Coffee Lake
+Windows 10 1803 | [KB4100347](https://support.microsoft.com/en-us/help/4100347/intel-microcode-updates-for-windows-10-version-1803-and-windows-server) | [Download](https://www.catalog.update.microsoft.com/search.aspx?q=4100347) | Sandy Bridge, Ivy Bridge, Haswell, Broadwell,
+Skylake, Kaby Lake, Coffee Lake
 
 
 
