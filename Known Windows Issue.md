@@ -43,6 +43,7 @@ When switching the refresh rate from 59 Hz to 60Hz the refresh rate remains at 5
 RDP App might not work | More details [here](https://support.microsoft.com/en-us/help/4093492/credssp-updates-for-cve-2018-0886-march-13-2018) | Use third-party RDP app | Wait till CredSSP protocol got an update, you need to update your server. This is not a bug at all, it's due security reasons! | [CVE-2018-0886](https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-0886) 
 Reliability issues have been observed during the creation of shielded VMs and the required artifacts for their deployment. There are also reliability issues for the Shielding File Wizard with or without the SCVMM interface. | Existing shielded VMs and HGSs are not affected. | // | MS needs to fix it | //
 Ghost partition appears | New partitions may appear in File Explorer after installing the Windows 10 April 2018 Update (version 1803) | See [here](https://answers.microsoft.com/en-us/windows/forum/windows_10-files/new-partitions-may-appear-in-file-explorer-after/115d2860-542e-410f-983c-2aeb8bbd7d13) | // | Fixed with Build 17134.48
+Event-ID 502 `„Failed to apply policy and redirect folder „RoamingAppData“ to „„.` | Redirection options=0x1211. The following error occurred: „The folder is not redirectable.“. | // | // | Fixed with next Insider build 
 
 
 
