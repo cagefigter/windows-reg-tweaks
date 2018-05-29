@@ -1,8 +1,0 @@
-Windows Registry Editor Version 5.00
-
-; http://www.technobuffalo.com/2015/07/31/windows-10-uses-your-bandwidth-to-provide-other-users-with-updates/
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\DeliveryOptimization\Config]
-"DownloadMode"=dword:00000000
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\DeliveryOptimization\Config]
-"DODownloadMode"=dword:00000000
