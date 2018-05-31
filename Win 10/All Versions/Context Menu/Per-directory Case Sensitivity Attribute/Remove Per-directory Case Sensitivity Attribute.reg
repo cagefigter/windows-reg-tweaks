@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+; Folders
+[-HKEY_CLASSES_ROOT\Directory\shell\CaseSensitivity]
+
+; Drives
+[-HKEY_CLASSES_ROOT\Drive\shell\CaseSensitivity]
+

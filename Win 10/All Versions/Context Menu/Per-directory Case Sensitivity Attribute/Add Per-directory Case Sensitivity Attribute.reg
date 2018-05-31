@@ -1,0 +1,97 @@
+Windows Registry Editor Version 5.00
+
+; Folders
+[HKEY_CLASSES_ROOT\Directory\shell\CaseSensitivity]
+"MUIVerb"="Case sensitivity attribute"
+"SubCommands"=""
+
+[HKEY_CLASSES_ROOT\Directory\shell\CaseSensitivity\shell\001flyout]
+"MUIVerb"="See case sensitivity attribute"
+
+[HKEY_CLASSES_ROOT\Directory\shell\CaseSensitivity\shell\001flyout\command]
+@="cmd /k fsutil.exe file queryCaseSensitiveInfo \"%1\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\CaseSensitivity\shell\002flyout]
+"MUIVerb"="Enable case sensitivity attribute"
+
+[HKEY_CLASSES_ROOT\Directory\shell\CaseSensitivity\shell\002flyout\command]
+@="cmd /k fsutil.exe file setCaseSensitiveInfo \"%1\" enable"
+
+
+[HKEY_CLASSES_ROOT\Directory\shell\CaseSensitivity\shell\003flyout]
+"MUIVerb"="Disable case sensitivity attribute"
+
+[HKEY_CLASSES_ROOT\Directory\shell\CaseSensitivity\shell\003flyout\command]
+@="cmd /k fsutil.exe file setCaseSensitiveInfo \"%1\" disable"
+
+
+[HKEY_CLASSES_ROOT\Directory\shell\CaseSensitivity\shell\004flyout]
+"MUIVerb"="See case sensitivity attribute"
+"HasLUAShield"=""
+"CommandFlags"=dword:00000020
+
+[HKEY_CLASSES_ROOT\Directory\shell\CaseSensitivity\shell\004flyout\command]
+@="PowerShell -windowstyle hidden -Command \"Start-Process cmd -ArgumentList '/k fsutil.exe file queryCaseSensitiveInfo \\\"%1\\\"' -Verb RunAs\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\CaseSensitivity\shell\005flyout]
+"MUIVerb"="Enable case sensitivity attribute"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\Directory\shell\CaseSensitivity\shell\005flyout\command]
+@="PowerShell -windowstyle hidden -Command \"Start-Process cmd -ArgumentList '/k fsutil.exe file setCaseSensitiveInfo \\\"%1\\\" enable' -Verb RunAs\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\CaseSensitivity\shell\006flyout]
+"MUIVerb"="Disable case sensitivity attribute"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\Directory\shell\CaseSensitivity\shell\006flyout\command]
+@="PowerShell -windowstyle hidden -Command \"Start-Process cmd -ArgumentList '/k fsutil.exe file setCaseSensitiveInfo \\\"%1\\\" disable' -Verb RunAs\""
+
+
+; Drives
+[HKEY_CLASSES_ROOT\Drive\shell\CaseSensitivity]
+"MUIVerb"="Case sensitivity attribute"
+"SubCommands"=""
+
+[HKEY_CLASSES_ROOT\Drive\shell\CaseSensitivity\shell\001flyout]
+"MUIVerb"="See case sensitivity attribute"
+
+[HKEY_CLASSES_ROOT\Drive\shell\CaseSensitivity\shell\001flyout\command]
+@="cmd /k fsutil.exe file queryCaseSensitiveInfo \"%1\""
+
+[HKEY_CLASSES_ROOT\Drive\shell\CaseSensitivity\shell\002flyout]
+"MUIVerb"="Enable case sensitivity attribute"
+
+[HKEY_CLASSES_ROOT\Drive\shell\CaseSensitivity\shell\002flyout\command]
+@="cmd /k fsutil.exe file setCaseSensitiveInfo \"%1\" enable"
+
+
+[HKEY_CLASSES_ROOT\Drive\shell\CaseSensitivity\shell\003flyout]
+"MUIVerb"="Disable case sensitivity attribute"
+
+[HKEY_CLASSES_ROOT\Drive\shell\CaseSensitivity\shell\003flyout\command]
+@="cmd /k fsutil.exe file setCaseSensitiveInfo \"%1\" disable"
+
+
+[HKEY_CLASSES_ROOT\Drive\shell\CaseSensitivity\shell\004flyout]
+"MUIVerb"="See case sensitivity attribute"
+"HasLUAShield"=""
+"CommandFlags"=dword:00000020
+
+[HKEY_CLASSES_ROOT\Drive\shell\CaseSensitivity\shell\004flyout\command]
+@="PowerShell -windowstyle hidden -Command \"Start-Process cmd -ArgumentList '/k fsutil.exe file queryCaseSensitiveInfo \\\"%1\\\"' -Verb RunAs\""
+
+[HKEY_CLASSES_ROOT\Drive\shell\CaseSensitivity\shell\005flyout]
+"MUIVerb"="Enable case sensitivity attribute"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\Drive\shell\CaseSensitivity\shell\005flyout\command]
+@="PowerShell -windowstyle hidden -Command \"Start-Process cmd -ArgumentList '/k fsutil.exe file setCaseSensitiveInfo \\\"%1\\\" enable' -Verb RunAs\""
+
+[HKEY_CLASSES_ROOT\Drive\shell\CaseSensitivity\shell\006flyout]
+"MUIVerb"="Disable case sensitivity attribute"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\Drive\shell\CaseSensitivity\shell\006flyout\command]
+@="PowerShell -windowstyle hidden -Command \"Start-Process cmd -ArgumentList '/k fsutil.exe file setCaseSensitiveInfo \\\"%1\\\" disable' -Verb RunAs\""
+
