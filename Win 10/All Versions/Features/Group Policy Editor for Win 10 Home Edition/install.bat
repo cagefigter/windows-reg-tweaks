@@ -1,1 +1,7 @@
-for /f "tokens=*" %G IN ('dir /b "%SystemRoot%\servicing\Packages\Microsoft-Windows-GroupPolicy-Client*.mum"') do (dism /online /norestart /add-package:"%SystemRoot%\servicing\Packages\%G"
+@echo off 
+pushd "%~dp0" 
+dir /b C:\Windows\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientExtensions-Package~3*.mum >List.txt 
+dir /b C:\Windows\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientTools-Package~3*.mum >>List.txt 
+
+for /f %%i in ('findstr /i . List.txt 2^>nul') do dism /online /norestart /add-package:"C:\Windows\servicing\Packages\%%i" 
+pause
