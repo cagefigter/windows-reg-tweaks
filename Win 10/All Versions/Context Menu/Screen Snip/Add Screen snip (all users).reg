@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\ScreenSnip]
+"MUIVerb"="Screen snip"
+"Icon"="SnippingTool.exe"
+"Position"="Top"
+
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\ScreenSnip\command]
+""="explorer.exe ms-screenclip:"
+
