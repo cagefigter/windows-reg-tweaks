@@ -1,6 +1,6 @@
-﻿The following known issue are currently present in Windows 1803 (Spring Creators Update aka April Update). Before you submit any bug or feature request I expect that you read this document in order to get a short overview what is broken and what can be manually fixed or needs an update (file changes). 
+﻿The following known issues are currently present in Windows 1803 (Spring Creators Update aka April Update). Before you submit any bug or feature request I expect that you read this document in order to get a short overview of what is broken and what can be manually fixed or needs an update (file changes). 
 
-The document is provides 'as it' and is not designed to explain every little 'fart', moreover it's designed to show quickly what are the 'urgent' things which are (as time of writing) considerable broken or needs a fix.
+The document is provides 'as is' and is not designed to explain every little 'fart', moreover it's designed to show quickly what are the 'urgent' things which are (as time of writing) considerably broken or needing a fix.
 
 
 The list is checked against:
@@ -54,17 +54,12 @@ Spectre NG ([Variant 4](https://www.neowin.net/news/spectre-variant-4-disclosed-
 
 OS Version | KB | Patch | Microcode for CPU
 --- | --- | --- | --- 
-Windows 10 1507 | [KB4091666](https://support.microsoft.com/en-us/help/4091666/kb4091666-intel-microcode-updates) | [Download](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4091666) | Sandy Bridge, Ivy Bridge, Haswell, Broadwell,
-Skylake |
+Windows 10 1507 | [KB4091666](https://support.microsoft.com/en-us/help/4091666/kb4091666-intel-microcode-updates) | [Download](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4091666) | Sandy Bridge, Ivy Bridge, Haswell, Broadwell, Skylake |
 Windows 10 1511 | // | // | // |
-Windows 10 1607 | [KB4091664](https://support.microsoft.com/en-us/help/4091664/kb4091664-intel-microcode-updates) | [Download](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4091664) | Sandy Bridge, Ivy Bridge, Haswell, Broadwell,
-Skylake, Kaby Lake, Coffee Lake |
-Windows 10 1703 | [KB4091663](https://support.microsoft.com/en-us/help/4091663/kb4091663-intel-microcode-updates) | [Download](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4091663) | Sandy Bridge, Ivy Bridge, Haswell, Broadwell,
-Skylake, Kaby Lake, Coffee Lake |
-Windows 10 1709 | [KB4090007](https://support.microsoft.com/en-us/help/4090007/intel-microcode-updates) | [Download](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4090007) | Sandy Bridge, Ivy Bridge, Haswell, Broadwell,
-Skylake, Kaby Lake, Coffee Lake |
-Windows 10 1803 | [KB4100347](https://support.microsoft.com/en-us/help/4100347/intel-microcode-updates-for-windows-10-version-1803-and-windows-server) | [Download](https://www.catalog.update.microsoft.com/search.aspx?q=4100347) | Sandy Bridge, Ivy Bridge, Haswell, Broadwell,
-Skylake, Kaby Lake, Coffee Lake |
+Windows 10 1607 | [KB4091664](https://support.microsoft.com/en-us/help/4091664/kb4091664-intel-microcode-updates) | [Download](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4091664) | Sandy Bridge, Ivy Bridge, Haswell, Broadwell, Skylake, Kaby Lake, Coffee Lake |
+Windows 10 1703 | [KB4091663](https://support.microsoft.com/en-us/help/4091663/kb4091663-intel-microcode-updates) | [Download](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4091663) | Sandy Bridge, Ivy Bridge, Haswell, Broadwell, Skylake, Kaby Lake, Coffee Lake |
+Windows 10 1709 | [KB4090007](https://support.microsoft.com/en-us/help/4090007/intel-microcode-updates) | [Download](https://www.catalog.update.microsoft.com/Search.aspx?q=KB4090007) | Sandy Bridge, Ivy Bridge, Haswell, Broadwell, Skylake, Kaby Lake, Coffee Lake |
+Windows 10 1803 | [KB4100347](https://support.microsoft.com/en-us/help/4100347/intel-microcode-updates-for-windows-10-version-1803-and-windows-server) | [Download](https://www.catalog.update.microsoft.com/search.aspx?q=4100347) | Sandy Bridge, Ivy Bridge, Haswell, Broadwell, Skylake, Kaby Lake, Coffee Lake |
 
 
 
