@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+; Disables App suggestions like "use MS Edge instead of Chrome/Firefox".
+; Anywhere = Disabled
+; Recommendations = Enable App suggestions
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
+"AicEnabled"="Recommendations"
