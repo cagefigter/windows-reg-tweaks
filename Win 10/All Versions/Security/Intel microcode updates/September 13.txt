@@ -1,0 +1,55 @@
+KB4100347 (Windows 1803)
+x86:
+http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/09/windows10.0-kb4100347-v3-x86_1977c6071e7c199ca1b323c765e8842d0a325ecb.msu
+
+
+x64:
+http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/09/windows10.0-kb4100347-v3-x64_8251e1f6e3d760e110b35af950f9acee5f4f6777.msu
+
+
+
+KB4090007 (Windows 1709)
+
+x86:
+http://download.windowsupdate.com/c/msdownload/update/software/updt/2018/09/windows10.0-kb4090007-v5-x86_4fb4e566457e20cbaa3857ed3fb56f3565512f98.msu
+
+
+x64:
+http://download.windowsupdate.com/c/msdownload/update/software/updt/2018/09/windows10.0-kb4090007-v5-x64_54419090913b19fdf60b198caa925851986cd21e.msu
+
+
+KB4091663 (Windows 1703)
+
+x86:
+http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/09/windows10.0-kb4091663-v5-x86_4ef751458853c95f95b04085e10410d931881dc9.msu
+
+
+x64:
+http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/09/windows10.0-kb4091663-v5-x64_06717bbfd159bed9ce0dfc2b17375dc8bec57162.msu
+
+
+KB4091664 (Windows 1607)
+
+x86:
+http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/09/windows10.0-kb4091664-v5-x86_9dc32ae94de2ebb419cfc87357376a8f40400988.msu
+
+
+x64:
+http://download.windowsupdate.com/c/msdownload/update/software/updt/2018/09/windows10.0-kb4091664-v5-x64_206a0eeae7cc2064f2c13381dbf31cd3b8fc6f6d.msu
+
+
+KB4091666 (Windows 1507)
+
+x86:
+http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/09/windows10.0-kb4091666-v4-x86_220eeb5686fab7869271f3ad3db10744ff8e2993.msu
+
+
+x64:
+http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/09/windows10.0-kb4091666-v4-x64_d5c74fbb5abd7b84733f8f104561daa3a270e3eb.msu
+
+
+
+
+Source:
+* https://support.microsoft.com/en-us/help/4100347/intel-microcode-updates-for-windows-10-version-1803-and-windows-server
+* https://support.microsoft.com/en-us/help/4093836/summary-of-intel-microcode-updates
