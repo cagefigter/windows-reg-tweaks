@@ -100,7 +100,6 @@ Research
 * [Microsoft is downloading Windows 10 to your machine 'just in case' (theinquirer.net)](http://www.theinquirer.net/inquirer/news/2425381/microsoft-is-downloading-windows-10-to-your-machine-just-in-case)
 * [Microsoft Is Downloading 6GB of Windows 10 Updates Without User’s Consent (nextbigwhat.com)](http://www.nextbigwhat.com/microsoft-is-downloading-6gb-of-windows-10-updates-without-users-consent-297/)
 * [Windows 10 findings and tips | Reddit](https://www.reddit.com/r/Windows10/comments/3f48kd/windows_10_tips_and_tricks/)
-* [Fix Windows 10 | isleaked](https://fix10.isleaked.com/)
 * [O&O ShutUp10](http://www.oo-software.com/en/shutup10)
 * [RSAT for Windows 10](https://www.microsoft.com/en-us/download/details.aspx?id=45520)
 * [NTLite](https://www.ntlite.com)
