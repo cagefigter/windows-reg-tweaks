@@ -23,7 +23,9 @@ Project Goal(s)
 1. All of the tweaks could be integrated into image creations tools (vLite, WinToolKit,..) to simplify things, especially if you like to re-install Windows from the ground without need to apply each tweak one by one.
 2. Show hidden things that aren't visible via GUI under Windows. Sometimes it's easier/faster to do this via .reg instead of search for the toggles.
 3. Another goal is that the user doesn't need additional tools like O&O ShutUp, because some of such 'privacy' tools are bundled with bloatware and are not necessary, because all can already be done with scripts and .reg tweak - So overall an Index/Backup script to read the current state is more transparent (see 1/2).
-4. Fix everything listed under ToDo.
+4. [Provide a short overview of current Windows issue](https://github.com/CHEF-KOCH/regtweaks/blob/master/Known%20Windows%20Issue.md) and how to quickly solve them.
+5. Fix everything listed under ToDo.
+
 
 
 
