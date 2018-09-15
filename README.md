@@ -1,4 +1,4 @@
-Regtweaks (Win 7 - Win 10) Collection files original created under the GPLv2 license 2015 - 2018 by [CHEF-KOCH](https://github.com/CHEF-KOCH). Some tweaks are taken from the Internet, some are found by myself.
+Regtweaks (Win 7 - Win 10) Collection files original created under the GPL 2.0 license 2015 - 2018 by [CHEF-KOCH](https://github.com/CHEF-KOCH). Some tweaks are taken from the Internet, some are found by myself.
 
 
 **Current Status: Over 600+ tweaks**
@@ -18,7 +18,7 @@ Project Goal
 
 1. All of the tweaks could be integrated into image creations tools (vLite, WinToolKit,..) to simplify things, especially if you like to re-install Windows from the ground without need to apply each tweak one by one.
 2. Show hidden things that aren't visible via GUI under Windows. Sometimes it's easier/faster to do this via .reg instead of search for the toggles.
-3. Another goal is that the user doesn't need additional tools like O&O ShutUp, because some of such 'Privacy' tools are bundled with bloatware and are not necessary, because all can already be done with scripts and .reg tweak - So overall an Index/Backup script to read the current state is more transparent (see 1/2).
+3. Another goal is that the user doesn't need additional tools like O&O ShutUp, because some of such 'privacy' tools are bundled with bloatware and are not necessary, because all can already be done with scripts and .reg tweak - So overall an Index/Backup script to read the current state is more transparent (see 1/2).
 4. Fix everything listed under ToDo.
 
 
