@@ -1,11 +1,11 @@
-The following known issues are currently present in Windows 1809 (october Update). Before you submit any bug or feature request I expect that you read this document in order to get a short overview of what is broken and what can be manually fixed or needs an update (file changes). 
+The following known issues are currently present in Windows 1809 (October Update). Before you submit any bug or feature request I expect that you read this document in order to get a short overview of what is broken and what can be manually fixed or needs an update (file changes). 
 
 This overview is provides 'as it comes' and is not designed to explain every little 'fart', moreover it's designed to show quickly what are the 'urgent' things which are (as time of writing) considerably broken or needing a fix.
 
 
 The list is checked against:
 * 
-* Please don't ask for Home/Pro versions! I give a rats-ass about those versions but feel free to submit something if you like.
+* Please don't ask for Home/Pro versions!
 
 
 
