@@ -50,7 +50,7 @@ Event-ID 502 `„Failed to apply policy and redirect folder „RoamingAppData“
 ## Spectre & Meltdown 
 
 
-Spectre NG ([Variant 4](https://www.neowin.net/news/spectre-variant-4-disclosed-mitigations-to-result-in-another-performance-hit)) is patched.
+Spectre NG ([Variant 4](https://www.neowin.net/news/spectre-variant-4-disclosed-mitigations-to-result-in-another-performance-hit)) is not patched! This update addresses CVE 2017-5715 aka Spectre Variant 2.
 
 Supported CPU's:
 
