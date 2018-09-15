@@ -60,7 +60,7 @@ Supported CPU's:
 * Skylake D (Bakerville)
 * Skylake X (Basin Falls)
 
-Patched .dll's
+Patched .dll's:
 
 * mcupdate_GenuineIntel.dll
 
@@ -79,7 +79,7 @@ Windows 10 1803 | [KB4100347](https://support.microsoft.com/en-us/help/4100347/i
 
 
 
-
+## Knowledgeable
 
 * [How to temporarily prevent a driver update from reinstalling in Windows 10](https://support.microsoft.com/en-us/help/3073930/how-to-temporarily-prevent-a-driver-update-from-reinstalling-in-window)
 * [How to keep apps removed from Windows 10 from returning during an update](https://docs.microsoft.com/en-us/windows/application-management/remove-provisioned-apps-during-update#registry-keys-for-provisioned-apps)
