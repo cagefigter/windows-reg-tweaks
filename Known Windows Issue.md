@@ -1,4 +1,4 @@
-﻿The following known issues are currently present in Windows 1803 (Spring Creators Update aka April Update). Before you submit any bug or feature request I expect that you read this document in order to get a short overview of what is broken and what can be manually fixed or needs an update (file changes). 
+The following known issues are currently present in Windows 1803 (Spring Creators Update aka April Update). Before you submit any bug or feature request I expect that you read this document in order to get a short overview of what is broken and what can be manually fixed or needs an update (file changes). 
 
 The document is provides 'as is' and is not designed to explain every little 'fart', moreover it's designed to show quickly what are the 'urgent' things which are (as time of writing) considerably broken or needing a fix.
 
@@ -63,10 +63,13 @@ Supported CPU's:
 Patched .dll's:
 
 * mcupdate_GenuineIntel.dll
+* mcupdate_AuthenticAMD.dll
+
+Windows has the ability to warm patch microcode on boot using the mcupdate_GenuineIntel.dll and mcupdate_AuthenticAMD.dll drivers (located at C:\Windows\System32) on boot, for Intel and AMD cpu's respectively.
 
 Notice:
 
-On AMD systems you can block the update via [wushowhide.diagcab](https://support.microsoft.com/de-de/help/3073930/how-to-temporarily-prevent-a-driver-update-from-reinstalling-in-window), since the update will effect your performance. 
+On AMD systems you _can block the update_ via [wushowhide.diagcab](https://support.microsoft.com/de-de/help/3073930/how-to-temporarily-prevent-a-driver-update-from-reinstalling-in-window), since the update will effect your performance. 
 
 OS Version | KB | Patch | Updated
 --- | --- | --- | --- 
@@ -79,7 +82,7 @@ Windows 10 1803 | [KB4100347](https://support.microsoft.com/en-us/help/4100347/i
 
 
 
-## Knowledgeable
+## Acknowledgments and References
 
 * [How to temporarily prevent a driver update from reinstalling in Windows 10](https://support.microsoft.com/en-us/help/3073930/how-to-temporarily-prevent-a-driver-update-from-reinstalling-in-window)
 * [How to keep apps removed from Windows 10 from returning during an update](https://docs.microsoft.com/en-us/windows/application-management/remove-provisioned-apps-during-update#registry-keys-for-provisioned-apps)
