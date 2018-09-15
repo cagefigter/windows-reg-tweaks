@@ -1,4 +1,4 @@
-Regtweaks (Win 7 - Win 10) Collection files original created under the GNUv2 license 2015 by [CHEF-KOCH](https://github.com/CHEF-KOCH). Some tweaks are taken from the Internet, some are found by myself.
+Regtweaks (Win 7 - Win 10) Collection files original created under the GPLv2 license 2015 - 2018 by [CHEF-KOCH](https://github.com/CHEF-KOCH). Some tweaks are taken from the Internet, some are found by myself.
 
 
 **Current Status: Over 600+ tweaks**
