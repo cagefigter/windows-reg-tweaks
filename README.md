@@ -17,7 +17,7 @@ Before! you use any tweak(s) ensure you read the comment(s) inside the .reg (lab
 
 
 
-Project Goal
+Project Goal(s)
 ------------
 
 1. All of the tweaks could be integrated into image creations tools (vLite, WinToolKit,..) to simplify things, especially if you like to re-install Windows from the ground without need to apply each tweak one by one.
@@ -47,7 +47,7 @@ Any problems, questions or something wrong?
 Find registry settings yourself
 ------------
 
-To answer the question how do I find all these registry tweaks, it's very easy and explained with pictures and an example video over [here](https://chefkochblog.wordpress.com/2018/02/28/how-i-find-every-registry-tweak/).
+To answer the question how do I find all these registry tweaks, it's very easy and explained with pictures and an example video which you can find over [here](https://chefkochblog.wordpress.com/2018/02/28/how-i-find-every-registry-tweak/).
 
 
 
@@ -71,6 +71,7 @@ The Home Editions doesn't official supporting the GPEDIT.MSC stuff, so here is h
 Project History
 ------------
 
+- [x] 15.09.2018  Placeholder Logo added
 - [x] 04.05.2018	Mach2 will be integrated into the GUI, until then I provide links to the project and an external guide how to find hidden Windows features in Insider Builds
 - [x] 18.07.2017    GUI is done, some internal fixes before rolling out at the end of this year, some cleanups are necessary
 - [x] 13.04.2017    Second and last GUI beta test
