@@ -1,4 +1,4 @@
-Regtweaks (Win 7 - Win 10) Collection files original created under the GPL 2.0 license 2015 - 2018 by [CHEF-KOCH](https://github.com/CHEF-KOCH). Some tweaks are taken from the Internet, most tweaks are found by myself.
+Regtweaks (Win 7 - Win 10) Collection files original created under the GPL 2.0 license 2015 - 2018 by [CHEF-KOCH](https://github.com/CHEF-KOCH). Some tweaks are taken from the Internet but most tweaks are found by myself.
 
 
 <p align="center">
@@ -13,7 +13,7 @@ Regtweaks (Win 7 - Win 10) Collection files original created under the GPL 2.0 l
 [![Discord](https://discordapp.com/api/guilds/418256415874875402/widget.png)](https://discord.me/CHEF-KOCH)
 
 
-Before! you use any tweak(s) ensure you read the comment(s) inside the .reg (labeled with **;**) to see what it really changes. Of course an backup/snapshot could also help in case something goes wrong. Remember: Shit happens!
+Before! you use any tweak(s) ensure you read the comment(s) inside the .reg (labeled with **;**) to see what it really changes. Of course a backup/snapshot could also help in case something goes wrong. Remember: Shit happens!
 
 
 
@@ -58,7 +58,7 @@ Find hidden Windows features yourself
 
 A complete guide is [available here](https://www.bleepingcomputer.com/news/microsoft/finding-and-enabling-hidden-features-in-windows-10-using-mach2/).
 
-Keep in mind that not all feature IDs can be found within Windows debugging symbols. [Capstone](https://github.com/aquynh/capstone) is still needed in order to disassemble all details.
+Keep in mind that not all feature IDs can be found within Windows debugging symbols. [Capstone](https://github.com/aquynh/capstone) is still needed in order to disassemble all hidden details.
 
 
 Win 7 - 10 Home Users Notice
