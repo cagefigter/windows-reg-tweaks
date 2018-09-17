@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+; BAT files
+[-HKEY_CLASSES_ROOT\batfile\shellex\ContextMenuHandlers\Compatibility]
+
+; CMD files
+[-HKEY_CLASSES_ROOT\cmdfile\shellex\ContextMenuHandlers\Compatibility]
+
+; EXE files
+[-HKEY_CLASSES_ROOT\exefile\shellex\ContextMenuHandlers\Compatibility]
+
+; LNK (shortcut) files
+[-HKEY_CLASSES_ROOT\lnkfile\shellex\ContextMenuHandlers\Compatibility]
+
+; MSI files
+[-HKEY_CLASSES_ROOT\Msi.Package\shellex\ContextMenuHandlers\Compatibility]
+
