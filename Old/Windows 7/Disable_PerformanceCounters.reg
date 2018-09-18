@@ -1,0 +1,130 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\.NET CLR Data\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\.NET CLR Networking\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\.NET CLR Networking 4.0.0.0\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\.NET Data Provider for Oracle\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\.NET Data Provider for SqlServer\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\.NET Memory Cache 4.0\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\.NETFramework\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\ASP.NET_4.0.30319\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\aspnet_state\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\BITS\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\ContentFilter\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\ContentIndex\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\ESENT\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\Intel Storage Counters\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\IPSec\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\ISAPISearch\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\Lsa\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\MSDTC\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\MSDTC Bridge 3.0.0.0\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\MSDTC Bridge 4.0.0.0\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\MSSCNTRS\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\PerfDisk\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\PerfNet\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\PerfOS\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\PerfProc\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\rdyboost\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\RemoteAccess\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\ServiceModelEndpoint 3.0.0.0\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\ServiceModelOperation 3.0.0.0\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\ServiceModelService 3.0.0.0\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\SMSvcHost 3.0.0.0\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\SMSvcHost 4.0.0.0\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\Spooler\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\TapiSrv\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\Tcpip\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\TermService\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\UGatherer\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\UGTHRSVC\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\usbhub\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\Windows Workflow Foundation 3.0.0.0\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\Windows Workflow Foundation 4.0.0.0\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\WmiApRpl\Performance]
+"Disable Performance Counters"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\WSearchIdxPi\Performance]
+"Disable Performance Counters"=dword:00000001
