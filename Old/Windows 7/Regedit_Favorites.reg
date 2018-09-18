@@ -1,0 +1,30 @@
+REGEDIT4
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Applets\Regedit\Favorites]
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Applets\Regedit\Favorites]
+"RegEdit Favs"="Computer\\HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Applets\\Regedit\\Favorites"
+"Context Menu"="Computer\\HKEY_CLASSES_ROOT\\*\\shellex\\ContextMenuHandlers"
+"CLSID"="Computer\\HKEY_CLASSES_ROOT\\CLSID"
+"Applications"="Computer\\HKEY_CLASSES_ROOT\\Applications"
+"Directory"="Computer\\HKEY_CLASSES_ROOT\\Directory"
+"Drive"="Computer\\HKEY_CLASSES_ROOT\\Drive"
+"Folder"="Computer\\HKEY_CLASSES_ROOT\\Folder"
+"AllFilesystemObjects"="Computer\\HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\AllFilesystemObjects"
+"Shell Folders LM"="Computer\\HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders"
+"Shell Folders LM32"="Computer\\HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders"
+"Shell Folders CU"="Computer\\HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders"
+"Winlogon"="Computer\\HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon"
+"SessionManager"="Computer\\HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Session Manager"
+"Services"="Computer\\HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services"
+"SystemFileAssociations"="Computer\\HKEY_CLASSES_ROOT\\SystemFileAssociations"
+"Components(visc++FIX)"="Computer\\HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Installer\\UserData"
+"MozillaPlugins"="Computer\\HKEY_LOCAL_MACHINE\\SOFTWARE\\MozillaPlugins"
+"MozillaPlugins(U)"="Computer\\HKEY_CURRENT_USER\\Software\\MozillaPlugins"
+"MozillaPlugins(32)"="Computer\\HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\MozillaPlugins"
+"App Paths LM"="Computer\\HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\App Paths"
+"Run LM"="Computer\\HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run"
+"Run CU"="Computer\\HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Run"
+"Run LM32"="Computer\\HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\Run"
+"CPL(x86)"="Computer\\HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Windows\\CurrentVersion\\explorer\\ControlPanel\\NameSpace"
+"CPL(x64)"="Computer\\HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\ControlPanel\\NameSpace"
+

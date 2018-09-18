@@ -1,0 +1,5 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\WcmSvc\wifinetworkmanager]
+"WiFiSenseCredShared"=dword:00000000
+"WiFiSenseOpen"=dword:00000000
