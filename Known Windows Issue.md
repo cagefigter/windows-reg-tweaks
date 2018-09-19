@@ -15,6 +15,28 @@ Problem | Description | Workaround | Fix | Additional Information
 LIPs (Language Interface Packs) aren't avbl. anymore | Microsoft removed the LIP's function in order to install additional lp's | // | // | LXP (Local Experience Packs) replacing the LIPs
 
 
+## Install Language Packs
+
+Language packs will still be avbl. via [seperated .iso files](https://www.microsoft.com/de-de/store/collections/localexperiencepacks?rtc=1).
+
+1.) Mount the install.wim via:
+`dism.exe /mount-wim /wimfile:C:\install.wim /index:1 /mountdir:C:\Mount`
+
+2.) Mount the registry otherwise you're not able to integrate the new language via 
+`Reg Load HKLM\TempImg C:\Mount\Windows\system32\config\SOFTWARE`
+
+3.) Insert the following registry key:
+`Reg Add HKLM\TempImg\Policies\Microsoft\Windows\Appx /t REG_DWORD /f /v "AllowAllTrustedApps" /d "1"`
+
+4.) Unmount the registry:
+`Reg unload HKLM\TempImg`
+
+5.) Integrated the [LXP.Appx](https://docs.microsoft.com/en-us/powershell/module/dism/add-appxprovisionedpackage?view=win10-ps) for example: 
+`Dism.exe /image:C:\Mount /add-provisionedappxpackage /packagepath:C:\LXP_APPX\Microsoft.LanguageExperiencePackde-DE_17761.1.1.0_neutral__8wekyb3d8bbwe.Appx /SkipLicense`
+
+6.) Unmount the image
+`Dism.exe /unmount-wim /mountdir:C:\Mount /commit`
+
 
 ## Spectre & Meltdown 
 
