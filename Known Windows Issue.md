@@ -4,7 +4,7 @@ This overview is provides 'as it comes' and is not designed to explain every lit
 
 
 The list is checked against:
-* Windows 10 17763.1 Enterprise (RS 5) 
+* Windows 10 17763.1 (rs5_release.17763.1.180914-1434) Enterprise (RS 5) 
 * Please don't ask for Home/Pro versions!
 
 
