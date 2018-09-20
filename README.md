@@ -102,6 +102,7 @@ ToDo
 Research
 ------------
 
+* [Crash Course in Upgrading to Windows 10](https://resources.office.com/ww-landing-M365PD-EOL-crash-course-in-upgrading-to-windows-10-ebook.html?LCID=en)
 * [Vista Registry Editor - Examples of .Reg Files](http://www.computerperformance.co.uk/vista/vista_registry_tweaks.htm)
 * [Sevenforums Tutorial Index](http://www.sevenforums.com/tutorials/257-windows-7-tutorial-index.html)
 * [Microsoft Is Downloading 6GB of Windows 10 Updates Without User’s Consent (nextbigwhat.com)](http://www.nextbigwhat.com/microsoft-is-downloading-6gb-of-windows-10-updates-without-users-consent-297/)
