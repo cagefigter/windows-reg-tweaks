@@ -1,0 +1,14 @@
+Windows Registry Editor Version 5.00
+
+; For OSX
+; =======
+; defaults write com.google.Chrome SyncDisabled -bool true
+; defaults write com.google.Chrome RestrictSigninToPattern -string ".*@example.com"
+
+
+; To get it done on Windows (with or without an Active Domain computer login account).
+
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Google\Chrome]
+"SyncDisabled"=dword:00000001
+"RestrictSigninToPattern"=".*@example.com"
+
