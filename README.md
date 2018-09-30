@@ -63,10 +63,12 @@ A complete guide is [available here](https://www.bleepingcomputer.com/news/micro
 Keep in mind that not all feature IDs can be found within Windows debugging symbols. [Capstone](https://github.com/aquynh/capstone) is still needed in order to disassemble all hidden details.
 
 
-Win 7 - 10 Home Users Notice
+Win 7 - 10 "Home" Edition Users Notice
 ------------
 
 The Home Editions doesn't official supporting the GPEDIT.MSC stuff, so here is how to add them back [here's the link how](http://drudger.deviantart.com/art/Add-GPEDIT-msc-215792914) or [this](http://www.askvg.com/how-to-enable-group-policy-editor-gpedit-msc-in-windows-7-home-premium-home-basic-and-starter-editions/).
+
+In order to get RDP (Remote Desktop Protocol) in Home Editions simply use [rdpwrap](https://github.com/stascorp/rdpwrap/). 
 
 
 
