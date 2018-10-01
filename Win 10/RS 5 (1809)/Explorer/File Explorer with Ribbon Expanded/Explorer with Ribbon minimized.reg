@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; GPO
+; User Configuration > Administrative Templates > Windows Components > File Explorer
+; Start File Explorer with ribbon minimized
+
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\Explorer]
+"ExplorerRibbonStartsMinimized"=dword:00000001
+
