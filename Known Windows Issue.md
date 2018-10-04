@@ -12,6 +12,7 @@ The list is checked against:
 
 Problem | Description | Workaround | Fix | Additional Information 
 --- | --- | --- | --- | --- |
+Windows 10 version 1809 deleted all my files | Files located in the Windows libary such /Documents/ gets deleted during a feature upgrade | // | Not fixable, but you can try to recover your files via e.g. [Recuva](https://www.ccleaner.com/recuva) | Reported over [MS forums](https://answers.microsoft.com/en-us/windows/forum/windows_10-files/windows-10-october-2018-update-version-1809/1a924008-ddba-48db-a96f-7b4bfef9039a)
 LIPs (Language Interface Packs) aren't avbl. anymore | Microsoft removed the LIP's function in order to install additional lp's | // | // | LXP (Local Experience Packs) replacing the LIPs 
 Handwriting gets stored in a seperate file | Every touch/handwriting input is stored in a index file called '[WaitList.dat](https://b2dfir.blogspot.com/2016/10/touch-screen-lexicon-forensics.html)' which can be recovered (including passwords etc) | Delete `C:\Users\%User%\AppData\Local\Microsoft\InputPersonalization\TextHarvester\WaitList.dat` manually or use [wlrip.exe](https://github.com/B2dfir/wlrip) ([wlrip](https://github.com/B2dfir/wlrip)) | // | MS needs to fix it  
 Game stuttering | Game is starting to stutter if your OS is low on memory and doesn't free it's resources | [Script](https://www.reddit.com/r/Windows10/comments/9e1yy4/when_will_the_free_memory_bug_bug_be_fixed/) | Needs confirmation by MS | It's unclear if it's really a 'bug' 
