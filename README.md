@@ -1,6 +1,10 @@
 Regtweaks (Win 7 - Win 10) Collection files original created under the GPL 2.0 license 2015 - 2018 by [CHEF-KOCH](https://github.com/CHEF-KOCH). Some tweaks are taken from the Internet but most tweaks are found by myself.
 
 
+* **Microsoft pulls Windows 10 October Update (version 1809)**
+Microsoft cites problems with the latest update package deleting user files. [Microsoft has paused the rollout of Windows 10 October 2018 Update (version 1809)](https://www.engadget.com/2018/10/06/windows-10-october-update-delete-pulled/), the latest version of the Windows 10 operating system, which Microsoft released this week, on Tuesday, October 2. In a [support document updated today](https://support.microsoft.com/en-us/help/4464619/windows-10-update-history), October 6, the Redmond-based OS maker said it took this decision after users complained that v1809 had deleted files after the update.
+
+
 <p align="center">
   <img width="500" height="320" src="https://raw.githubusercontent.com/CHEF-KOCH/regtweaks/master/Current%20Windows.jpg")">
 </p>
