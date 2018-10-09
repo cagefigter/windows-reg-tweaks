@@ -48,7 +48,7 @@ Language packs will still be avbl. via [seperated .iso files](https://www.micros
 
 Spectre NG ([Variant 4](https://www.neowin.net/news/spectre-variant-4-disclosed-mitigations-to-result-in-another-performance-hit)) is not patched! This update addresses CVE 2017-5715 aka Spectre Variant 2.
 
-Supported CPU's:
+[Supported CPU's](https://support.microsoft.com/en-us/help/4100347/intel-microcode-updates-for-windows-10-version-1803-and-windows-server):
 
 * Broadwell Server E, EP, EP4S
 * Broadwell Server EX
