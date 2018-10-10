@@ -45,6 +45,7 @@ Language packs will still be avbl. via [seperated .iso files](https://www.micros
 
 ## Spectre & Meltdown 
 
+![Spectre and Meltdown on Intel Hardware](https://i.imgur.com/WPiOGpZ.png)
 
 Spectre NG ([Variant 4](https://www.neowin.net/news/spectre-variant-4-disclosed-mitigations-to-result-in-another-performance-hit)) is not patched! This update addresses CVE 2017-5715 aka Spectre Variant 2.
 
