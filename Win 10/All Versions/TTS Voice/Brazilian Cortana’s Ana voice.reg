@@ -1,0 +1,65 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech_OneCore\Voices\Tokens\MSTTS_V110_ptBR_AnaM]
+@="Microsoft Ana Mobile - Portuguese (Brazil)"
+"LangDataPath"="%windir%\\Speech_OneCore\\Engines\\TTS\\pt-BR\\MSTTSLocptBR.dat"
+"LangUpdateDataDirectory"="%SystemDrive%\\Data\\SharedData\\Speech_OneCore\\Engines\\TTS\\pt-BR"
+"VoicePath"="%windir%\\Speech_OneCore\\Engines\\TTS\\pt-BR\\M1046Ana"
+"VoiceUpdateDataDirectory"="%SystemDrive%\\Data\\SharedData\\Speech_OneCore\\Engines\\TTS\\pt-BR"
+"416"="Microsoft Ana Mobile - Portuguese (Brazil)"
+"CLSID"="{179F3D56-1B0B-42B2-A962-59B7EF59FE1B}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech_OneCore\Voices\Tokens\MSTTS_V110_ptBR_AnaM\Attributes]
+"Version"="11.0"
+"Language"="416"
+"Gender"="Female"
+"Age"="Adult"
+"DataVersion"="11.0.2016.0229"
+"SharedPronunciation"=""
+"Name"="Microsoft Ana Mobile"
+"Vendor"="Microsoft"
+"PersonalAssistant"="1"
+"EnableRusBackend"="true"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\MSTTS_V110_ptBR_AnaM]
+@="Microsoft Ana Mobile - Portuguese (Brazil)"
+"LangDataPath"="%windir%\\Speech_OneCore\\Engines\\TTS\\pt-BR\\MSTTSLocptBR.dat"
+"LangUpdateDataDirectory"="%SystemDrive%\\Data\\SharedData\\Speech_OneCore\\Engines\\TTS\\pt-BR"
+"VoicePath"="%windir%\\Speech_OneCore\\Engines\\TTS\\pt-BR\\M1046Ana"
+"VoiceUpdateDataDirectory"="%SystemDrive%\\Data\\SharedData\\Speech_OneCore\\Engines\\TTS\\pt-BR"
+"416"="Microsoft Ana Mobile - Portuguese (Brazil)"
+"CLSID"="{179F3D56-1B0B-42B2-A962-59B7EF59FE1B}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\MSTTS_V110_ptBR_AnaM\Attributes]
+"Version"="11.0"
+"Language"="416"
+"Gender"="Female"
+"Age"="Adult"
+"DataVersion"="11.0.2016.0229"
+"SharedPronunciation"=""
+"Name"="Microsoft Ana Mobile"
+"Vendor"="Microsoft"
+"PersonalAssistant"="1"
+"EnableRusBackend"="true"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\SPEECH\Voices\Tokens\MSTTS_V110_ptBR_AnaM]
+@="Microsoft Ana Mobile - Portuguese (Brazil)"
+"LangDataPath"="%windir%\\Speech_OneCore\\Engines\\TTS\\pt-BR\\MSTTSLocptBR.dat"
+"LangUpdateDataDirectory"="%SystemDrive%\\Data\\SharedData\\Speech_OneCore\\Engines\\TTS\\pt-BR"
+"VoicePath"="%windir%\\Speech_OneCore\\Engines\\TTS\\pt-BR\\M1046Ana"
+"VoiceUpdateDataDirectory"="%SystemDrive%\\Data\\SharedData\\Speech_OneCore\\Engines\\TTS\\pt-BR"
+"416"="Microsoft Ana Mobile - Portuguese (Brazil)"
+"CLSID"="{179F3D56-1B0B-42B2-A962-59B7EF59FE1B}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\SPEECH\Voices\Tokens\MSTTS_V110_ptBR_AnaM\Attributes]
+"Version"="11.0"
+"Language"="416"
+"Gender"="Female"
+"Age"="Adult"
+"DataVersion"="11.0.2016.0229"
+"SharedPronunciation"=""
+"Name"="Microsoft Ana Mobile"
+"Vendor"="Microsoft"
+"PersonalAssistant"="1"
+"EnableRusBackend"="true"
+
