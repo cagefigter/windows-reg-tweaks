@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+; The connection to 224.0.0.252:5355 (one example) with protocol UDP over Internet Group Management Protocol (IGMP) is used by recent versions of Windows for Link Local Multicast Name Resolution (LLMNR) 
+; searching for local network computers. If you have no local network you may disable LLMNR.
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\DNSClient]
+"EnableMulticast"=dword:00000000
+
