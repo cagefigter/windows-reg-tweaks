@@ -8,6 +8,7 @@ Microsoft cites problems with the latest update package deleting user files. [Mi
 
 
 * - [KB4464330](https://support.microsoft.com/en-us/help/4464330/windows-10-update-kb4464330) fixes the issue. [A RTM refresh build is pushed to Insiders](https://blogs.windows.com/windowsexperience/2018/10/09/updated-version-of-windows-10-october-2018-update-released-to-windows-insiders/). 
+* - [Intel Driver Issues Force Another Windows 10 October 2018 Update Delay](https://www.google.co.in/amp/s/amp.tomshardware.com/news/microsoft-delays-windows-10-october-2018-update-intel-drivers,38126.html)
 
 
 <p align="center">
