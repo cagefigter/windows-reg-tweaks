@@ -49,7 +49,10 @@ Language packs will still be avbl. via [seperated .iso files](https://www.micros
 
 ![Spectre and Meltdown on Intel Hardware](https://i.imgur.com/WPiOGpZ.png)
 
-Spectre NG ([Variant 4](https://www.neowin.net/news/spectre-variant-4-disclosed-mitigations-to-result-in-another-performance-hit)) is not patched! This update addresses CVE 2017-5715 aka Spectre Variant 2.
+**Overview**:
+* [V3a](https://developer.arm.com/support/arm-security-updates/speculative-processor-vulnerability/download-the-whitepaper) (new "Meltdown" variant)
+* [V4](https://software.intel.com/side-channel-security-support) ([CVE 2017-5715](https://www.neowin.net/news/spectre-variant-4-disclosed-mitigations-to-result-in-another-performance-hit))
+* [L1TF](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00161.html)
 
 [Supported CPU's](https://support.microsoft.com/en-us/help/4100347/intel-microcode-updates-for-windows-10-version-1803-and-windows-server):
 
