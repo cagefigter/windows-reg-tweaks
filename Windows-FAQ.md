@@ -1,4 +1,4 @@
-#### How do I more from an Intel CPU+Mobo to AMD CPU+Mobo (or vice versa) without reinstalling Windows?
+#### How do I move from an Intel CPU+Mobo to AMD CPU+Mobo (or vice versa) without reinstalling Windows?
 
 Start > Run > sysprep. Select "OOBE", tick "Generalize" (sysprep /generalize), and select "Shutdown". Then replace your motherboard. The next time Windows boots, it should act like it's the first time boot, and setup all your drivers from scratch. Keep in mind that Windows might wipe all external drivers, so you need the new ones + maybe others like graphics drivers. You also have to re-activate Windows except if you [link the key to your MS Account](https://www.windowscentral.com/how-link-your-windows-10-product-key-microsoft-account).
 
@@ -82,6 +82,22 @@ Servicing tools such as Windows Server Update Services (WSUS) and System Center 
 #### How long is LTSB supported?
 
 Ten years is usually the answer you see to that one. But it would be, if not wrong, then misleading. Windows 10 Enterprise LTSB is guaranteed only five years of support - from the time of its release, not its installation - if the underlying license does not have SA attached. With SA, a specific LTSB edition is supported for the full 10 years.
+
+
+#### How do I uninstall an App or a Program?
+
+This is done through the Settings panel, follow the steps below to get there.
+
+* Left click the Start button and select Settings
+* Click on System and then Apps & Features from the menu on the left side.
+* Either search or manually find the app or program you want to remove, left click it and select Uninstall
+* **Alternatively** you can just search for Apps and features from the search bar to get to the same place.
+
+The old way to uninstall programs through the Control Panel is also available. Universal Apps won't show up there, though.
+
+#### How to create a Dual-Boot Windows 10 installation USB drive?
+
+A good tutorial is avbl. [here](https://old.reddit.com/r/windowsinsiders/comments/3sombj/tutorial_how_to_create_a_dualboot_windows_10/).
 
 
 #### Can I transfer my OEM license?
