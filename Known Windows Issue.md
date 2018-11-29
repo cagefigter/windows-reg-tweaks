@@ -69,6 +69,44 @@ Patched .dll's:
 
 Windows has the ability to warm patch microcode on boot using the mcupdate_GenuineIntel.dll and mcupdate_AuthenticAMD.dll drivers (located at C:\Windows\System32) on boot, for Intel and AMD cpu's respectively.
 
+## Activate the Meltdown + Spectre Patches via Registry manually (requires a reboot):
+
+### Meltdown + Spectre Patches activation (Default under Windows 10)
+Meltdown-Fix: Activated (secure)
+Spectre-Fix: Activated (secure)
+Performance: Bad/Medium
+
+```bash
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+"FeatureSettingsOverride"=dword:00000000
+"FeatureSettingsOverrideMask"=dword:00000003
+```
+
+### Deactivate only Spectre Patch
+Meltdown-Fix: Activated (secure)
+Spectre-Fix: Deactivated (secure)
+Performance: Medium
+
+```bash
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+"FeatureSettingsOverride"=dword:00000001
+"FeatureSettingsOverrideMask"=dword:00000003
+```
+
+### Deactivate all Patches
+Meltdown-Fix: Deactivated (insecure)
+Spectre-Fix: Deactivated (insecure)
+Performance: High
+
+```bash
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+"FeatureSettingsOverride"=dword:00000003
+"FeatureSettingsOverrideMask"=dword:00000003
+```
+
+[Speculation Control Validation PowerShell Script](https://gallery.technet.microsoft.com/scriptcenter/Speculation-Control-e36f0050) - Official MS PowerShell script to control the Registry toggles and check the current status.  
+
+
 Notice:
 
 On AMD systems you _can block the update_ via [wushowhide.diagcab](https://support.microsoft.com/de-de/help/3073930/how-to-temporarily-prevent-a-driver-update-from-reinstalling-in-window), since the update will effect your performance. 
