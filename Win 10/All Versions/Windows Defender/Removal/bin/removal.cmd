@@ -63,6 +63,10 @@ takeown /f "%PROGRAMFILES%\Windows Defender Advanced Threat Protection" >nul 2>&
 icacls "%PROGRAMFILES%\Windows Defender Advanced Threat Protection" /grant "Everyone":F >nul 2>&1
 rd /q /s "%PROGRAMFILES%\Windows Defender Advanced Threat Protection" >nul 2>&1
 
+takeown /f "SYSTEMDRIVE%\Profiles\Windows Defender" >nul 2>&1
+icacls "SYSTEMDRIVE%\Profiles\Windows Defender" /grant "Everyone":F >nul 2>&1
+rd /q /s "SYSTEMDRIVE%\Profiles\Windows Defender" >nul 2>&1
+
 takeown /f "%ProgramFiles(x86)%\Windows Defender" >nul 2>&1
 icacls "%ProgramFiles(x86)%\Windows Defender" /grant "Everyone":F >nul 2>&1
 rd /q /s "%ProgramFiles(x86)%\Windows Defender" >nul 2>&1
