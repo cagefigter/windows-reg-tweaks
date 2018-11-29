@@ -72,9 +72,9 @@ Windows has the ability to warm patch microcode on boot using the mcupdate_Genui
 ## Activate the Meltdown + Spectre Patches via Registry manually (requires a reboot):
 
 ### Meltdown + Spectre Patches activation (Default under Windows 10)
-Meltdown-Fix: Activated (secure)
-Spectre-Fix: Activated (secure)
-Performance: Bad/Medium
+* Meltdown-Fix: Activated (secure)
+* Spectre-Fix: Activated (secure)
+* Performance: Bad/Medium
 
 ```bash
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
@@ -83,9 +83,9 @@ Performance: Bad/Medium
 ```
 
 ### Deactivate only Spectre Patch
-Meltdown-Fix: Activated (secure)
-Spectre-Fix: Deactivated (secure)
-Performance: Medium
+* Meltdown-Fix: Activated (secure)
+* Spectre-Fix: Deactivated (secure)
+* Performance: Medium
 
 ```bash
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
@@ -94,9 +94,9 @@ Performance: Medium
 ```
 
 ### Deactivate all Patches
-Meltdown-Fix: Deactivated (insecure)
-Spectre-Fix: Deactivated (insecure)
-Performance: High
+* Meltdown-Fix: Deactivated (insecure)
+* Spectre-Fix: Deactivated (insecure)
+* Performance: High
 
 ```bash
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
