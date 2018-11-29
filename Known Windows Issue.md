@@ -4,7 +4,7 @@ This overview is provides 'as it comes' and is not designed to explain every lit
 
 
 The list is checked against:
-* Windows 10 
+* Windows 10 RS 5 RTM Build 1809 Refresh (17763.107) Enterprise
 * Please don't ask for Home/Pro versions!
 
 
@@ -107,9 +107,9 @@ Windows has the ability to warm patch microcode on boot using the mcupdate_Genui
 [Speculation Control Validation PowerShell Script](https://gallery.technet.microsoft.com/scriptcenter/Speculation-Control-e36f0050) - Official MS PowerShell script to control the Registry toggles and check the current status.  
 
 
-Notice:
+**Notice**:
 
-On AMD systems you _can block the update_ via [wushowhide.diagcab](https://support.microsoft.com/de-de/help/3073930/how-to-temporarily-prevent-a-driver-update-from-reinstalling-in-window), since the update will effect your performance. 
+On AMD systems you _can block the update_ via [wushowhide.diagcab](https://support.microsoft.com/de-de/help/3073930/how-to-temporarily-prevent-a-driver-update-from-reinstalling-in-window), since the update will effect your performance. But this is not recommended.  
 
 OS Version | KB | Patch | Updated
 --- | --- | --- | --- 
