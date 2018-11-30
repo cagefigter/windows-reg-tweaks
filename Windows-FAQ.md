@@ -110,6 +110,11 @@ A OEM license is non transferable between motherboards. If you have a retail lic
 I think [this guide here](https://www.windowscentral.com/how-use-dism-command-line-utility-repair-windows-10-image?utm_medium=slider&utm_campaign=navigation&utm_source=wp) explains it well.
 
 
+#### Windows 1809 (2019) LTSB/LTSC doesn't include UWP apps does this means I can't install UWD drivers?!
+
+You still can use the old legacy drivers (if provided) and even without official support you are able to install the driver with the device manager "have-a-disk" method but several functions aren't available. Keep in mind that LTSB/LTSB is not meant to be used as "normal" OS (fpr e.g. exactly this reason). 
+
+
 
 ## Official Links
 - [Upgrade to Windows 10: FAQ](https://support.microsoft.com/en-us/help/12435/windows-10-upgrade-faq#iconz-faq)
